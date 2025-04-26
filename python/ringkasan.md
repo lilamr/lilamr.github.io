@@ -1,7 +1,3 @@
-Ini adalah terjemahan dari buku *Programming and Mathematical Thinking: A Gentle Introduction to Discrete Math Featuring Python* karya Allan M. Stavely. Buku ini adalah pengantar yang mendalam ke matematika diskrit dengan fokus pada bagaimana konsep-konsep tersebut dapat diterapkan dalam pemrograman menggunakan Python. Berikut adalah ringkasan komprehensif isi buku, struktur, poin-poin utama, dan relevansinya bagi pemrograman:
-
----
-
 ### **Ringkasan Buku**
 Buku ini, diterbitkan oleh The New Mexico Tech Press pada tahun 2014, bertujuan untuk mendorong pemrogram berpikir secara matematis saat mengembangkan program, dengan menekankan konsep-konsep matematika diskrit seperti himpunan (*sets*), urutan (*sequences*), pemetaan (*mappings*), relasi (*relations*), dan struktur data lainnya. Buku ini menggunakan Python sebagai bahasa pemrograman utama karena kesederhanaannya, desain yang bersih, dan dukungan bawaan untuk struktur matematis seperti himpunan, kamus (*dictionaries*), dan fungsi kelas satu (*first-class functions*). 
 
