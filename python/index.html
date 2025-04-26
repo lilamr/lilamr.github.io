@@ -45,11 +45,15 @@
       display: inline-block;
       margin-bottom: 20px;
     }
+    .top-link {
+      display: inline-block;
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
 
-  <!-- Konten kiri -->
+  <!-- Kolom Kiri -->
   <div class="content">
     <a href="../" class="back-link">← Kembali ke Home</a>
     <div id="markdown-content">
@@ -57,7 +61,7 @@
     </div>
   </div>
 
-  <!-- Sidebar kanan -->
+  <!-- Sidebar Kanan -->
   <div class="sidebar">
     <h2>Daftar Konten</h2>
     <ul>
@@ -67,7 +71,7 @@
     </ul>
   </div>
 
-  <!-- Tambahkan Marked.js -->
+  <!-- Marked.js -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
   <script>
@@ -76,7 +80,11 @@
         const response = await fetch(file);
         const markdown = await response.text();
         const html = marked.parse(markdown);
-        document.getElementById('markdown-content').innerHTML = html;
+
+        // Tambahkan link kembali ke daftar konten
+        const backLink = `<a href="index.html" class="top-link">← Kembali ke Daftar Konten</a>`;
+
+        document.getElementById('markdown-content').innerHTML = backLink + html;
       } catch (error) {
         console.error('Gagal memuat file:', error);
         document.getElementById('markdown-content').innerHTML = '<p>Gagal memuat konten.</p>';
