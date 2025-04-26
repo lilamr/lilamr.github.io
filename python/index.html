@@ -17,6 +17,8 @@
       padding: 30px;
       border-right: 1px solid #ddd;
       overflow-y: auto;
+      display: flex;
+      flex-direction: column;
     }
     .sidebar {
       padding: 30px;
@@ -45,9 +47,8 @@
       display: inline-block;
       margin-bottom: 20px;
     }
-    .top-link {
-      display: inline-block;
-      margin-bottom: 20px;
+    #markdown-content {
+      flex-grow: 1;
     }
   </style>
 </head>
@@ -55,7 +56,7 @@
 
   <!-- Kolom Kiri -->
   <div class="content">
-    <a href="../" class="back-link">← Kembali ke Home</a>
+    <a href="./" class="back-link">← Kembali ke Daftar Konten</a>
     <div id="markdown-content">
       <p>Silakan pilih konten di sebelah kanan.</p>
     </div>
@@ -81,10 +82,7 @@
         const markdown = await response.text();
         const html = marked.parse(markdown);
 
-        // Tambahkan link kembali ke daftar konten
-        const backLink = `<a href="index.html" class="top-link">← Kembali ke Daftar Konten</a>`;
-
-        document.getElementById('markdown-content').innerHTML = backLink + html;
+        document.getElementById('markdown-content').innerHTML = html;
       } catch (error) {
         console.error('Gagal memuat file:', error);
         document.getElementById('markdown-content').innerHTML = '<p>Gagal memuat konten.</p>';
