@@ -1,3 +1,15 @@
+Oke, siap! Jadi kamu mau di halaman `folder-a/index.html` ini:
+- **Dua kolom** seperti `index.html` utama:
+  - **Kiri** = tampilan isi Markdown.
+  - **Kanan** = daftar link konten `.md` yang bisa diklik.
+
+Sama kayak konsep homepage, biar konsisten layout-nya.
+
+---
+
+# 📄 Ini contoh `folder-a/index.html` baru (pakai 2 kolom grid):
+
+```html
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -7,7 +19,31 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      padding: 20px;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      height: 100vh;
+    }
+    .content {
+      padding: 30px;
+      border-right: 1px solid #ddd;
+      overflow-y: auto;
+    }
+    .sidebar {
+      padding: 30px;
+      background-color: #f9f9f9;
+      overflow-y: auto;
+    }
+    h1, h2 {
+      margin-top: 0;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
     }
     a {
       text-decoration: none;
@@ -17,42 +53,33 @@
     a:hover {
       text-decoration: underline;
     }
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    li {
-      margin: 10px 0;
-    }
     .back-link {
-      margin-bottom: 20px;
       display: inline-block;
-    }
-    #content {
-      margin-top: 30px;
-      padding: 20px;
-      border: 1px solid #ddd;
-      background-color: #f9f9f9;
+      margin-bottom: 20px;
     }
   </style>
 </head>
 <body>
 
-  <a href="../" class="back-link">← Kembali ke Home</a>
-
-  <h1>Folder A</h1>
-
-  <ul id="file-list">
-    <li><a onclick="loadMarkdown('konten1.md')">Konten 1</a></li>
-    <li><a onclick="loadMarkdown('konten2.md')">Konten 2</a></li>
-    <li><a onclick="loadMarkdown('konten3.md')">Konten 3</a></li>
-  </ul>
-
-  <div id="content">
-    <p>Konten akan tampil di sini...</p>
+  <!-- Konten kiri -->
+  <div class="content">
+    <a href="../" class="back-link">← Kembali ke Home</a>
+    <div id="markdown-content">
+      <p>Silakan pilih konten di sebelah kanan.</p>
+    </div>
   </div>
 
-  <!-- Tambahkan Marked.js dari CDN -->
+  <!-- Sidebar kanan -->
+  <div class="sidebar">
+    <h2>Daftar Konten</h2>
+    <ul>
+      <li><a onclick="loadMarkdown('konten1.md')">Konten 1</a></li>
+      <li><a onclick="loadMarkdown('konten2.md')">Konten 2</a></li>
+      <li><a onclick="loadMarkdown('konten3.md')">Konten 3</a></li>
+    </ul>
+  </div>
+
+  <!-- Tambahkan Marked.js -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
   <script>
@@ -61,14 +88,34 @@
         const response = await fetch(file);
         const markdown = await response.text();
         const html = marked.parse(markdown);
-        document.getElementById('content').innerHTML = html;
+        document.getElementById('markdown-content').innerHTML = html;
       } catch (error) {
         console.error('Gagal memuat file:', error);
-        document.getElementById('content').innerHTML = '<p>Gagal memuat konten.</p>';
+        document.getElementById('markdown-content').innerHTML = '<p>Gagal memuat konten.</p>';
       }
     }
   </script>
 
 </body>
 </html>
+```
 
+---
+
+# 📋 Penjelasan:
+| Kiri (2fr) | Kanan (1fr) |
+|------------|-------------|
+| - Kembali ke Home. <br> - Isi Markdown tampil di sini. | - Daftar link konten. <br> - Klik buat load Markdown. |
+
+- Layout **grid** responsif simple.
+- Klik judul konten di sidebar kanan, langsung tampil markdown-nya di kolom kiri.
+- Kalau tidak ada file, ada fallback error message.
+
+---
+
+Kalau mau sekalian:
+- Tambahin efek "Loading..." pas file markdown lagi di-fetch.
+- Biar lebih rapi pakai CSS transition saat ganti konten.
+
+Mau sekalian aku upgrade dikit buat lebih halus transisinya? 🚀  
+Kalau iya, mau pakai animasi fade-in sekalian? ✨👨‍💻
