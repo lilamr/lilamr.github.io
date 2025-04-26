@@ -139,7 +139,7 @@ Fungsi `twice` mengambil sebuah fungsi `f` dan nilai `a`, lalu menerapkan `f` du
 
 Contoh yang lebih praktis adalah menghitung perkiraan [[turunan]] suatu fungsi. (Bagi yang belum belajar kalkulus: turunan adalah tingkat perubahan suatu fungsi, atau kemiringan kurva pada titik tertentu.) Pertimbangkan sebuah fungsi dengan satu argumen, f(x). Bayangkan sebuah grafik dari f(x) pada arah vertikal, terhadap x pada arah horizontal. Turunan dari fungsi pada nilai tertentu dari x adalah kemiringan kurva pada nilai x tersebut.
 
-![](Pasted%20image%2020250424150342.png)
+![](attachment/Pasted%20image%2020250424150342.png)
 ![[Pasted image 20250424150342.png]]
 
 Fungsi di bawah ini melakukan tugas tersebut. Fungsi mengambil fungsi `f`, titik `x`, dan interval kecil `dx`, lalu menghitung perubahan nilai `f` dibagi panjang interval untuk memperkirakan turunan. 
