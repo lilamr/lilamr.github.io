@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Folder A</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    a {
+      text-decoration: none;
+      color: #007BFF;
+      cursor: pointer;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+    }
+    .back-link {
+      margin-bottom: 20px;
+      display: inline-block;
+    }
+    #content {
+      margin-top: 30px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="../" class="back-link">← Kembali ke Home</a>
+
+  <h1>Folder A</h1>
+
+  <ul id="file-list">
+    <li><a onclick="loadMarkdown('konten1.md')">Konten 1</a></li>
+    <li><a onclick="loadMarkdown('konten2.md')">Konten 2</a></li>
+    <li><a onclick="loadMarkdown('konten3.md')">Konten 3</a></li>
+  </ul>
+
+  <div id="content">
+    <p>Konten akan tampil di sini...</p>
+  </div>
+
+  <!-- Tambahkan Marked.js dari CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <script>
+    async function loadMarkdown(file) {
+      try {
+        const response = await fetch(file);
+        const markdown = await response.text();
+        const html = marked.parse(markdown);
+        document.getElementById('content').innerHTML = html;
+      } catch (error) {
+        console.error('Gagal memuat file:', error);
+        document.getElementById('content').innerHTML = '<p>Gagal memuat konten.</p>';
+      }
+    }
+  </script>
+
+</body>
+</html>
+
