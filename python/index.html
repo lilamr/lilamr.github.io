@@ -43,10 +43,12 @@
     a:hover {
       text-decoration: underline;
     }
-    .back-link {
-      display: inline-block;
+    .link-bar {
       margin-bottom: 20px;
-      cursor: pointer;
+    }
+    .link-bar a, .link-bar span {
+      display: inline-block;
+      margin-right: 20px;
     }
     #markdown-content {
       flex-grow: 1;
@@ -57,7 +59,10 @@
 
   <!-- Kolom Kiri -->
   <div class="content">
-    <span class="back-link" onclick="resetContent()">← Kembali ke Daftar Konten</span>
+    <div class="link-bar">
+      <a href="../">← Kembali ke Home</a>
+      <span onclick="resetContent()" style="cursor:pointer; color:#007BFF;">← Kembali ke Daftar Konten</span>
+    </div>
     <div id="markdown-content">
       <p>Silakan pilih konten di sebelah kanan.</p>
     </div>
