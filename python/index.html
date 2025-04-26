@@ -54,6 +54,15 @@
       flex-grow: 1;
     }
   </style>
+
+  <!-- Marked.js -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <!-- MathJax -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
 </head>
 <body>
 
@@ -81,9 +90,6 @@
     </ul>
   </div>
 
-  <!-- Marked.js -->
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
   <script>
     async function loadMarkdown(file) {
       try {
@@ -92,6 +98,11 @@
         const html = marked.parse(markdown);
 
         document.getElementById('markdown-content').innerHTML = html;
+
+        // Render MathJax setelah Markdown ditampilkan
+        if (window.MathJax) {
+          MathJax.typesetPromise();
+        }
       } catch (error) {
         console.error('Gagal memuat file:', error);
         document.getElementById('markdown-content').innerHTML = '<p>Gagal memuat konten.</p>';
@@ -105,4 +116,3 @@
 
 </body>
 </html>
-
