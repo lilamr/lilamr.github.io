@@ -16,6 +16,6 @@ Dari dalam Vim, kamu bisa menjalankan hampir semua **perintah shell** dengan awa
 `:sh` untuk keluar sebentar ke shell (terminal interaktif). setelah selesai, ketik `exit` untuk kembali ke Vim.
 
 Untuk menggunakan **output perintah shell** (seperti `ls`, `date`, dll.) **langsung ke dalam file** di Vim, kamu bisa pakai perintah `:r !perintah`, contoh:
-`:r !ls` menyisipkan hasil `ls` ke dalam file di bawah baris kursor
-`:r !cat file.txt` menyisipkan isi file lain
-`:r !curl -s https://example.com` menyisipkan hasil curl atau wget
+- `:r !ls` menyisipkan hasil `ls` ke dalam file di bawah baris kursor
+- `:r !cat file.txt` menyisipkan isi file lain
+- `:r !curl -s https://example.com` menyisipkan hasil curl atau wget
