@@ -16,6 +16,7 @@ Kalau mau langsung buka file saat split:
 - `:vsp nama_file.py`
 
 **Tab**
+
 Kalau kamu ingin membuka **tab baru** dengan **file kosong** di Vim atau Neovim, perintahnya adalah:
 - `:tabnew`
 
