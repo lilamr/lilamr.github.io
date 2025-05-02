@@ -192,7 +192,7 @@ Ketiga skrip ini adalah contoh sederhana dari Python. Namun, mereka hanya menunj
 
 Sekarang, mari kita kenali beberapa istilah matematis yang akan sering muncul dalam buku ini. Kami tidak akan melakukan perhitungan rumit atau membuktikan teorema, tetapi kami akan menggunakan istilah-istilah ini sebagai cara berbicara tentang program dan masalah yang bisa diselesaikannya.
 
-Istilah pertama adalah **[[koleksi|Himpunan (Set)]]**: Kumpulan benda yang tidak terurut dan semuanya berbeda. Contohnya, himpunan orang di ruangan, himpunan buku yang Anda baca tahun ini, atau himpunan barang di toko tertentu.
+Istilah pertama adalah **Himpunan (Set)**: Kumpulan benda yang tidak terurut dan semuanya berbeda. Contohnya, himpunan orang di ruangan, himpunan buku yang Anda baca tahun ini, atau himpunan barang di toko tertentu.
 
 ![](attahcment/Pasted%20image%2020250416145436.png)
 
@@ -219,7 +219,7 @@ Mari kita lihat lebih dalam.
 
 Pada **Skrip 1 (Nama, Contoh 1.1)**: File `names` berisi daftar nama. Dari sudut pandang kita, urutan nama dalam file tidak penting; kita hanya ingin nama yang dimulai dengan “John”. Jika tidak ada nama yang berulang (misalnya, karena kesalahan dosen), data ini adalah **himpunan**. Inputnya adalah himpunan nama peserta kuliah, dan outputnya adalah himpunan nama yang dimulai dengan “John”—dalam istilah matematis, **subset** dari himpunan input. Meski nama mungkin diurutkan (misalnya, alfabetis), urutan itu tidak relevan untuk tujuan kita.
   
-Pada **Skrip 2 (Email, Contoh 1.2)**: File `emails` berisi baris-baris dengan nama dan email, dipisahkan koma. Setiap baris adalah **[[pasangan terurut]]** `(nama, email)`, karena urutan (nama dulu, lalu email) penting—`(nama, email)` tidak sama dengan `(email, nama)`. Pasangan terurut tidak sama dengan himpunan yang terdiri dari dua elemen.
+Pada **Skrip 2 (Email, Contoh 1.2)**: File `emails` berisi baris-baris dengan nama dan email, dipisahkan koma. Setiap baris adalah **pasangan terurut** `(nama, email)`, karena urutan (nama dulu, lalu email) penting—`(nama, email)` tidak sama dengan `(email, nama)`. Pasangan terurut tidak sama dengan himpunan yang terdiri dari dua elemen.
 
 ![](attahcment/Pasted%20image%2020250416150951.png)
 
@@ -227,11 +227,11 @@ Sekarang bagaimana dengan file secara keseluruhan? Seperti file input untuk prog
 
 ![](attahcment/Pasted%20image%2020250416151647.png)
 
-Ada istilah matematis lain untuk himpunan dari pasangan terurut yaitu disebut **[[relation dan mapping|relasi (relation)]]**. Kita dapat melihat himpunan pasangan terurut sebagai struktur matematis yang menghubungkan pasangan-pasangan elemen satu sama lain. Dalam hal ini menghubungkan nama dengan email. 
+Ada istilah matematis lain untuk himpunan dari pasangan terurut yaitu disebut **relasi (relation)**. Kita dapat melihat himpunan pasangan terurut sebagai struktur matematis yang menghubungkan pasangan-pasangan elemen satu sama lain. Dalam hal ini menghubungkan nama dengan email. 
 
 ![](attahcment/Pasted%20image%2020250416152003.png)
 
-Jika setiap nama hanya punya satu email, maka disebut dengan istilah **[[relation dan mapping|pemetaan (mapping)]]**, yaitu relasi di mana setiap elemen pertama (nama) hanya terkait dengan satu elemen kedua (email). Dalam matematika, pemetaan sering disebut dengan istilah "fungsi". Anda mungkin tahu tentang fungsi matematis seperti akar kuadrat dan fungsi trigonometri. Tapi kami akan menggunakan istilah “pemetaan” untuk menghindari kebingungan dengan istilah fungsi dalam pemrograman. Kami tidak tahu apakah file ini benar-benar pemetaan—mungkin ada nama dengan beberapa email—tapi untuk saat ini kita abaikan dulu: jika program kami menampilkan lebih dari satu alamat email untuk "John Davis", itu tidak masalah.
+Jika setiap nama hanya punya satu email, maka disebut dengan istilah **pemetaan (mapping)**, yaitu relasi di mana setiap elemen pertama (nama) hanya terkait dengan satu elemen kedua (email). Dalam matematika, pemetaan sering disebut dengan istilah "fungsi". Anda mungkin tahu tentang fungsi matematis seperti akar kuadrat dan fungsi trigonometri. Tapi kami akan menggunakan istilah “pemetaan” untuk menghindari kebingungan dengan istilah fungsi dalam pemrograman. Kami tidak tahu apakah file ini benar-benar pemetaan—mungkin ada nama dengan beberapa email—tapi untuk saat ini kita abaikan dulu: jika program kami menampilkan lebih dari satu alamat email untuk "John Davis", itu tidak masalah.
 
 ![](attahcment/Pasted%20image%2020250416152118.png)
 
@@ -239,7 +239,7 @@ Pada **Skrip 3 (Rata-Rata, Contoh 1.3)**: File `observations` berisi angka suhu.
 - **Sifat asosiatif**: `(a + b) + c = a + (b + c)` untuk setiap bilangan bulat  a, b, dan c
 - **Sifat komutatif**: `a + b = b + a` untuk setiap bilangan bulat a dan b
 
-Namun, angka bisa berulang (misalnya, suhu 23°C muncul lebih dari sekali). Karena itu, data ini bukan himpunan, melainkan **[[koleksi|multihimpunan (multiset)]]**, yaitu kumpulan tak terurut yang boleh berisi elemen berulang. Elemen apa pun dapat muncul dalam multiset lebih dari sekali. Tetapi multiset, seperti himpunan, adalah kumpulan tak terurut.
+Namun, angka bisa berulang (misalnya, suhu 23°C muncul lebih dari sekali). Karena itu, data ini bukan himpunan, melainkan **multihimpunan (multiset)**, yaitu kumpulan tak terurut yang boleh berisi elemen berulang. Elemen apa pun dapat muncul dalam multiset lebih dari sekali. Tetapi multiset, seperti himpunan, adalah kumpulan tak terurut.
 
 ![](attahcment/Pasted%20image%2020250416153227.png)
 

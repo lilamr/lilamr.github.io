@@ -141,7 +141,7 @@ def twice(f, a):
 
 Fungsi `twice` mengambil sebuah fungsi `f` dan nilai `a`, lalu menerapkan `f` dua kali pada `a`. Misalnya, jika kita panggil `twice(square, 3)` yaitu `twice(f, a)`, Python akan menghitung `square(square(3))` yaitu `f(f(a))`. Karena `square(3) = 9`, maka `square(9) = 81`. Jadi, `twice(square, 3)` menghasilkan 81. Demikian pula, `twice(sqrt, 3)` akan menghitung akar kuadrat dari akar kuadrat 3, atau akar pangkat empat dari 3.
 
-Contoh yang lebih praktis adalah menghitung perkiraan [[turunan]] suatu fungsi. (Bagi yang belum belajar kalkulus: turunan adalah tingkat perubahan suatu fungsi, atau kemiringan kurva pada titik tertentu.) Pertimbangkan sebuah fungsi dengan satu argumen, f(x). Bayangkan sebuah grafik dari f(x) pada arah vertikal, terhadap x pada arah horizontal. Turunan dari fungsi pada nilai tertentu dari x adalah kemiringan kurva pada nilai x tersebut.
+Contoh yang lebih praktis adalah menghitung perkiraan turunan suatu fungsi. (Bagi yang belum belajar kalkulus: turunan adalah tingkat perubahan suatu fungsi, atau kemiringan kurva pada titik tertentu.) Pertimbangkan sebuah fungsi dengan satu argumen, f(x). Bayangkan sebuah grafik dari f(x) pada arah vertikal, terhadap x pada arah horizontal. Turunan dari fungsi pada nilai tertentu dari x adalah kemiringan kurva pada nilai x tersebut.
 
 ![](attachment/Pasted%20image%2020250424150342.png)
 
@@ -152,13 +152,16 @@ def derivAt(f, x, dx):
     return (f(x + dx) - f(x)) / dx
 ```
 
-Misalnya, turunan dari fungsi `square` atau `x²` adalah `2x`, jadi di `x = 3`, turunannya adalah 6. Jika kita panggil `derivAt(square, 3, 0.00001)`, kita akan mendapatkan nilai yang sangat mendekati 6. Artinya, **kemiringan kurva $x^2$** di titik manapun $x$ adalah **2 kali nilai $x$** itu sendiri.
+Misalnya, turunan dari fungsi `square` atau `x²` adalah `2x`, jadi di `x = 3`, turunannya adalah 6. Jika kita panggil `derivAt(square, 3, 0.00001)`, kita akan mendapatkan nilai yang sangat mendekati 6. Artinya, **kemiringan kurva $$x^2$$** di titik manapun $$x$$ adalah **2 kali nilai $$x$$** itu sendiri.
 
-Fungsi ini menghitung pendekatan turunan $f(x)=x^2$ pada $x=3$ dengan dx=0.00001. Turunan fungsi $f(x)$ pada titik $x$, ditulis $f′(x)$, adalah **laju perubahan** fungsi pada titik tersebut, atau kemiringan garis singgung pada kurva $f(x)$ di $x$. Secara matematis, turunan didefinisikan sebagai limit: 
+Fungsi ini menghitung pendekatan turunan $$f(x)=x^2$$ pada $$x=3$$ dengan dx=0.00001. Turunan fungsi $$f(x)$$ pada titik $$x$$, ditulis $$f′(x)$$, adalah **laju perubahan** fungsi pada titik tersebut, atau kemiringan garis singgung pada kurva $$f(x)$$ di $$x$$. Secara matematis, turunan didefinisikan sebagai limit: 
+
 $$f'(x) = \lim_{dx \to 0} \frac{f(x + dx) - f(x)}{dx}​$$
 
 Substitusi ke rumus: 
+
 $$\frac{f(3.00001) - f(3)}{0.00001} = \frac{9.0000600001 - 9}{0.00001}​ $$
+
 $$= \frac{0.0000600001}{0.00001} = 6.00001$$
 
 Dalam Python, sebuah fungsi bahkan bisa mengembalikan fungsi lain sebagai nilai. Sebuah fungsi dapat menjalankan pernyataan definisi fungsi, menciptakan sebuah fungsi baru dan mengikat fungsi tersebut ke sebuah nama, lalu mengembalikan nilai yang terikat pada nama itu. Berikut adalah contohnya. Fungsi `multiplyBy` menerima sebuah angka sebagai parameter dan mengembalikan sebuah fungsi yang mengalikan dengan angka tersebut.
@@ -181,7 +184,7 @@ Fungsi `multiplyBy` menerima parameter `n`, yang akan digunakan sebagai pengali 
 
 Sekarang, `double(7)` menghasilkan 14 (karena `7 × 2`), dan `triple(33)` menghasilkan 99 (karena `33 × 3`).
 
-Teknik tersebut adalah contoh kasus dari apa yang biasa disebut dengan *[[partial application]]*, yaitu mengikat sebagian argumen sebuah fungsi untuk menghasilkan fungsi baru dengan argumen lebih sedikit. Berikut adalah versi umumnya:
+Teknik tersebut adalah contoh kasus dari apa yang biasa disebut dengan *partial application*, yaitu mengikat sebagian argumen sebuah fungsi untuk menghasilkan fungsi baru dengan argumen lebih sedikit. Berikut adalah versi umumnya:
 
 ```python
 def partial(f, x):
@@ -259,7 +262,7 @@ derivOfSquare = deriv(lambda x: x * x, 0.0001)
 
 Dalam matematika, kita sering memperlakukan operator (seperti `+`) dan fungsi dua argumen secara bergantian. Tapi di Python, kita tidak bisa langsung meneruskan operator seperti `*` ke *higher-order function*. 
 
-Dalam matematika, kita kadang-kadang menggunakan istilah dan notasi dari **operator biner** dan **fungsi dengan dua argumen** secara bergantian. Misalnya, kita mungkin mengatakan bahwa fungsi $f$ bersifat asosiatif jika: $f(f(x,y),z)=f(x,f(y,z))$. Kita bahkan bisa menuliskan $x f y$ sebagai ganti dari $f(x,y)$, atau menuliskan $∗(x,y)$ sebagai ganti dari $x∗y$. (**Catatan:** kita kadang akan menggunakan kebebasan seperti ini dalam notasi matematika di bab-bab berikutnya). Namun, kita **tidak bisa sebebas itu menggunakan notasi semacam ini di Python**. Misalnya, kita **tidak bisa langsung memberikan operator seperti `*` ke fungsi tingkat tinggi** (higher-order function). Solusinya adalah menggunakan lambda, misalnya `lambda x, y: x * y`.
+Dalam matematika, kita kadang-kadang menggunakan istilah dan notasi dari **operator biner** dan **fungsi dengan dua argumen** secara bergantian. Misalnya, kita mungkin mengatakan bahwa fungsi $$f$$ bersifat asosiatif jika: $$f(f(x,y),z)=f(x,f(y,z))$$. Kita bahkan bisa menuliskan $$x f y$$ sebagai ganti dari $$f(x,y)$$, atau menuliskan $$*(x,y)$$ sebagai ganti dari $$x∗y$$. (**Catatan:** kita kadang akan menggunakan kebebasan seperti ini dalam notasi matematika di bab-bab berikutnya). Namun, kita **tidak bisa sebebas itu menggunakan notasi semacam ini di Python**. Misalnya, kita **tidak bisa langsung memberikan operator seperti `*` ke fungsi tingkat tinggi** (higher-order function). Solusinya adalah menggunakan lambda, misalnya `lambda x, y: x * y`.
 
 Kita akan melihat lebih banyak kegunaan ekspresi lambda di bab-bab berikutnya.
 
