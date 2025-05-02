@@ -1,8 +1,3 @@
----
-layout: default
-title: Python
----
-
 ## Bab 1: Pendahuluan
 
 ### 1.1. Program, Data, dan Objek Matematis

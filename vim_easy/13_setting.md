@@ -1,8 +1,3 @@
----
-layout: default
-title: Python
----
-
 ## Setting
 - `:set number` atau `:set nu` menampilkan nomor baris
 - `:set nonumber` atau `:set nonu` menonaktifkan tampilan nomor baris

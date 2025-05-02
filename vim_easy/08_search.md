@@ -1,8 +1,3 @@
----
-layout: default
-title: Python
----
-
 ## Search
 **Search kata**
 - `*` gerak maju mencari kata yang sama dengan kata di bawah kursor

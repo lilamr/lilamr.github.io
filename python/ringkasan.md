@@ -1,8 +1,3 @@
----
-layout: default
-title: Python
----
-
 ### **Ringkasan Buku**
 Buku ini, diterbitkan oleh The New Mexico Tech Press pada tahun 2014, bertujuan untuk mendorong pemrogram berpikir secara matematis saat mengembangkan program, dengan menekankan konsep-konsep matematika diskrit seperti himpunan (*sets*), urutan (*sequences*), pemetaan (*mappings*), relasi (*relations*), dan struktur data lainnya. Buku ini menggunakan Python sebagai bahasa pemrograman utama karena kesederhanaannya, desain yang bersih, dan dukungan bawaan untuk struktur matematis seperti himpunan, kamus (*dictionaries*), dan fungsi kelas satu (*first-class functions*). 
 

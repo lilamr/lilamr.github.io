@@ -1,8 +1,3 @@
----
-layout: default
-title: Python
----
-
 ## Bab 4: Fungsi dalam Python
 
 ### 4.1. Mendefinisikan Fungsi
