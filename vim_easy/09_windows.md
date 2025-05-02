@@ -1,3 +1,8 @@
+---
+layout: default
+title: Python
+---
+
 ## Windows
 **Split windows**
 - `:split` atau `:sp` split windows horizontal

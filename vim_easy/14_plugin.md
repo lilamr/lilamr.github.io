@@ -1,3 +1,8 @@
+---
+layout: default
+title: Python
+---
+
 ## Plugin
 `vim ~/.vimrc` edit file `.vimrc`. 
 

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Python
+---
+
 ## File
 - `:q` keluar
 - `:q!` keluar tanpa menyimpan file/ perubahan

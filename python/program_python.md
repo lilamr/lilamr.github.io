@@ -1,3 +1,8 @@
+---
+layout: default
+title: Python
+---
+
 ## Bab 3: Menyusun Program Python
 
 ### 3.1. Pernyataan (Statements)

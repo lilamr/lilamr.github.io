@@ -1,3 +1,8 @@
+---
+layout: default
+title: Python
+---
+
 ## Open
 - `vim` buka vim kosong
 - `vim filename.txt` buka vim sekaligus dengan nama filenya

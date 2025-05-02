@@ -1,3 +1,8 @@
+---
+layout: default
+title: Python
+---
+
 ## Mode
 - **normal**: mode default saat vim baru dibuka
 - **visual**: mode untuk menyeleksi teks. aktif dengan `v`

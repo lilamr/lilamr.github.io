@@ -1,3 +1,8 @@
+---
+layout: default
+title: Python
+---
+
 ## Bab 2: Sekilas tentang Python
 
 ### 2.1. Pendahuluan

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Python
+---
+
 ## Prakata
 
 Misi saya dalam buku ini adalah mengajak para pemrogram untuk berpikir secara matematis saat mereka menciptakan program. 

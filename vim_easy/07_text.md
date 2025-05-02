@@ -1,3 +1,8 @@
+---
+layout: default
+title: Python
+---
+
 ## Text
 **Text edit**
 - `yy` copy satu baris
