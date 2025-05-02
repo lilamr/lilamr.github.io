@@ -1,3 +1,5 @@
+[back](./)
+
 ## Bab 4: Fungsi dalam Python
 
 ### 4.1. Mendefinisikan Fungsi
@@ -299,3 +301,5 @@ a = 3
 ```
 
 Apakah `f` akan menambahkan 1 atau 3? Jika perlu, coba di interpreter Python. Bisakah kamu menjelaskan apa yang terjadi? Lihat lagi halaman pertama bab ini untuk petunjuk.
+
+[back](./)

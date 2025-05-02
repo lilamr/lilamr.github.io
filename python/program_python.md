@@ -1,3 +1,5 @@
+[back](./)
+
 ## Bab 3: Menyusun Program Python
 
 ### 3.1. Pernyataan (Statements)
@@ -367,4 +369,6 @@ guess = 1
 Coba jalankan programnya dan jelaskan apa yang Anda amati.
 
 6. Jika Anda pernah mempelajari kalkulus, coba jelaskan cara kerja program akar kuadrat. (Petunjuk: Kita sedang mencari solusi `x` untuk persamaan `x^2 = n`, atau `x^2 - n = 0`, di mana `n` adalah konstanta. Turunan dari `x^2 - n` adalah `2x`. Gambarkan sketsa untuk membantu memahami.)
+
+[back](./)
 

@@ -1,3 +1,5 @@
+[back](./)
+
 ## Bab 2: Sekilas tentang Python
 
 ### 2.1. Pendahuluan
@@ -202,6 +204,8 @@ menghasilkan `"HelloHelloHello"`. Bilangan bulat bisa berada di kiri atau kanan 
 4. Perbandingan seperti `1.0 == 1` menghasilkan `True` atau `False`. Coba di interpreter Python: Anda mungkin mendapatkan `True` untuk `1.0 == 1`. Lalu coba `1/3 + 1/3 + 1/3 == 1.0`; hasilnya bisa `True` atau `False`, tergantung pembulatan di komputer Anda. Temukan perbandingan yang seharusnya `True` dalam matematika, tetapi menghasilkan `False` di Python.
 5. Apakah konkatenasi string bersifat asosiatif seperti penjumlahan bilangan bulat? Apakah bersifat komutatif?
 6. Tingkatkan skrip yang membaca file dan mencari baris yang dimulai dengan `"John"`. Ubah agar hanya mencocokkan nama depan `"John"`, bukan kata seperti `"Johnson"`. Anda sudah cukup belajar Python untuk menebak caranya. Asumsikan setiap baris file berisi nama depan, spasi, dan nama belakang. Uji solusi Anda dengan interpreter Python.
+
+[back](./)
 
 ---
 

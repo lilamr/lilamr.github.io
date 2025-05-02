@@ -1,3 +1,5 @@
+[back](./)
+
 ### **Ringkasan Buku**
 Buku ini, diterbitkan oleh The New Mexico Tech Press pada tahun 2014, bertujuan untuk mendorong pemrogram berpikir secara matematis saat mengembangkan program, dengan menekankan konsep-konsep matematika diskrit seperti himpunan (*sets*), urutan (*sequences*), pemetaan (*mappings*), relasi (*relations*), dan struktur data lainnya. Buku ini menggunakan Python sebagai bahasa pemrograman utama karena kesederhanaannya, desain yang bersih, dan dukungan bawaan untuk struktur matematis seperti himpunan, kamus (*dictionaries*), dan fungsi kelas satu (*first-class functions*). 
 
@@ -125,4 +127,6 @@ Buku ini terdiri dari 12 bab, ditambah pendahuluan, epilog, solusi latihan terpi
 
 ### **Kesimpulan**
 *Programming and Mathematical Thinking* adalah buku yang sangat berharga bagi siapa saja yang ingin memahami bagaimana matematika diskrit dapat meningkatkan kualitas pemrograman. Dengan pendekatan yang jelas, contoh praktis, dan studi kasus yang relevan, buku ini menunjukkan bahwa konsep seperti himpunan, pemetaan, dan relasi bukan hanya teori abstrak, tetapi alat praktis untuk menyelesaikan masalah pemrograman. Python digunakan secara efektif untuk mengilustrasikan konsep-konsep ini, menjadikan buku ini cocok untuk pelajar, pemrogram, dan profesional yang ingin memperdalam pemahaman mereka tentang pemrograman melalui lensa matematika.
+
+[back](./)
 

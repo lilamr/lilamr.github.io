@@ -1,3 +1,5 @@
+[back](./)
+
 ## Prakata
 
 Misi saya dalam buku ini adalah mengajak para pemrogram untuk berpikir secara matematis saat mereka menciptakan program. 
@@ -70,6 +72,8 @@ Apakah titik (.) itu bagian dari apa yang ditulis? Ini bisa membingungkan, terut
 Saya berterima kasih kepada teman dan kolega yang telah memberikan bantuan, saran, dan dukungan dalam proyek penulisan ini, terutama Lisa Beinhoff, Horst Clausen, Jeff Havlena, Peter Henderson, Daryl Lee, Subhashish Mazumdar, Angelica Perry, Steve Schaffer, John Shipman, dan Steve Simpson.
 
 Terakhir, saya ingin mengakui inspirasi besar dari buku teks klasik *Structure and Interpretation of Computer Programs* (SICP) karya Abelson dan Sussman.[^3] Saya meminjam beberapa ide darinya, terutama untuk pembahasan fungsi tingkat tinggi dan aliran data. Saya juga berusaha menjadikan buku ini sebagai panggung untuk memamerkan keunggulan Python, seperti SICP memamerkan bahasa Scheme. Yang terpenting, SICP telah menjadi teladan bagi saya tentang bagaimana pemrograman dapat diajarkan dengan serius dan mendalam.
+
+[back](./)
 
 ---
 

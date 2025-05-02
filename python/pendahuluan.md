@@ -1,3 +1,5 @@
+[back](./)
+
 ## Bab 1: Pendahuluan
 
 ### 1.1. Program, Data, dan Objek Matematis
@@ -279,3 +281,5 @@ Di bab-bab berikutnya, kita akan menjelajahi sifat-sifat objek matematis ini dan
 ---
 
 [^1]: Istilah untuk kode tersebut adalah "penanganan pengecualian/ exception handling", jika Anda ingin mencari topik dalam dokumentasi Python. Penanganan pengecualian dengan benar bisa rumit, kadang -kadang melibatkan keputusan desain yang sulit, itulah sebabnya kami memilih untuk memperlakukan topik sebagai di luar ruang lingkup buku saat ini.
+
+[back](./)
