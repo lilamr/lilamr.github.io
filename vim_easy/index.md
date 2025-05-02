@@ -3,6 +3,8 @@ layout: default
 title: Vim Easy
 ---
 
+[Home](./)
+
 ## Daftar Konten
 
 Ini adalah tutorial ringkas untuk belajar Vim. Hanya menampilkan yang menurut saya penting untuk saya gunakan sehari-hari.
@@ -22,3 +24,5 @@ Ini adalah tutorial ringkas untuk belajar Vim. Hanya menampilkan yang menurut sa
 - [Setting](./13_setting.html)
 - [Plugin](./14_plugin.html)
 - [Bantuan](./15_bantuan.html)
+
+[Home](./)
