@@ -10,3 +10,5 @@ call plug#end()
 ```
 
 - `:PlugInstall` jalankan perintah di dalam vim
+
+[back](./)

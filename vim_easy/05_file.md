@@ -7,3 +7,5 @@
 - `:wq ~/Documents/filename.txt`
 - `:Ex` atau `:Explore` untuk buka file explorer
 - `:e ~/filename.txt` buka file dari dalam vim
+
+[back](./)

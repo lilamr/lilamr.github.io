@@ -19,3 +19,5 @@
 **Teks object**
 - `a` artinya Around (contoh: `ca"` ganti kata/ kalimat di antara tanda kutip `"..."` termasuk hapus sekalian dengan tanda kutipnya)
 - `i` artinya Inside/Inner (contoh: `ci"` ganti kata/ kalimat di antara tanda kutip `"..."` tanpa menghapus tanda kutipnya)
+
+[back](./)

@@ -19,3 +19,5 @@ Untuk menggunakan **output perintah shell** (seperti `ls`, `date`, dll.) **langs
 - `:r !ls` menyisipkan hasil `ls` ke dalam file di bawah baris kursor
 - `:r !cat file.txt` menyisipkan isi file lain
 - `:r !curl -s https://example.com` menyisipkan hasil curl atau wget
+
+[back](./)

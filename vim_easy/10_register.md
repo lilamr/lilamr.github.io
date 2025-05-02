@@ -10,3 +10,5 @@
 - `%` menyimpan **nama file aktif** saat ini. contoh penggunaan,`:e %` membuka ulang file saat ini
 - `#` menyimpan **nama file yang dibuka sebelumnya**. contoh, `:e #` akan membuka kembali ke file sebelumnya
 - `:register` atau `:reg` untuk melihat isi semua register
+
+[back](./)

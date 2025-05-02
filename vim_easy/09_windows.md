@@ -26,3 +26,5 @@ Atau jika mau langsung buat tab baru dengan nama file tertentu (misal file koson
 Kalau mau cepat berpindah antar tab:
 - `gt` pindah ke tab berikutnya
 - `gT` pindah ke tab sebelumnya
+
+[back](./)

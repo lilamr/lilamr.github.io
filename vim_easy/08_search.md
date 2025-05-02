@@ -9,3 +9,5 @@
 **Replace kata**
 - `:%s/lama/baru/g` cari dan ganti kata `lama` dengan kata `baru` di seluruh file
 - `:s/lama/baru/g` cari dan ganti di satu baris
+
+[back](./)

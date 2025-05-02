@@ -13,3 +13,5 @@ Contoh kasus: Hapus 3 baris berturut-turut lalu pindah ke bawah
 5. Jalankan `@a` sebanyak yang dibutuhkan.
 
 Macro bisa disimpan ke register `a` sampai `z`.
+
+[back](./)

@@ -17,3 +17,5 @@ set expandtab         " Gunakan spasi daripada tab
 set shiftwidth=4      " Indentasi saat auto indent
 set clipboard=unnamedplus " Pakai clipboard OS
 ```
+
+[back](./)
