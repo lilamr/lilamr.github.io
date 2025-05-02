@@ -1,3 +1,5 @@
+[Home](../)
+
 ## Macros
 - Macro di Vim adalah rekaman dari rangkaian perintah yang bisa diputar ulang. Cocok untuk mengotomatiskan tugas berulang. Perintah akan disimpan dalam register.
 - `q{register}` untuk mulai merekam macros. contoh, `qa` merekam macros ke register `a`, kemudian jalankan perintah-perintah vim seperti biasa. untuk mengakhiri rekaman tekan `q`.

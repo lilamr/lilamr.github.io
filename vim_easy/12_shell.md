@@ -1,3 +1,5 @@
+[Home](../)
+
 ## Shell
 Dari dalam Vim, kamu bisa menjalankan hampir semua **perintah shell** dengan awalan `:!`. Berikut ini beberapa contoh perintah shell umum yang sering dipakai langsung dari Vim:
 

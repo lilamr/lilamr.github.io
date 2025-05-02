@@ -1,3 +1,5 @@
+[Home](../)
+
 ## Motion
 - `gg` pindah ke baris pertama file
 - `G` pindah ke baris terakhir file

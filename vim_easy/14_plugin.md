@@ -1,3 +1,5 @@
+[Home](../)
+
 ## Plugin
 `vim ~/.vimrc` edit file `.vimrc`. 
 

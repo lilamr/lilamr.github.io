@@ -1,3 +1,4 @@
+[Home](../)
 [back](./)
 
 ## Bab 1: Pendahuluan

@@ -3,7 +3,7 @@ layout: default
 title: Vim Easy
 ---
 
-[Home](./)
+[Home](../)
 
 ## Daftar Konten
 
@@ -25,4 +25,4 @@ Ini adalah tutorial ringkas untuk belajar Vim. Hanya menampilkan yang menurut sa
 - [Plugin](./14_plugin.html)
 - [Bantuan](./15_bantuan.html)
 
-[Home](./)
+[Home](../)

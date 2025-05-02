@@ -1,3 +1,5 @@
+[Home](../)
+
 ## Register
 - Dalam Vim, _register_ adalah tempat penyimpanan sementara untuk teks yang Anda salin, potong, atau ketik.
 - `"` register default (otomatis digunakan saat copy/cut/paste)

@@ -1,3 +1,5 @@
+[Home](../)
+
 ## Windows
 **Split windows**
 - `:split` atau `:sp` split windows horizontal

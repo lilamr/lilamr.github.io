@@ -1,3 +1,5 @@
+[Home](../)
+
 ## Text
 **Text edit**
 - `yy` copy satu baris

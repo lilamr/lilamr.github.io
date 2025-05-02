@@ -3,7 +3,7 @@ layout: default
 title: Python
 ---
 
-[Home](./)
+[Home](../)
 
 ## Daftar Konten
 
@@ -16,4 +16,4 @@ Ini adalah terjemahan dari buku *Programming and Mathematical Thinking: A Gentle
 - [Program Python](./program_python.html)
 - [Fungsi Python](./fungsi_python.html)
 
-[Home](./)
+[Home](../)
