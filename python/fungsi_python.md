@@ -152,7 +152,7 @@ def derivAt(f, x, dx):
     return (f(x + dx) - f(x)) / dx
 ```
 
-Misalnya, turunan dari fungsi `square` atau `x²` adalah `2x`, jadi di `x = 3`, turunannya adalah 6. Jika kita panggil `derivAt(square, 3, 0.00001)`, kita akan mendapatkan nilai yang sangat mendekati 6. Artinya, **kemiringan kurva $$x^2$$** di titik manapun $$x$$ adalah **2 kali nilai $$x$$** itu sendiri.
+Misalnya, turunan dari fungsi `square` atau $$x^2$$ adalah $$2x$$, jadi di $$x = 3$$, turunannya adalah 6. Jika kita panggil `derivAt(square, 3, 0.00001)`, kita akan mendapatkan nilai yang sangat mendekati 6. Artinya, **kemiringan kurva $$x^2$$** di titik manapun $$x$$ adalah **2 kali nilai $$x$$** itu sendiri.
 
 Fungsi ini menghitung pendekatan turunan $$f(x)=x^2$$ pada $$x=3$$ dengan dx=0.00001. Turunan fungsi $$f(x)$$ pada titik $$x$$, ditulis $$f′(x)$$, adalah **laju perubahan** fungsi pada titik tersebut, atau kemiringan garis singgung pada kurva $$f(x)$$ di $$x$$. Secara matematis, turunan didefinisikan sebagai limit: 
 

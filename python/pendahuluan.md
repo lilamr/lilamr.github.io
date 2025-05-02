@@ -194,11 +194,11 @@ Sekarang, mari kita kenali beberapa istilah matematis yang akan sering muncul da
 
 Istilah pertama adalah **Himpunan (Set)**: Kumpulan benda yang tidak terurut dan semuanya berbeda. Contohnya, himpunan orang di ruangan, himpunan buku yang Anda baca tahun ini, atau himpunan barang di toko tertentu.
 
-![](attahcment/Pasted%20image%2020250416145436.png)
+![](attachment/Pasted%20image%2020250416145436.png)
 
 Istilah berikutnya adalah **Urutan (Sequence)**: Kumpulan benda yang terurut, di mana urutan kemunculannya penting. Berbeda dengan himpunan, elemen dalam urutan bisa berulang. Urutan tidak memiliki sifat bahwa semua hal di dalamnya harus berbeda. Contohnya, urutan digit dalam nomor telepon atau urutan huruf dalam nama Anda.
 
-![](attahcment/Pasted%20image%2020250416153657.png)
+![](attachment/Pasted%20image%2020250416153657.png)
 
 Kedua istilah ini mungkin terdengar familiar, tapi dalam matematika, mereka memiliki makna khusus. Urutan, misalnya, punya sifat matematis yang akan berguna nanti. Untuk saat ini, perhatikan saja perbedaan antara konsep "set" dan "sequence".
 
@@ -221,19 +221,19 @@ Pada **Skrip 1 (Nama, Contoh 1.1)**: File `names` berisi daftar nama. Dari sudut
   
 Pada **Skrip 2 (Email, Contoh 1.2)**: File `emails` berisi baris-baris dengan nama dan email, dipisahkan koma. Setiap baris adalah **pasangan terurut** `(nama, email)`, karena urutan (nama dulu, lalu email) penting—`(nama, email)` tidak sama dengan `(email, nama)`. Pasangan terurut tidak sama dengan himpunan yang terdiri dari dua elemen.
 
-![](attahcment/Pasted%20image%2020250416150951.png)
+![](attachment/Pasted%20image%2020250416150951.png)
 
 Sekarang bagaimana dengan file secara keseluruhan? Seperti file input untuk program pertama, ini adalah sebuah **set**. Kita tidak peduli apakah file diurutkan berdasarkan nama atau alamat email, atau tidak diurutkan sama sekali; kita hanya ingin menemukan pasangan terurut di mana elemen pertama adalah "John Davis" dan menampilkan elemen kedua yang sesuai (sebagai pasangan dari elemen pertama). Secara keseluruhan, file ini adalah **himpunan pasangan terurut**.
 
-![](attahcment/Pasted%20image%2020250416151647.png)
+![](attachment/Pasted%20image%2020250416151647.png)
 
 Ada istilah matematis lain untuk himpunan dari pasangan terurut yaitu disebut **relasi (relation)**. Kita dapat melihat himpunan pasangan terurut sebagai struktur matematis yang menghubungkan pasangan-pasangan elemen satu sama lain. Dalam hal ini menghubungkan nama dengan email. 
 
-![](attahcment/Pasted%20image%2020250416152003.png)
+![](attachment/Pasted%20image%2020250416152003.png)
 
 Jika setiap nama hanya punya satu email, maka disebut dengan istilah **pemetaan (mapping)**, yaitu relasi di mana setiap elemen pertama (nama) hanya terkait dengan satu elemen kedua (email). Dalam matematika, pemetaan sering disebut dengan istilah "fungsi". Anda mungkin tahu tentang fungsi matematis seperti akar kuadrat dan fungsi trigonometri. Tapi kami akan menggunakan istilah “pemetaan” untuk menghindari kebingungan dengan istilah fungsi dalam pemrograman. Kami tidak tahu apakah file ini benar-benar pemetaan—mungkin ada nama dengan beberapa email—tapi untuk saat ini kita abaikan dulu: jika program kami menampilkan lebih dari satu alamat email untuk "John Davis", itu tidak masalah.
 
-![](attahcment/Pasted%20image%2020250416152118.png)
+![](attachment/Pasted%20image%2020250416152118.png)
 
 Pada **Skrip 3 (Rata-Rata, Contoh 1.3)**: File `observations` berisi angka suhu. Saat menghitung rata-rata, urutan angka tidak penting, karena penjumlahan mengikuti dua sifat dasar penjumlahan bilangan bulat:
 - **Sifat asosiatif**: `(a + b) + c = a + (b + c)` untuk setiap bilangan bulat  a, b, dan c
@@ -241,13 +241,13 @@ Pada **Skrip 3 (Rata-Rata, Contoh 1.3)**: File `observations` berisi angka suhu.
 
 Namun, angka bisa berulang (misalnya, suhu 23°C muncul lebih dari sekali). Karena itu, data ini bukan himpunan, melainkan **multihimpunan (multiset)**, yaitu kumpulan tak terurut yang boleh berisi elemen berulang. Elemen apa pun dapat muncul dalam multiset lebih dari sekali. Tetapi multiset, seperti himpunan, adalah kumpulan tak terurut.
 
-![](attahcment/Pasted%20image%2020250416153227.png)
+![](attachment/Pasted%20image%2020250416153227.png)
 
 Tapi, jika kita ingin memplot suhu untuk melihat tren (seperti Gambar 1.1), urutan data menjadi penting, dan kami akan memandangnya sebagai **urutan**.
 
 **Gambar 1.1. Suhu Selama Sebulan dengan Garis Tren**
 
-![](attahcment/Pasted%20image%2020250416153311.png)
+![](attachment/Pasted%20image%2020250416153311.png)
 
 Intinya di sini adalah bahwa jenis objek matematis apa yang menjadi kumpulan data, dari sudut pandang seorang programmer, tidak hanya bergantung pada sifat-sifat data tetapi juga pada apa yang ingin dilakukan programmer dengan data tersebut. Jenis objek matematis yang mewakili data tergantung pada **sifat data** dan **apa yang ingin kita lakukan dengannya**.
 
