@@ -10,7 +10,7 @@ Dalam bab ini dan dua bab berikutnya, kami akan memperkenalkan gambaran umum ten
 
 Anda mungkin sudah melihat contoh program Python yang membaca data dari file. Menariknya, program Python itu sendiri juga berupa teks yang disimpan dalam file. Jika Anda memiliki skrip dari bab sebelumnya di komputer, masing-masing skrip akan tersimpan dalam file terpisah.
 
-Di sebagian besar sistem komputer, Anda juga bisa menggunakan [[interpreter]] Python secara interaktif. Dengan mode ini, Anda dapat mengetik potongan kode Python kecil, dan interpreter akan langsung menampilkan hasilnya. Misalnya, Anda bisa menggunakannya seperti kalkulator sederhana. Coba ketik:
+Di sebagian besar sistem komputer, Anda juga bisa menggunakan interpreter Python secara interaktif. Dengan mode ini, Anda dapat mengetik potongan kode Python kecil, dan interpreter akan langsung menampilkan hasilnya. Misalnya, Anda bisa menggunakannya seperti kalkulator sederhana. Coba ketik:
 
 ```
 3 + 2
@@ -62,7 +62,7 @@ Ini menunjukkan bahwa tipe variabel di Python tidak tetap. Tipe adalah sifat dar
 
 Namun, dalam praktiknya, kebanyakan programmer Python menggunakan variabel dengan tipe yang konsisten sepanjang program, karena ini adalah cara yang paling alami dan mudah dipahami. Selain itu, programmer yang baik memilih nama yang mencerminkan kegunaan variabel. Misalnya, memberikan nama `count` untuk string seperti `"Hello, John!"` tidak masuk akal, meskipun Python mengizinkannya.
 
-Perlu dicatat bahwa mengatakan penugasan mengikat nama ke nilai adalah sedikit penyederhanaan. Yang sebenarnya terjadi adalah [[nilai objek|nama diikat ke objek]], dan objek inilah yang menyimpan nilai. Kita akan membahas perbedaan ini lebih lanjut nanti. Untuk saat ini, Anda bisa menganggap nama diikat langsung ke nilai tanpa perlu memikirkan detail objek.
+Perlu dicatat bahwa mengatakan penugasan mengikat nama ke nilai adalah sedikit penyederhanaan. Yang sebenarnya terjadi adalah nama diikat ke objek, dan objek inilah yang menyimpan nilai. Kita akan membahas perbedaan ini lebih lanjut nanti. Untuk saat ini, Anda bisa menganggap nama diikat langsung ke nilai tanpa perlu memikirkan detail objek.
 
 ### 2.3. Bilangan Bulat
 
@@ -77,7 +77,7 @@ Anda bisa melakukan operasi matematika dasar pada bilangan bulat, seperti penjum
 3 / 2
 ```
 
-Simbol-simbol ini disebut **[[operator]]**, dan angka-angka yang dioperasikan disebut **operan**. Operator seperti `+`, `-`, `*`, dan `/` adalah **operator biner** karena membutuhkan dua operan. (Catatan: Istilah “biner” di sini tidak berkaitan dengan sistem bilangan biner, melainkan jumlah operan.)
+Simbol-simbol ini disebut **operator**, dan angka-angka yang dioperasikan disebut **operan**. Operator seperti `+`, `-`, `*`, dan `/` adalah **operator biner** karena membutuhkan dua operan. (Catatan: Istilah “biner” di sini tidak berkaitan dengan sistem bilangan biner, melainkan jumlah operan.)
 
 Dalam kode Python, urutan digit seperti `123`, `2`, atau `0` mewakili bilangan bulat non-negatif. Urutan digit ini adalah **konstanta**, yaitu simbol yang selalu mewakili nilai tertentu dan tidak bisa diikat ke nilai lain.
 
@@ -115,7 +115,7 @@ Jadi, jika matematika membedakan antara terbatas dan tak terbatas, dalam pemrogr
 
 ### 2.4. Bilangan Pecahan
 
-Di Python, bilangan pecahan/ **[[floating-point]]** adalah tipe data bernama **float**, yang digunakan untuk mewakili bilangan dengan bagian pecahan, seperti hasil dari `3 / 2` yang menghasilkan `1.5`. Jika bilangan bulat Python menyerupai bilangan bulat matematika, bilangan floating-point berupaya mewakili **bilangan real** dalam matematika. Namun, floating-point hanya merupakan **perkiraan** dari bilangan real, dan ada perbedaan penting yang akan kita bahas.
+Di Python, bilangan pecahan/ **floating-point** adalah tipe data bernama **float**, yang digunakan untuk mewakili bilangan dengan bagian pecahan, seperti hasil dari `3 / 2` yang menghasilkan `1.5`. Jika bilangan bulat Python menyerupai bilangan bulat matematika, bilangan floating-point berupaya mewakili **bilangan real** dalam matematika. Namun, floating-point hanya merupakan **perkiraan** dari bilangan real, dan ada perbedaan penting yang akan kita bahas.
 
 Python memiliki dua cara untuk menulis konstanta floating-point:
 - **Desimal biasa**: Urutan digit dengan titik desimal, seperti `3.14` atau `.001`.
@@ -132,7 +132,7 @@ Contoh fungsi konversi:
 
 Python juga bisa merepresentasikan “tak terbatas” menggunakan `float("inf")` atau `float("Infinity")` untuk tak terbatas positif, dan `float("-inf")` untuk tak terbatas negatif. Nilai ini berguna karena selalu lebih besar (atau lebih kecil) dari bilangan lain, tetapi kegunaannya terbatas dan tidak akan banyak dibahas di buku ini.
 
-Bilangan floating-point disimpan di komputer menggunakan format mirip notasi ilmiah, dengan tanda, eksponen, dan digit signifikan (mantissa). Pada kebanyakan komputer, Python menggunakan format **double precision** (64 bit). Yang penting, eksponen dan mantissa memiliki jumlah bit yang tetap, yang berarti [[floating-point#Representasi floating-point|hanya sejumlah terbatas bilangan floating-point yang bisa direpresentasikan]]. Akibatnya, dalam Python, ada **lebih banyak bilangan bulat** daripada bilangan floating-point—kebalikan dari matematika, di mana bilangan real jauh lebih banyak daripada bilangan bulat.
+Bilangan floating-point disimpan di komputer menggunakan format mirip notasi ilmiah, dengan tanda, eksponen, dan digit signifikan (mantissa). Pada kebanyakan komputer, Python menggunakan format **double precision** (64 bit). Yang penting, eksponen dan mantissa memiliki jumlah bit yang tetap, yang berarti hanya sejumlah terbatas bilangan floating-point yang bisa direpresentasikan. Akibatnya, dalam Python, ada **lebih banyak bilangan bulat** daripada bilangan floating-point—kebalikan dari matematika, di mana bilangan real jauh lebih banyak daripada bilangan bulat.
 
 Karena keterbatasan jumlah bit, floating-point memiliki dua batasan utama:
 - **Batasan magnitudo**: Eksponen membatasi seberapa besar atau kecil bilangan yang bisa direpresentasikan. Namun, batasan ini jarang menjadi masalah, karena bilangan floating-point bisa sangat besar (hingga sekitar `1.8 x 10^308`).

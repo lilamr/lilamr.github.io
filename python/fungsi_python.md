@@ -10,7 +10,7 @@ Bab ini akan membahas cara mendefinisikan fungsi di Python dan berbagai hal mena
 
 Seperti yang sudah kita lihat, ada fungsi Python yang menghitung nilai, ada pula yang menghasilkan efek samping, seperti menampilkan sesuatu ke layar. Dalam beberapa bahasa pemrograman, fungsi yang menghasilkan efek samping disebut "subrutin" atau "prosedur", tetapi di Python, semua disebut "fungsi" dan didefinisikan dengan cara yang sama.
 
-Mari kita mulai dengan contoh [[definisi fungsi]] (*function definition*). Python sebenarnya sudah punya fungsi untuk menghitung nilai absolut, tapi kalau tidak ada, kita bisa membuatnya sendiri seperti ini:
+Mari kita mulai dengan contoh definisi fungsi (*function definition*). Python sebenarnya sudah punya fungsi untuk menghitung nilai absolut, tapi kalau tidak ada, kita bisa membuatnya sendiri seperti ini:
 
 ```python
 def abs(n):
@@ -24,7 +24,7 @@ Definisi fungsi adalah pernyataan majemuk. Bagian kepalanya mencakup nama fungsi
 
 Perhatikan, kita tidak perlu mendeklarasikan tipe data parameter. Argumen yang diterima fungsi ini bisa berupa nilai apa saja selama operasi `>=` dan tanda negatif (`-`) berlaku untuknya. Dengan kata lain, fungsi ini secara otomatis mendukung tipe data seperti bilangan bulat atau desimal tanpa perlu penanganan khusus.
 
-Sebagai contoh lain, mari kita ambil perhitungan [[akar kuadrat]] dari bab sebelumnya dan ubah menjadi fungsi:
+Sebagai contoh lain, mari kita ambil perhitungan akar kuadrat dari bab sebelumnya dan ubah menjadi fungsi:
 
 ```python
 def sqrt(n):
@@ -120,7 +120,7 @@ Kita tidak akan membahas rekursi secara mendalam di buku ini, tapi kita akan men
 
 ### 4.3. Fungsi sebagai Nilai
 
-Di Python, [[nilai fungsi|fungsi bukan sekadar alat, tapi juga nilai]], seperti bilangan atau string. Ketika kita mendefinisikan fungsi, kita mengikat nama ke definisi fungsi tersebut, mirip seperti mengikat variabel ke nilai dengan pernyataan penugasan. Ini membuka banyak kemungkinan menarik.
+Di Python, fungsi bukan sekadar alat, tapi juga nilai, seperti bilangan atau string. Ketika kita mendefinisikan fungsi, kita mengikat nama ke definisi fungsi tersebut, mirip seperti mengikat variabel ke nilai dengan pernyataan penugasan. Ini membuka banyak kemungkinan menarik.
 
 Pertama, kita bisa mengikat nama lain ke fungsi yang sudah ada. Contohnya:
 

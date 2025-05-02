@@ -218,7 +218,7 @@ Untuk setiap karakter `c` di dalam kalimat `"Look at me swimming!"`, program aka
 
 Ekspresi dalam header harus menghasilkan urutan nilai, baik secara langsung (seperti string) maupun melalui mekanisme lain. Untuk setiap nilai dalam urutan tersebut, Python mengikat nama di header ke nilai tersebut, lalu menjalankan tubuh pernyataan-for.
 
-Pernyataan-for di Python sangat fleksibel dan bisa mengiterasi berbagai jenis data. Beberapa di antaranya adalah nilai komposit yang sudah ada, seperti string. Yang lain adalah urutan nilai yang dihasilkan secara dinamis oleh objek yang disebut *[[iterator]]*. Mari kita lihat kembali contoh ini:
+Pernyataan-for di Python sangat fleksibel dan bisa mengiterasi berbagai jenis data. Beberapa di antaranya adalah nilai komposit yang sudah ada, seperti string. Yang lain adalah urutan nilai yang dihasilkan secara dinamis oleh objek yang disebut *iterator*. Mari kita lihat kembali contoh ini:
 
 ```python
 file = open("names")
