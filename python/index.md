@@ -15,5 +15,6 @@ Ini adalah terjemahan dari buku *Programming and Mathematical Thinking: A Gentle
 - [Sekilas Python](./sekilas_python.html)
 - [Program Python](./program_python.html)
 - [Fungsi Python](./fungsi_python.html)
+- [Tuple](./tuple)
 
 [Home](../)
