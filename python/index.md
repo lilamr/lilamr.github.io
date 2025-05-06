@@ -17,5 +17,6 @@ Ini adalah terjemahan dari buku *Programming and Mathematical Thinking: A Gentle
 - [Fungsi Python](./fungsi_python)
 - [Tuple](./tuple)
 - [Urutan](./urutan)
+- [Aliran](./aliran)
 
 [Home](../)
