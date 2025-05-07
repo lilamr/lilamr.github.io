@@ -1,3 +1,7 @@
+[Home](../)
+
+[back](./)
+
 ## Bibliografi
 
 Books by Karl Popper
@@ -10,3 +14,5 @@ Books by Karl Popper
 - See also his contributions to _Modern British Philosophy_ by Bryan Magee, published 1971 by Secker & Warburg.
 
 **N.B.** Semua buku di atas tersedia dalam edisi softcover dan hardcover.
+
+[back](./)

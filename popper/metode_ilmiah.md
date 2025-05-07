@@ -1,3 +1,7 @@
+[Home](../)
+
+[back](./)
+
 ## Metode Ilmiah: Pandangan Tradisional dan Pandangan Popper
 
 Kata “hukum” memiliki makna ganda, dan siapa pun yang berbicara tentang “pelanggaran” hukum alam atau ilmiah sebenarnya sedang mencampuradukkan dua penggunaan utama kata tersebut. Hukum dalam konteks masyarakat menetapkan apa yang boleh atau tidak boleh kita lakukan. Hukum ini bisa dilanggar—bahkan, jika kita tidak bisa melanggarnya, tidak akan ada kebutuhan untuk membuatnya: masyarakat tidak membuat undang-undang yang melarang seseorang berada di dua tempat sekaligus. Sebaliknya, hukum alam bukanlah perintah, melainkan deskripsi. Hukum ini menjelaskan apa yang terjadi—misalnya, bahwa air mendidih pada suhu 100 derajat Celsius. Dengan demikian, hukum alam hanyalah pernyataan tentang apa yang terjadi dalam kondisi tertentu, seperti ketika ada sejumlah air yang dipanaskan. Pernyataan ini bisa benar atau salah, tetapi tidak bisa “dilanggar” karena bukan perintah: air tidak diperintahkan untuk mendidih pada 100 derajat Celsius. Kepercayaan pra-ilmiah bahwa hukum alam adalah perintah (dari dewa tertentu) adalah penyebab ketidakjelasan yang disayangkan ini. Namun, saat ini tidak ada yang akan membantah bahwa hukum alam bukanlah perintah yang harus “dipatuhi” atau “dilanggar,” melainkan pernyataan penjelas bersifat umum yang mengklaim sebagai fakta dan harus dimodifikasi atau ditinggalkan jika ternyata tidak akurat.
@@ -55,6 +59,8 @@ Lebih dari itu, pengamatan sebagai sesuatu tidak dapat mendahului teori sebagai 
 Masalah “Mana yang lebih dulu, hipotesis (H) atau pengamatan (O),” dapat dipecahkan; seperti halnya masalah, “Mana yang lebih dulu, ayam (H) atau telur (O).” Jawaban untuk yang terakhir adalah, “Telur yang lebih awal”; untuk yang pertama, “Hipotesis yang lebih awal.” Memang benar bahwa hipotesis tertentu yang kita pilih akan didahului oleh pengamatan—pengamatan, misalnya, yang dirancang untuk menjelaskannya. Tetapi pengamatan ini, pada gilirannya, mengandaikan adopsi kerangka acuan: kerangka harapan: kerangka teori. Jika pengamatan itu signifikan, jika mereka menciptakan kebutuhan untuk penjelasan dan dengan demikian memunculkan penemuan hipotesis, itu karena mereka tidak dapat dijelaskan dalam kerangka teoretis lama, cakrawala harapan lama. Tidak ada bahaya regresi tak terbatas di sini. Kembali ke teori-teori dan mitos yang semakin primitif, kita pada akhirnya akan menemukan harapan bawaan yang tidak disadari.[^5]
 
 Akan terlihat bahwa pada titik ini teori pengetahuan Popper bergabung menjadi teori evolusi. Kami akan membahas hubungan ini, setelah bab berikutnya, di Bab 4.
+
+[back](./)
 
 ---
 

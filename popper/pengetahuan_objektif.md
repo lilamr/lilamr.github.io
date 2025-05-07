@@ -1,4 +1,8 @@
-### Pengetahuan Objektif
+[Home](../)
+
+[back](./)
+
+## Pengetahuan Objektif
 
 Kisah yang mengalir tanpa putus dari amoeba hingga Einstein menunjukkan pola yang sama sepanjang perjalanannya. Solusi tentatif yang diintegrasikan oleh hewan dan tumbuhan ke dalam anatomi dan perilaku mereka adalah analog biologis dari teori; dan sebaliknya: teori-teori setara (seperti banyak produk eksosomatik seperti sarang lebah, dan terutama alat eksosomatik seperti jaring laba-laba) dengan organ endosomatik dan cara kerjanya. Seperti halnya teori, organ dan fungsinya adalah adaptasi tentatif terhadap dunia tempat kita hidup. Dan seperti halnya teori atau alat, organ baru dan fungsinya, serta jenis perilaku baru, memberikan pengaruhnya pada dunia pertama yang mungkin mereka bantu ubah.[^1] Popper telah menggambarkan pola dasar dari perkembangan berkelanjutan ini dalam rumus:
 
@@ -27,6 +31,8 @@ Dalam pengertian pribadi, individu ini, sebagian besar pengetahuan manusia tidak
 Dari sudut pandang ini, Popper melancarkan serangan terhadap epistemologi ortodoks. “Epistemologi tradisional telah mempelajari pengetahuan atau pemikiran dalam pengertian subjektif—dalam pengertian penggunaan biasa dari kata-kata ‘saya tahu’ atau ‘saya sedang berpikir’. Ini, saya tegaskan, telah membawa mahasiswa epistemologi ke dalam hal-hal yang tidak relevan: sementara bermaksud mempelajari pengetahuan ilmiah, mereka sebenarnya mempelajari sesuatu yang tidak relevan dengan pengetahuan ilmiah. Karena pengetahuan ilmiah sama sekali bukan pengetahuan dalam pengertian penggunaan biasa dari kata-kata ‘saya tahu’ …. epistemologi tradisional, dari Locke, Berkeley, Hume, dan bahkan Russell, adalah tidak relevan, dalam pengertian yang sangat ketat dari kata tersebut. Ini adalah konsekuensi dari tesis ini bahwa sebagian besar epistemologi kontemporer juga tidak relevan. Ini termasuk logika epistemik modern, jika kita asumsikan bahwa itu bertujuan pada teori pengetahuan ilmiah. Namun, setiap logikawan epistemik dapat dengan mudah membuat dirinya benar-benar kebal dari kritik saya, hanya dengan menjelaskan bahwa ia tidak bertujuan untuk berkontribusi pada teori pengetahuan ilmiah.”[^4]
 
 Seperti yang dikatakan Popper dalam Pengantar *Objective Knowledge*: “Esai-esai dalam buku ini memutuskan dengan tradisi yang dapat ditelusuri kembali ke Aristoteles—tradisi teori pengetahuan akal sehat ini. Saya adalah pengagum besar akal sehat yang, saya tegaskan, pada dasarnya bersifat kritis terhadap diri sendiri. Tetapi sementara saya siap untuk mempertahankan hingga akhir kebenaran esensial dari realisme akal sehat, saya menganggap teori pengetahuan akal sehat sebagai kesalahan subjektivis. Kesalahan ini telah mendominasi filsafat Barat. Saya telah berusaha untuk memberantasnya, dan menggantikannya dengan teori objektif dari pengetahuan yang pada dasarnya bersifat konjektural. Ini mungkin klaim yang berani tetapi saya tidak meminta maaf untuk itu.”
+
+[back](./)
 
 ---
 
