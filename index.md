@@ -8,5 +8,5 @@ Silakan pilih folder:
 
 - [Python](/python/)
 - [Vim](/vim_easy/)
-- [Linux](/linux/)
+- [Popper](/popper/)
 
