@@ -32,14 +32,14 @@ Dalam pandangan ini, kebenaran suatu pernyataan, yang menurut Popper (mengikuti 
 
 Gagasan Popper tentang “kebenaran” sangat mirip dengan ini: perhatian kita dalam mengejar pengetahuan adalah untuk semakin mendekati kebenaran, dan kita bahkan mungkin tahu bahwa kita telah membuat kemajuan, tetapi kita tidak pernah bisa tahu apakah kita telah mencapai tujuan kita. “Kita tidak dapat mengidentifikasi ilmu pengetahuan dengan kebenaran, karena kita berpikir bahwa baik teori Newton maupun Einstein termasuk dalam ilmu pengetahuan, tetapi keduanya tidak mungkin benar, dan keduanya mungkin saja salah.”[^1] Salah satu kutipan favoritnya adalah dari filsuf pra-Sokrates Xenophanes, yang ia terjemahkan sebagai berikut:
 
-> Para dewa tidak mengungkapkan, sejak awal,
-> Segala sesuatu kepada kita, tetapi seiring waktu
-> Melalui pencarian kita dapat belajar dan mengetahui hal-hal dengan lebih baik.
-> Tetapi mengenai kebenaran tertentu, tidak ada manusia yang mengetahuinya,
-> Juga tidak akan mengetahuinya, baik tentang para dewa
-> Maupun tentang semua hal yang saya bicarakan.
-> Karena bahkan jika secara kebetulan ia mengucapkan
-> Kebenaran akhir, ia sendiri tidak akan mengetahuinya:
+> Para dewa tidak mengungkapkan, sejak awal, \
+> Segala sesuatu kepada kita, tetapi seiring waktu \
+> Melalui pencarian kita dapat belajar dan mengetahui hal-hal dengan lebih baik. \
+> Tetapi mengenai kebenaran tertentu, tidak ada manusia yang mengetahuinya, \
+> Juga tidak akan mengetahuinya, baik tentang para dewa \
+> Maupun tentang semua hal yang saya bicarakan. \
+> Karena bahkan jika secara kebetulan ia mengucapkan \
+> Kebenaran akhir, ia sendiri tidak akan mengetahuinya: \
 > Karena semua hanyalah jaringan tebakan.
 
 Pandangan Popper tentang ilmu pengetahuan sangat cocok dengan sejarahnya seperti sarung tangan. Tetapi peristiwa khusus yang membuatnya menyadari sifat konjektural permanen dari pengetahuan ilmiah adalah tantangan Einstein terhadap Newton. Fisika Newton adalah teori ilmiah paling sukses dan penting yang pernah dikemukakan dan diterima. Segala sesuatu di dunia yang dapat diamati tampaknya mengonfirmasinya: selama lebih dari dua abad, hukum-hukumnya tidak hanya didukung oleh pengamatan tetapi juga oleh penggunaan kreatif, karena hukum-hukum tersebut menjadi dasar ilmu pengetahuan dan teknologi Barat, menghasilkan prediksi yang sangat akurat tentang segala hal, mulai dari keberadaan planet baru hingga pergerakan pasang surut dan cara kerja mesin. Jika ada yang merupakan pengetahuan, ini adalah; pengetahuan paling aman dan pasti yang pernah diperoleh manusia tentang lingkungan fisiknya. Jika ada hukum ilmiah yang telah diverifikasi secara induktif sebagai Hukum Alam, ini adalah hukum-hukum tersebut, oleh miliaran pengamatan dan eksperimen yang tak terhitung jumlahnya. Bagi generasi demi generasi manusia Barat, hukum-hukum ini diajarkan sebagai fakta definitif yang tidak dapat diperbaiki. Namun setelah semua ini, pada awal abad kita sendiri, sebuah teori yang berbeda dari Newton dikemukakan oleh Einstein. Pendapat tentang kebenaran teori Einstein bervariasi, tetapi klaimnya untuk mendapat perhatian serius tidak dapat disangkal, juga klaimnya untuk melampaui teori Newton dalam jangkauan aplikasinya. Dan ini sendiri adalah intinya. Semua bukti pengamatan yang sesuai dengan teori Newton (dan beberapa yang tidak dikatakan apa-apa oleh teori Newton) juga sesuai dengan teori Einstein. (Bahkan secara logis dapat ditunjukkan—dan telah lama ditunjukkan oleh Leibniz—bahwa sejumlah pengamatan yang terbatas dapat diakomodasi dalam jumlah penjelasan yang berbeda secara tak terbatas.) Dunia hanya salah dalam mempercayai bahwa semua bukti yang tak terhitung jumlahnya itu membuktikan teori Newton. Namun, seluruh era peradaban telah didasarkan padanya, dengan keberhasilan material yang belum pernah terjadi sebelumnya. Jika jumlah verifikasi dan dukungan induktif sebanyak ini tidak membuktikan kebenaran suatu teori, apa yang bisa? Dan Popper menyadari bahwa tidak ada yang bisa. Ia melihat bahwa tidak ada teori yang bisa diandalkan sebagai kebenaran akhir. Yang paling bisa kita katakan adalah bahwa teori itu didukung oleh setiap pengamatan sejauh ini, dan menghasilkan lebih banyak, dan lebih tepat, prediksi daripada alternatif yang dikenal. Teori itu masih bisa digantikan oleh teori yang lebih baik.
