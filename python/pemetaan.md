@@ -69,7 +69,7 @@ $$
 Operator kedua adalah *overriding union* atau sering disebut *override*. Untuk dua pemetaan $$f$$ dan $$g$$, $$f \oplus g$$ adalah pemetaan yang mengikuti $$g$$ di seluruh domain $$g$$, dan mengikuti $$f$$ di luar domain tersebut.[^3] Definisi formalnya adalah:
 
 $$
-f \oplus g = g \cup \left(\left.f\right|_{\operatorname{dom} f - \operatorname{dom} g}\right)
+f \oplus g = g \cup \left(\left.f\right|_{\text{ dom } f - \text{ dom } g}\right)
 $$
 
 Meskipun *override* tidak terlalu populer di kalangan matematikawan, konsep ini sangat penting dalam dunia komputasi. Bayangkan memori utama komputer sebagai pemetaan dari alamat memori ke nilai yang disimpan di alamat tersebut. Setiap operasi yang menyimpan nilai baru di memori adalah bentuk *override* pada pemetaan tersebut. Begitu pula, struktur data yang diakses dengan kunci atau indeks dapat dilihat sebagai pemetaan, dan operasi yang mengubah nilai dalam struktur data tersebut juga merupakan *override*.
@@ -92,7 +92,7 @@ $$
 
 Kita bisa membaca $$g \circ f$$ sebagai “$$g$$ diterapkan setelah $$f$$”. Untuk nilai $$x$$ masuk dalam domain $$g \circ f$$, $$x$$ harus ada di *dom* $$f$$, dan $$f(x)$$ harus ada di *dom* $$g$$.
 
-Sebuah pemetaan juga bisa dikomposisikan dengan dirinya sendiri, yang sangat berguna jika $$\operatorname{ran} f \subseteq \operatorname{dom} f$$. Kita sering menulis $$f \circ f$$ sebagai $$f^2$$, $$f \circ f \circ f$$ sebagai $$f^3$$, dan seterusnya untuk pangkat yang lebih tinggi.
+Sebuah pemetaan juga bisa dikomposisikan dengan dirinya sendiri, yang sangat berguna jika $$\text{ran} f \subseteq \text{dom} f$$. Kita sering menulis $$f \circ f$$ sebagai $$f^2$$, $$f \circ f \circ f$$ sebagai $$f^3$$, dan seterusnya untuk pangkat yang lebih tinggi.
 
 ### 9.2. Kamus di Python
 
@@ -435,15 +435,15 @@ Dengan *count*, kita bisa definisikan operasi multiset:
 Secara formal:
 
 $$
-\operatorname{count}(m \uplus n, a) = \operatorname{count}(m, a) + \operatorname{count}(n, a)
+\text{count}(m \uplus n, a) = \text{count}(m, a) + \text{count}(n, a)
 $$
 
 $$
-\operatorname{count}(m \cup n, a) = \max(\operatorname{count}(m, a), \operatorname{count}(n, a))
+\text{count}(m \cup n, a) = \max(\text{count}(m, a), \text{count}(n, a))
 $$
 
 $$
-\operatorname{count}(m \cap n, a) = \min(\operatorname{count}(m, a), \operatorname{count}(n, a))
+\text{count}(m \cap n, a) = \min(\text{count}(m, a), \text{count}(n, a))
 $$
 
 Di Python, multiset bisa diimplementasikan sebagai urutan (tupel atau daftar) atau kamus. Urutan memungkinkan duplikasi tapi lambat untuk menghitung jumlah (*m.count(a)* harus memeriksa seluruh urutan). Kamus lebih cepat untuk mengakses jumlah, dengan *`m[a]`* jika $$a$$ ada, atau:
