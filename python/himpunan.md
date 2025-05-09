@@ -127,7 +127,7 @@ Sayangnya, himpunan Python juga tidak bisa berisi himpunan lain, karena himpunan
 
 Dengan *frozenset*, kita bisa memasukkan himpunan ke dalam himpunan lain. Misalnya, dalam matematika, kombinasi dua angka dari `{0, 1, 2}` adalah:
 
-`{{0, 1}, {0, 2}, {1, 2}}`
+$$\{\{0, 1\}, \{0, 2\}, \{1, 2\}\}$$
 
 Dalam Python, kita harus menggunakan *frozenset* untuk himpunan dalamnya:
 
