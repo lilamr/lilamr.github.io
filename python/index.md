@@ -19,5 +19,6 @@ Ini adalah terjemahan dari buku *Programming and Mathematical Thinking: A Gentle
 - [Urutan](./urutan)
 - [Aliran](./aliran)
 - [Himpunan](./himpunan)
+- [Pemetaan](./pemetaan)
 
 [Home](../)
