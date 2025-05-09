@@ -19,7 +19,7 @@ Sebuah himpunan ditentukan oleh anggotanya. Dua himpunan dianggap sama jika mere
 
 2. **Menyebutkan sifat yang dimiliki anggota**. Contohnya, “himpunan semua angka ganjil positif di bawah 100”. Kita bisa menuliskan ini sebagai: `{ n │ 0 < n < 100 and n is odd }`
 
-   Di sini, tanda “|” dibaca sebagai “sehingga”. Sifat ini memilih anggota dari himpunan dasar yang lebih besar. Himpunan dasar ini bisa disebutkan secara eksplisit, misalnya: `{ n │ n is an integer and 0 < n < 100 and n is odd }`
+   Di sini, tanda `|` dibaca sebagai “sehingga”. Sifat ini memilih anggota dari himpunan dasar yang lebih besar. Himpunan dasar ini bisa disebutkan secara eksplisit, misalnya: `{ n │ n is an integer and 0 < n < 100 and n is odd }`
    
    Atau, himpunan dasar bisa dibiarkan implisit, ditentukan oleh konteks atau dianggap sebagai himpunan universal.
 
