@@ -60,10 +60,10 @@ Keunggulan dari fungsi *curried* adalah bahwa $$p(x)$$ sendiri sudah memiliki ma
 
 Meskipun kita mendefinisikan pemetaan sebagai himpunan, operator himpunan standar seperti gabungan atau irisan biasanya kurang berguna untuk pemetaan. Misalnya, jika $$f$$ dan $$g$$ adalah dua pemetaan, $$f \cup g$$ menghasilkan himpunan pasangan terurut, tetapi ini hanya akan menjadi pemetaan jika domain $$f$$ dan $$g$$ tidak tumpang tindih. Sementara itu, $$f \cap g$$ dan $$f - g$$ memang menghasilkan pemetaan, tetapi biasanya tidak terlalu bermanfaat.
 
-Namun, ada operator khusus untuk pemetaan yang lebih relevan. Kami akan membahas tiga di antaranya. Pertama, *pembatasan domain*. Untuk pemetaan $$f$$ dan himpunan $$A$$, notasi $$\left.f\right|_A$$ menunjukkan pemetaan $$f$$ dengan domain yang dibatasi hanya pada elemen-elemen di $$A$$. Kita bisa mendefinisikannya sebagai:
+Namun, ada operator khusus untuk pemetaan yang lebih relevan. Kami akan membahas tiga di antaranya. Pertama, *pembatasan domain*. Untuk pemetaan $$f$$ dan himpunan $$A$$, notasi $$f\mid _A$$ menunjukkan pemetaan $$f$$ dengan domain yang dibatasi hanya pada elemen-elemen di $$A$$. Kita bisa mendefinisikannya sebagai:
 
 $$
-\left.f\right|_A = \{a \mapsto b \mid a \mapsto b \in f \text{ dan } a \in A\}
+f\mid _A = \{a \mapsto b \mid a \mapsto b \in f \text{ dan } a \in A\}
 $$
 
 Operator kedua adalah *overriding union* atau sering disebut *override*. Untuk dua pemetaan $$f$$ dan $$g$$, $$f \oplus g$$ adalah pemetaan yang mengikuti $$g$$ di seluruh domain $$g$$, dan mengikuti $$f$$ di luar domain tersebut.[^3] Definisi formalnya adalah:
@@ -515,8 +515,7 @@ for major in counts:
 def p(x, y):
     return x * y
 ```
-   
-   Python tidak membatasi domain $$p$$. Apa domainnya dalam bentuk ini?
+Python tidak membatasi domain $$p$$. Apa domainnya dalam bentuk ini?
 
 2. Buktikan bahwa $$\oplus$$ bersifat asosiatif dengan contoh atau bukti matematis.
 
