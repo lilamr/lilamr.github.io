@@ -79,7 +79,7 @@ Python menyediakan padanan untuk semua operasi himpunan yang telah kita bahas. B
 | Bukan anggota dari (*is not a member of*) | $$\notin$$         | `not in` |
 | Himpunan bagian (*subset*)                | $$\subseteq$$      | `<=`     |
 | Himpunan bagian sejati (*proper subset*)  | $$\subset$$        | `<`      |
-| Gabungan (*union*)                        | $$\cup$$           | `|`      |
+| Gabungan (*union*)                        | $$\cup$$           | \|       |
 | Irisan (*intersection*)                   | $$\cap$$           | `&`      |
 | Selisih (*difference*)                    | $$-$$              | `-`      |
 
