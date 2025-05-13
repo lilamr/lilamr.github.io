@@ -20,5 +20,6 @@ Ini adalah terjemahan dari buku *Programming and Mathematical Thinking: A Gentle
 - [Aliran](./aliran)
 - [Himpunan](./himpunan)
 - [Pemetaan](./pemetaan)
+- [Relasi](./relasi)
 
 [Home](../)
