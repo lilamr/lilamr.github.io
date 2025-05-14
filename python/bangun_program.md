@@ -1,3 +1,7 @@
+[Home](../)
+
+[back](./)
+
 ## Bab 12: Membangun Program Skala Besar
 
 ### 12.1. Berbagi Daftar Lagu
@@ -64,7 +68,7 @@ Kami membuat objek Multiset bernama `plays`, dan saat seseorang memainkan lagu, 
 plays.tally(tune)
 ```
 
-Dalam kelas Multiset, kami menyediakan metode lain untuk mengekstrak daftar lagu dari multiset plays. Metode ini disebut topN, dan mengembalikan $n$ lagu dengan jumlah pemutaran terbanyak, tertinggi terlebih dahulu. Di sini $n$ adalah argumen, untuk memungkinkan pengguna mengatur jumlah sesuai preferensi; tidak ada yang ajaib tentang angka sepuluh. Bagaimanapun, untuk mendapatkan daftar putar dari 10 lagu teratas, kita akan menulis sesuatu seperti ini:
+Dalam kelas Multiset, kami menyediakan metode lain untuk mengekstrak daftar lagu dari multiset plays. Metode ini disebut topN, dan mengembalikan $$n$$ lagu dengan jumlah pemutaran terbanyak, tertinggi terlebih dahulu. Di sini $$n$$ adalah argumen, untuk memungkinkan pengguna mengatur jumlah sesuai preferensi; tidak ada yang ajaib tentang angka sepuluh. Bagaimanapun, untuk mendapatkan daftar putar dari 10 lagu teratas, kita akan menulis sesuatu seperti ini:
 
 ```python
 playList = plays.topN(10)
@@ -79,7 +83,7 @@ byCount = ((count, tune)
            for (tune, count) in items(self.__count))
 ```
 
-Mengurutkan urutan itu menggunakan fungsi bawaan `sorted`, yang menghasilkan daftar dalam urutan menaik berdasarkan jumlah (dan, dalam sub-urutan dengan jumlah yang sama, dalam urutan menaik tune-tuple, tetapi itu tidak terlalu penting). Membalikkan hasilnya (perpustakaan Python memiliki metode daftar `reverse`), mengambil irisan dari $n$ elemen pertama dari urutan yang dihasilkan, dan menghasilkan urutan hanya dari tune-tuple dari pasangan terurut menggunakan comprehension.
+Mengurutkan urutan itu menggunakan fungsi bawaan `sorted`, yang menghasilkan daftar dalam urutan menaik berdasarkan jumlah (dan, dalam sub-urutan dengan jumlah yang sama, dalam urutan menaik tune-tuple, tetapi itu tidak terlalu penting). Membalikkan hasilnya (perpustakaan Python memiliki metode daftar `reverse`), mengambil irisan dari $$n$$ elemen pertama dari urutan yang dihasilkan, dan menghasilkan urutan hanya dari tune-tuple dari pasangan terurut menggunakan comprehension.
 
 2. Fungsi bawaan `sorted` dapat, dengan argumen tambahan, melakukan sebagian besar pekerjaan dan menghasilkan daftar yang diurutkan berdasarkan jumlah dalam urutan terbalik dalam satu langkah. Metode ini membutuhkan beberapa Python yang belum kami bahas dalam buku ini, tetapi jika Anda tertarik, Anda dapat melihat dokumentasi Python untuk fungsi sorted dan frasa "keyword argument".
 
@@ -167,11 +171,11 @@ Objek `Taxon` dengan atribut `sub`-nya adalah struktur rekursif, mirip dengan po
 
 Atribut `super` menambahkan lapisan kompleksitas pada struktur ini. Seperti yang dijelaskan di Bagian 11.6, kita bisa membayangkan pohon sebagai *graf berarah*, di mana setiap sisi mewakili hubungan dari sebuah objek ke atributnya (misalnya, dari takson ke taksa anaknya). 
 
-![](Pasted%20image%2020250514101934.png)
+![](attachment/Pasted%20image%2020250514101934.png)
 
 Atribut `sub` menciptakan sisi ke arah bawah, sedangkan atribut `super` menciptakan sisi ke arah atas. Dengan demikian, struktur ini bisa dilihat sebagai *graf berarah* yang bukan pohon murni. Namun, lebih mudah membayangkannya sebagai *pohon tak berarah*, di mana hubungan antara takson dan taksa anaknya bersifat dua arah, seperti jalur yang bisa dilalui ke atas atau ke bawah.
 
-![](Pasted%20image%2020250514102000.png)
+![](attachment/Pasted%20image%2020250514102000.png)
 
 Data hierarki taksa diambil dari file dalam format CSV. Setiap baris file mendefinisikan sebuah takson dengan bidang-bidang berikut:
 - Nama ilmiah, untuk atribut `scientific`.
@@ -344,7 +348,7 @@ Studi kasus terakhir kita adalah sebuah program untuk membantu penulis mengelola
 
 Program ini mengadopsi metafora *note card* (kartu catatan), alat tradisional yang digunakan oleh pelajar dan penulis untuk mencatat ide atau referensi selama penelitian. Dalam program ini, kartu-kartu tersebut akan ditampilkan sebagai jendela di layar komputer, memberikan pengalaman visual yang intuitif.
 
-![](Pasted%20image%2020250514102949.png)
+![](attachment/Pasted%20image%2020250514102949.png)
 
 Kita bergabung dengan proyek pengembangan perangkat lunak ini di tahap awal. Tim pengembang belum sepenuhnya memutuskan fitur-fitur apa yang akan disertakan atau bagaimana program akan bekerja secara detail, tetapi mereka sudah memiliki beberapa ide awal. Berikut adalah beberapa di antaranya.
 
@@ -355,7 +359,7 @@ Pengguna dapat membuat **tautan** antar kartu catatan, mirip dengan tautan antar
 
 Pengguna juga dapat menambahkan **kata kunci** ke kartu catatan, serta **pasangan kunci-nilai**. Misalnya, sebuah kartu mungkin memiliki dua kata kunci dan satu pasangan kunci-nilai, di mana nilainya bisa berupa tautan, seperti ke entri dalam basis data bibliografi.
 
-![](Pasted%20image%2020250514103037.png)
+![](attachment/Pasted%20image%2020250514103037.png)
 
 Program ini memungkinkan pengguna untuk **mencari** kartu berdasarkan kata kunci tertentu atau nilai yang terkait dengan kunci tertentu. Selain itu, pengguna juga bisa melakukan pencarian lain, seperti mencari kartu yang berisi teks tertentu.
 
@@ -365,19 +369,19 @@ Seiring pengguna mengerjakan dokumen, mengatur dan menggabungkan fragmen teks me
 
 Sebagai contoh, bayangkan kartu-kartu dengan peran “outline”. Misalkan satu kartu berisi garis besar tingkat atas dari sebuah dokumen, dengan tautan ke kartu-kartu lain yang berisi garis besar lebih rinci untuk bagian-bagian tertentu. Kartu-kartu tersebut mungkin juga memiliki tautan ke kartu lain dengan peran serupa, dan seterusnya. Struktur ini membentuk sebuah **pohon**:
 
-![](Pasted%20image%2020250514103205.png)
+![](attachment/Pasted%20image%2020250514103205.png)
 
 Pengguna mungkin ingin menggabungkan semua kartu ini menjadi satu garis besar yang terstruktur, dengan indentasi seperti laporan survei burung di Bagian 12.2. Operasi ini bisa diprogram secara rekursif, mirip dengan metode `report` pada studi kasus sebelumnya.
 
 Namun, bagaimana jika tautan-tautan ini membentuk **graf berarah** yang bukan pohon—yaitu, jika ada kartu yang ditunjuk oleh lebih dari satu tautan? 
 
-![](Pasted%20image%2020250514103243.png)
+![](attachment/Pasted%20image%2020250514103243.png)
 
 Apa yang harus dilakukan program dengan kartu seperti itu? Haruskah isi kartu dimasukkan saat pertama kali ditemukan, setelah semua tautan yang menunjuk ke kartu itu diproses, atau bahkan beberapa kali? Bagaimana jika pengguna secara tidak sengaja membuat **siklus** dalam graf (misalnya, kartu A menunjuk ke B, B ke C, dan C kembali ke A)? Ini adalah beberapa pertanyaan desain yang masih diperdebatkan oleh tim pengembang.
 
 Dalam beberapa kasus, solusi terbaik mungkin adalah menyerahkan pengurutan kepada pengguna. Misalnya, program bisa menampilkan kartu-kartu seolah-olah tersebar di atas meja, dan pengguna bisa menggeser atau menyusunnya melalui antarmuka grafis program. 
 
-![](Pasted%20image%2020250514103315.png)
+![](attachment/Pasted%20image%2020250514103315.png)
 
 Pendekatan ini juga bisa digunakan saat pengguna melakukan pencarian: program menampilkan kartu-kartu yang memenuhi kriteria pencarian seperti kartu di atas meja, lalu pengguna bisa mengatur urutan atau melakukan operasi lain.
 
@@ -403,3 +407,5 @@ Secara keseluruhan, dari deskripsi yang ada, program ini sudah melibatkan bebera
 2. Alternatif lain adalah merepresentasikan lagu sebagai kamus yang memetakan nama atribut (misalnya “artist”, “title”) ke nilai atributnya. Apa kelebihan dan kekurangan representasi ini?
 
 3. Pilih salah satu program yang dibahas dalam bab ini. Usulkan sebuah fitur baru yang memanfaatkan struktur matematis yang belum digunakan oleh program tersebut. Pastikan struktur matematis yang Anda pilih sesuai dengan kebutuhan fitur tersebut.
+
+[back](./)

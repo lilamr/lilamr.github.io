@@ -1,3 +1,7 @@
+[Home](../)
+
+[back](./)
+
 ## Kata Penutup
 
 Saya harap Anda kini semakin menghargai betapa konsep dan struktur matematika diskrit dapat menjadi alat yang sangat berguna dalam dunia pemrograman.  
@@ -13,3 +17,5 @@ Bidang lain yang tak kalah penting adalah kombinatorika. Contoh sederhananya ter
 Jika Anda adalah mahasiswa ilmu komputer, topik-topik ini akan sering Anda temui selama studi. Anda mungkin akan mengambil mata kuliah seperti "Matematika Diskrit," "Kombinatorika," "Bahasa Formal dan Automata," atau "Analisis Algoritma." Bahkan, mata kuliah lain seperti sistem operasi, jaringan komputer, basis data, atau penulisan kompiler juga akan sarat dengan konsep matematika diskrit.  
 
 Baik Anda mahasiswa ilmu komputer maupun bukan, saya mendorong Anda untuk menerapkan pemikiran matematika diskrit dalam pekerjaan pemrograman sehari-hari. Dengan pendekatan ini, pekerjaan Anda sering kali akan terasa lebih mudah, solusi yang dihasilkan lebih elegan, dan – siapa tahu – Anda mungkin akan lebih menikmati prosesnya.
+
+[back](./)

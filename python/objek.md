@@ -1,3 +1,7 @@
+[Home](../)
+
+[back](./)
+
 ## Bab 11: Objek
 
 ### 11.1. Objek dalam Program
@@ -222,7 +226,7 @@ Data suhu yang diplot dengan lingkaran hitam pada Gambar 1.1  adalah contoh dere
 
 **Gambar 11.1. Suhu selama satu bulan, dengan rata-rata bergerak**
 
-![](Pasted%20image%2020250512134859.png)
+![](attachment/Pasted%20image%2020250512134859.png)
 
 Mari kita definisikan kelas Python untuk rata-rata bergerak. Kita mulai dengan memutuskan operasi apa yang diperlukan. Kita memutuskan bahwa kita memerlukan metode berikut:
 - **Konstruktor**: Karena program mungkin memerlukan beberapa rata-rata bergerak dengan jumlah nilai berbeda, kita jadikan jumlah nilai sebagai parameter konstruktor.
@@ -270,7 +274,7 @@ def __init__(self, nTitik):
 
 Untuk mengimplementasikan metode **tambah**, kita menghapus nilai dari depan daftar jika sudah berisi **n** nilai, lalu menambahkan nilai baru di akhir daftar.
 
-![](Pasted%20image%2020250512135127.png)
+![](attachment/Pasted%20image%2020250512135127.png)
 
 Berikut adalah kode paling sederhana untuk melakukan kedua perubahan tersebut. Perhatikan bahwa setiap pernyataan penugasan menciptakan daftar baru.
 
@@ -328,7 +332,7 @@ Gambar 11.2 adalah versi dari Gambar 11.1 dengan rata-rata bergerak yang ditampi
 
 **Gambar 11.2 Temperatur dengan definisi rata-rata bergerak yang diperluas.**
 
-![](Pasted%20image%2020250512135234.png)
+![](attachment/Pasted%20image%2020250512135234.png)
 
 Mari kita buat satu perbaikan lagi. Baik **tambah** maupun **nilai** menghitung **len(titik)** setiap kali dipanggil. Ini sering kali perhitungan yang tidak perlu; setelah daftar berisi **n** nilai, panjangnya tidak akan berubah lagi. Kita bisa menyimpan panjang sebagai atribut pribadi lain, menginisialisasinya dengan tepat dan memperbaruinya saat panjang daftar berubah, lalu menggunakannya alih-alih menghitung ulang panjang. Taktik ini mirip dengan teknik **memoization** dari Bagian 9.4.
 
@@ -442,7 +446,7 @@ Jika pohon bersifat terbatas (dan kita hanya akan mempertimbangkan pohon terbata
 
 Berikut adalah contoh sebuah pohon. Pohon ini tidak diberi label, dan kali ini akarnya berada di bagian atas gambar, sedangkan daunnya mengarah ke bagian bawah.
 
-![](Pasted%20image%2020250512135401.png)
+![](attachment/Pasted%20image%2020250512135401.png)
 
 Berikut adalah definisi rekursif yang mendefinisikan pohon jenis yang sama:
 
@@ -450,7 +454,7 @@ Berikut adalah definisi rekursif yang mendefinisikan pohon jenis yang sama:
 - sebuah daun, atau
 - sebuah simpul (akar) dengan sisi ke satu atau lebih **subpohon**, yang merupakan pohon yang didefinisikan dengan cara yang sama.
 
-![](Pasted%20image%2020250512135425.png)
+![](attachment/Pasted%20image%2020250512135425.png)
 
 Mari kita lihat variasi pada definisi rekursif pohon. Berikut adalah salah satunya:
 
@@ -458,7 +462,7 @@ Mari kita lihat variasi pada definisi rekursif pohon. Berikut adalah salah satun
 
 Di sini, alih-alih berbicara tentang sisi ke subpohon, kita berbicara tentang subpohon yang terkandung dalam pohon yang lebih besar. Pohon-pohon ini bersarang, seperti ekspresi atau pernyataan majemuk dalam Python yang bersarang.
 
-![](Pasted%20image%2020250512135507.png)
+![](attachment/Pasted%20image%2020250512135507.png)
 
 Ini adalah pandangan yang sering kita ambil dalam pemrograman, terutama saat bekerja dengan objek. Alih-alih memandang pohon sebagai graf dengan sisi, pohon adalah objek yang memiliki pohon lain sebagai atribut. Sisi mungkin ada sebagai ikatan atau penunjuk, tergantung pada implementasi objek pohon. Kadang-kadang kita memikirkan sisi secara eksplisit saat memvisualisasikan pohon, tetapi sering kali tidak.
 
@@ -474,13 +478,13 @@ Dalam ilmu komputer, simpul pohon sering diberi **label**; bahkan, simpul mungki
 
 Data yang dilampirkan pada simpul yang berbeda bisa berbeda jenisnya. Berikut adalah contoh pohon ilmu komputer: pohon yang mewakili ekspresi.
 
-![](Pasted%20image%2020250512135553.png)
+![](attachment/Pasted%20image%2020250512135553.png)
 
 Ekspresi tersebut adalah **x + y * z**, mungkin bagian dari program. Daun-daun diberi label dengan nama variabel, dan simpul lain diberi label dengan operator. Interpreter dan kompiler sering menggunakan pohon serupa untuk mewakili ekspresi dan bagian lain dari program.
 
 Pohon sangat ideal untuk mewakili struktur bersarang seperti ekspresi. Pohon juga berguna untuk informasi lain, termasuk hubungan hierarki. Pohon berikut mewakili hierarki kelas dan subkelas seperti yang disajikan di Bagian 11.3. (Ini adalah contoh pohon yang bukan biner.)
 
-![](Pasted%20image%2020250512135623.png)
+![](attachment/Pasted%20image%2020250512135623.png)
 
 Dalam bahasa Inggris sehari-hari, ada “pohon” yang benar-benar pohon dalam pengertian matematis: **pohon keluarga**.
 
@@ -490,7 +494,7 @@ Gambar 11.3 menunjukkan pohon leluhur untuk seseorang bernama William. Dalam dia
 
 **Gambar 11.3. Pohon leluhur**
 
-![](Pasted%20image%2020250512135644.png)
+![](attachment/Pasted%20image%2020250512135644.png)
 
 Perhatikan subpohon, yang juga merupakan pohon jenis yang sama. Misalnya, pohon yang akarnya diberi label “Charles” adalah pohon leluhur untuk Charles.
 
@@ -579,17 +583,17 @@ Saat merancang objek, kadang-kadang berguna untuk berpikir secara eksplisit tent
 
 Kita juga bisa menunjukkan perilaku objek dengan **diagram transisi**, yaitu graf terarah berlabel di mana simpul diberi label nama keadaan, dan sisi diberi label nama stimulus atau masukan yang menyebabkan transisi dari satu keadaan ke keadaan lain.
 
-![](Pasted%20image%2020250512135824.png)
+![](attachment/Pasted%20image%2020250512135824.png)
 
 Diagram transisi mendefinisikan **mesin keadaan**, sebuah konsep matematis dalam ilmu komputer. Sebagian besar sifat matematis mesin keadaan berada di luar cakupan buku ini, tetapi kita akan menggunakannya untuk mendeskripsikan dan merancang objek. Perancang perangkat lunak dan perangkat keras sering melakukan ini.
 
 Misalnya, pertimbangkan tombol tekan listrik yang diklik sekali untuk menyalakan dan diklik lagi untuk mematikan. Kita bisa mendeskripsikannya sebagai mesin keadaan dengan dua keadaan, **mati** dan **nyala**, dan stimulus tunggal “klik” yang menyebabkan transisi antar keadaan.
 
-![](Pasted%20image%2020250512135846.png)
+![](attachment/Pasted%20image%2020250512135846.png)
 
 Sekarang pertimbangkan perangkat yang lebih kompleks. Ketika diklik, ia bekerja seperti tombol sebelumnya. Namun, tidak ada cara untuk melihat apakah tombol nyala atau mati, jadi ditambahkan fitur “reset”: menahan tombol beberapa detik mematikannya, baik nyala maupun mati sebelumnya.
 
-![](Pasted%20image%2020250512135915.png)
+![](attachment/Pasted%20image%2020250512135915.png)
 
 Kita bisa mendefinisikan kelas Python yang berperilaku seperti perangkat ini, menggunakan diagram transisi sebagai panduan. Keadaan objek disimpan dalam atribut pribadi. Karena hanya ada dua keadaan, atribut hanya perlu dua nilai. Nilai boolean adalah pilihan alami: kita beri nama atribut **__nyala**, dengan **True** untuk **nyala** dan **False** untuk **mati**.
 
@@ -621,7 +625,7 @@ Notasi diagram transisi memiliki variasi, dan kita akan menggunakan dua di sini:
 - Panah dari luar graf ke salah satu keadaan, menunjukkan keadaan awal mesin saat dibuat.
 - Label tambahan pada setiap transisi, yaitu nama respons terhadap stimulus. Respons adalah apa yang dilakukan mesin dalam keadaan tertentu saat menerima stimulus.
 
-![](Pasted%20image%2020250514093052.png)
+![](attachment/Pasted%20image%2020250514093052.png)
 
 Dalam mesin keadaan kita, stimuli adalah karakter dari string, dan respons adalah “makna” karakter dalam konteks karakter sebelumnya. Respons yang kita perlukan adalah:
 - **sertakan**: karakter adalah bagian dari kolom.
@@ -630,7 +634,7 @@ Dalam mesin keadaan kita, stimuli adalah karakter dari string, dan respons adala
 
 Berikut adalah diagram transisi. Dua keadaan adalah **di spasi** dan **di kolom**. Karena string bisa dimulai dengan spasi, keadaan awal adalah **di spasi**. Dalam keadaan ini, spasi membuat mesin tetap di **di spasi** dengan respons **abaikan**. Karakter lain memulai kolom, sehingga mesin pindah ke **di kolom** dengan respons **sertakan**. Di **di kolom**, karakter non-spasi membuat mesin tetap di **di kolom** dengan respons **sertakan**, sedangkan spasi mengembalikan ke **di spasi** dengan respons **akhiri**.
 
-![](Pasted%20image%2020250514093138.png)
+![](attachment/Pasted%20image%2020250514093138.png)
 
 Sekarang kita menerjemahkan diagram transisi ke kode Python. Kita harus memutuskan bagaimana mewakili keadaan dan respons. Keduanya seperti himpunan: tidak berurutan dan elemennya berbeda. Namun, kita hanya perlu membandingkan untuk kesetaraan, jadi kita bisa menggunakan nilai integer kecil (lihat Bagian 8.5).
 
@@ -695,7 +699,7 @@ Misalkan kolom boleh mengandung spasi, seperti nama kota “Los Angeles” atau 
 
 Mesin keadaan perlu keadaan baru dan transisi baru. Dalam **di spasi**, tanda kutip ganda menyebabkan transisi ke **di kutip**, yang berarti di dalam kolom yang dikutip; tanda kutip diabaikan. Mesin tetap di **di kutip** hingga tanda kutip lain diterima, yang mengakhiri kolom.
 
-![](Pasted%20image%2020250514093716.png)
+![](attachment/Pasted%20image%2020250514093716.png)
 
 Kode yang direvisi ditunjukkan di Contoh 11.6. Perubahan mudah dilakukan setelah kita memiliki diagram transisi baru: tambahkan kode untuk keadaan dan transisi baru. Tubuh **maju** mungkin terlihat panjang, tetapi strukturnya teratur, dan kita bisa membandingkannya dengan diagram transisi untuk memastikan kebenaran.
 
@@ -788,6 +792,8 @@ class MesinKeadaanKolom:
 8. Modifikasi kelas `FieldsStateMachine` pada Bagian 11.7 untuk menambahkan satu fitur lagi: Sebuah _field_ (kolom) yang diapit tanda kutip sekarang dapat berisi karakter tanda kutip ganda sebagai bagian dari data yang diwakilinya. Urutan dua karakter `\"` sekarang merepresentasikan satu karakter tanda kutip ganda di dalam _field_. Selain itu, agar _field_ yang diapit tanda kutip masih dapat memuat karakter `\` sebagai bagian dari datanya, maka urutan dua karakter `\\` sekarang mewakili satu karakter `\` di dalam _field_. Bahkan, untuk menyederhanakan, kita nyatakan bahwa sebuah karakter `\` yang diikuti oleh karakter apa pun akan merepresentasikan karakter kedua tersebut. Gambarlah diagram transisi keadaan (state transition diagram) yang baru, kemudian tulislah kode yang sesuai dengan perubahan tersebut.
 
 9. Rancang struktur file untuk mengkodekan diagram transisi seperti di Bagian 11.7: keadaan, keadaan awal, stimuli, respons, dan transisi. Tulis program yang membaca file ini dan menghasilkan metode **maju** seperti di Contoh 11.6. Program “penghasil kode” seperti ini digunakan dalam pengembangan interpreter dan kompiler untuk menghasilkan kode untuk menemukan nama, kata kunci, konstanta, operator, dan tanda baca.
+
+[back](./)
 
 ---
 
