@@ -35,7 +35,7 @@ Pada titik ini, para pesimis (yang selalu melihat gelas setengah kosong) mungkin
 
 Faktanya, di Bab 2 kita telah menyebutkan beberapa cara berbeda untuk menulis rumus garis lurus. Bentuk titik-kemiringan (point-slope form) jelas merupakan yang paling relevan untuk situasi saat ini, karena, bagaimanapun juga, kita sudah tahu sebuah titik yang dilalui garis lurus tersebut, yaitu titik $P = (1,1)$ yang telah kita amati selama ini. Itu hanya menyisakan satu hal yang belum kita ketahui, yaitu kemiringan $m$ dari garis lurus ini.
 
-Jika Anda percaya pada keakuratan gambar pada halaman sebelumnya, maka Anda seharusnya bisa mendapatkan perkiraan yang baik untuk $m$ (cukup dengan memilih dua titik pada garis tersebut, menggambar segitiga siku-siku yang ditentukan oleh kedua titik tersebut, dan menemukan rasio panjang sisi-sisi segitiga tersebut). 
+Jika Anda percaya pada keakuratan gambar sebelumnya, maka Anda seharusnya bisa mendapatkan perkiraan yang baik untuk $m$ (cukup dengan memilih dua titik pada garis tersebut, menggambar segitiga siku-siku yang ditentukan oleh kedua titik tersebut, dan menemukan rasio panjang sisi-sisi segitiga tersebut). 
 
 ![](Pasted%20image%2020250621221217.png)
 

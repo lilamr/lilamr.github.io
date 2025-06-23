@@ -235,7 +235,7 @@ $$
 \lim_{h \rightarrow 0} \frac{\cos h-1}{h} & = \lim_{h \rightarrow 0} \frac{\cos h-1}{h} \cdot \frac{\cos h+1}{\cos h+1} \\
 & = \lim_{h \rightarrow 0} \frac{(\cos h-1)(\cos h+1)}{h(\cos h+1)} \\
 & = \lim_{h \rightarrow 0} \frac{\cos^2 h-1}{h(\cos h+1)} \\
-& = \lim_{h \rightarrow 0} \frac{-\sin^2 h}{h(\cos h+1)} \quad \text{ (ingat halaman 21) } \\
+& = \lim_{h \rightarrow 0} \frac{-\sin^2 h}{h(\cos h+1)} \\
 & = \lim_{h \rightarrow 0} \frac{\sin h}{h} \cdot \lim_{h \rightarrow 0} \frac{-\sin h}{\cos h+1}.
 \end{aligned}
 $$

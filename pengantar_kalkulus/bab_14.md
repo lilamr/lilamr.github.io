@@ -126,7 +126,7 @@ $$
 \text{ Volume } = \pi \int_a^b [f(x)]^2 dx.
 $$
 
-Dalam contoh ini kita mendapatkan jumlah dalam bentuk (`*`) di halaman 113 dengan sedikit kerja, tetapi dari sekarang ke depan hal-hal tidak akan begitu sederhana!
+Dalam contoh ini kita mendapatkan jumlah dalam bentuk (`*`) di atas dengan sedikit kerja, tetapi dari sekarang ke depan hal-hal tidak akan begitu sederhana!
 
 2. **Permainan kulit (The shell game).** Pada gambar berikut, area di bawah grafik fungsi $f$ dari $a$ ke $b$ telah diarsir. Jika area yang diarsir ini diputar mengelilingi sumbu $y$, bukan sumbu $x$, kita mendapatkan benda yang lebih rumit: benda ini diperoleh dengan memulai dengan silinder berjari-jari $b$ dan kemudian menghapus (mengeluarkan) bagian padat yang bertitik (yang berarsir titik-titik).
 
@@ -198,7 +198,7 @@ $$
 \end{aligned}
 $$
 
-Untuk melakukan apa pun dengan ekspresi ini kita perlu menggunakan Teorema Nilai Rata-rata (ya!, Teorema Nilai Rata-rata di halaman 84, dari Bab 11, yang Anda pikir hanya untuk pecinta matematika teoretis). Ini memungkinkan kita menulis:
+Untuk melakukan apa pun dengan ekspresi ini kita perlu menggunakan Teorema Nilai Rata-rata (ya!, Teorema Nilai Rata-rata dari Bab 11, yang Anda pikir hanya untuk pecinta matematika teoretis). Ini memungkinkan kita menulis:
 
 $$
 \sqrt{1 + \left[\frac{f(t_i) - f(t_{i-1})}{t_i - t_{i-1}}\right]^2} = \sqrt{1 + [f^{\prime}(x_i)]^2} \quad \begin{aligned}

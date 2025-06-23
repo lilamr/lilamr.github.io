@@ -213,7 +213,7 @@ $$
 
 Jadi $A$, fungsi yang didefinisikan dalam hal luas, tanpa rumus eksplisit, memiliki turunan yang persis sama dengan fungsi $F$ dengan rumus sangat sederhana $F(x) = x^3 / 3$.
 
-Fakta bahwa fungsi misterius kita $A$ dan fungsi eksplisit sederhana kita $F$ keduanya memiliki turunan yang sama tidak selalu berarti bahwa $A$ dan $F$ sama. Tetapi, seperti yang kita tunjukkan di halaman 81, itu berarti bahwa $A$ dan $F$ hanya berbeda oleh konstanta: ada angka $C$ sehingga:
+Fakta bahwa fungsi misterius kita $A$ dan fungsi eksplisit sederhana kita $F$ keduanya memiliki turunan yang sama tidak selalu berarti bahwa $A$ dan $F$ sama. Tetapi, seperti yang kita tunjukkan di bagian awal bab 11, itu berarti bahwa $A$ dan $F$ hanya berbeda oleh konstanta: ada angka $C$ sehingga:
 
 $$
 A(x) = F(x) + C \quad \text{ untuk semua } x;

@@ -84,7 +84,7 @@ dengan grafik yang ditunjukkan di bawah; perhatikan bahwa kita selalu memiliki $
 Simbol $\lvert x \rvert$ (nilai absolut dari $x$) didefinisikan sebagai
 
 $$
-|x| = \begin{cases} 
+\lvert x \rvert = \begin{cases} 
 x & \text{jika } x \geq 0 \\
 -x & \text{jika } x \leq 0.
 \end{cases}

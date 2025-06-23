@@ -11,7 +11,7 @@ Tetapi saya cukup puas bergabung dengan turis lain yang menonton para pendaki se
 
 Seperti panjat tebing, yang tampaknya memiliki daya tarik cukup terbatas (saya sudah lama meninggalkannya), membuktikan teorem bukanlah salah satu olahraga paling populer. Bahkan orang-orang yang bersukacita dalam kekuatan perhitungan sering lebih suka meninggalkan bukti matematika kepada jenis orang yang, ... ya, kepada mereka yang menikmati geometri di sekolah menengah. Meskipun bukti di bab terakhir mudah, banyak yang ternyata jauh lebih rumit. Jadi di bab ini Anda mungkin ingin mengadopsi peran pengamat turis.
 
-Bahkan jika Anda suka membuktikan teorem, mencoba membuktikan prinsip yang dinyatakan pada halaman 78 mungkin terasa seperti mendaki langsung ke dinding vertikal yang mulus—tidak tampak ada cara untuk mendapatkan pegangan yang baik pada masalah. Pertimbangkan, misalnya, prinsip ketiga, dan paling sederhana:
+Bahkan jika Anda suka membuktikan teorem, mencoba membuktikan prinsip yang dinyatakan pada bagian akhir bab 10, mungkin terasa seperti mendaki langsung ke dinding vertikal yang mulus—tidak tampak ada cara untuk mendapatkan pegangan yang baik pada masalah. Pertimbangkan, misalnya, prinsip ketiga, dan paling sederhana:
 
 Jika $f^{\prime}(x)=0$ untuk $a<x<b$, maka $f$ konstan untuk $a<x<b$.
 
