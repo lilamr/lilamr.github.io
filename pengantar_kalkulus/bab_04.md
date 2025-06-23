@@ -7,17 +7,17 @@
 
 Sebagai upaya pertama untuk menemukan tema yang menyatukan dalam luasnya wilayah asing yang kita temui, kita akan memilih salah satu fungsi non-linear yang paling sederhana, yaitu $f(x) = x^2$. 
 
-![](Pasted%20image%2020250621220658.png)
+![](attachment/Pasted%20image%2020250621220658.png)
 
 Bahkan grafik sederhana ini tampak jauh lebih rumit dibandingkan garis lurus, atau bahkan lingkaran, karena grafik ini sepertinya melengkung dengan jumlah yang berbeda di titik-titik yang berbeda.
 
 Mari kita fokuskan perhatian pada sebuah titik tertentu pada grafik, misalnya titik $P = (1,1)$, dan melihat grafik ini lebih dekat di sekitar titik tersebut. Kita akan "melihat grafik lebih dekat" dalam cara yang paling harfiah, yaitu dengan mengambil kaca pembesar, menempatkannya di atas titik $P$, dan mengamati gambar yang diperbesar yang kita peroleh.
 
-![](Pasted%20image%2020250621220738.png)
+![](attachment/Pasted%20image%2020250621220738.png)
 
 Mari kita mulai dengan kaca pembesar yang memiliki kekuatan pembesaran 5, sehingga membuat segalanya tampak 5 kali lebih besar dari biasanya. Dengan menempatkan kaca pembesar di atas titik $P = (1,1)$, kita mendapatkan gambar berikut.
 
-![](Pasted%20image%2020250621220811.png)
+![](attachment/Pasted%20image%2020250621220811.png)
 
 Baik grafik asli dari $f(x) = x^2$ maupun bagian grafik yang muncul dalam gambar ini dihasilkan oleh program komputer, sehingga kita bisa cukup yakin bahwa gambar tersebut akurat. Namun, pengalaman sehari-hari kita seharusnya segera meyakinkan kita tentang salah satu perbedaan yang paling mencolok antara kedua gambar tersebut: 
 
@@ -27,7 +27,7 @@ Hal ini mudah dipahami oleh para pelancong di pesawat luar angkasa, yang di Bumi
 
 Sekarang, anggaplah kita memiliki kaca pembesar yang sangat kuat, yang memperbesar gambar hingga 100 kali lipat (yang mungkin tidak benar-benar kita dapatkan kecuali kita beralih dari kaca pembesar ke mikroskop). Maka kita akan mendapatkan gambar seperti ini:
 
-![](Pasted%20image%2020250621221037.png)
+![](attachment/Pasted%20image%2020250621221037.png)
 
 Menggambar bagian tertentu dari grafik ini sebenarnya hampir sia-sia, karena gambar tersebut pada dasarnya hanyalah garis lurus. Tentu saja, ini bukan benar-benar garis lurus—tidak ada bagian kecil dari grafik $f(x) = x^2$ yang benar-benar merupakan segmen garis lurus kecil—tetapi jumlah kelengkungannya sangat kecil sehingga ketebalan garis tinta jauh lebih besar daripada jumlah penyimpangan gambar sebenarnya dari garis lurus. Dan bahkan jika kita bisa mencetak garis yang sangat tipis, pada kertas yang sangat halus, dengan tinta yang hampir tidak menyebar, mata kita tidak akan mampu membedakan gambar yang dihasilkan dari garis lurus.
 
@@ -37,7 +37,7 @@ Faktanya, di Bab 2 kita telah menyebutkan beberapa cara berbeda untuk menulis ru
 
 Jika Anda percaya pada keakuratan gambar sebelumnya, maka Anda seharusnya bisa mendapatkan perkiraan yang baik untuk $m$ (cukup dengan memilih dua titik pada garis tersebut, menggambar segitiga siku-siku yang ditentukan oleh kedua titik tersebut, dan menemukan rasio panjang sisi-sisi segitiga tersebut). 
 
-![](Pasted%20image%2020250621221217.png)
+![](attachment/Pasted%20image%2020250621221217.png)
 
 Tetapi itu tidak memberitahu kita bagaimana menghitung $m$ tanpa benar-benar menggunakan gambar. Dan seluruh proses ini agak mencurigakan, karena gambar tersebut sebenarnya bukan garis lurus sama sekali!
 
@@ -45,7 +45,7 @@ Ternyata kita akan bisa mengatasi kedua kesulitan ini sekaligus, tetapi itu adal
 
 Misalnya, anggaplah kita memilih titik $P = (2,4)$ sebagai gantinya. Ketika kita menempatkan kaca pembesar di atas titik ini, gambarnya akan tampak seperti:
 
-![](Pasted%20image%2020250621221302.png)
+![](attachment/Pasted%20image%2020250621221302.png)
 
 Tentu saja ini adalah garis lurus yang sepenuhnya berbeda. Pertama-tama, garis ini melewati titik $(2,4)$, bukan titik $(1,1)$. Selain itu, garis ini memiliki kemiringan yang berbeda (yang lagi-lagi terlihat jelas jika Anda mempercayai keakuratan gambar).
 

@@ -19,11 +19,11 @@ Sulit membayangkan bagaimana ini bisa salah. Bahkan, fungsi $f$ yang tidak konst
 
 Sebelum khawatir tentang bukti, kita ingin menunjukkan satu konsekuensi sederhana dari prinsip ini: Jika $f$ dan $g$ memiliki turunan yang sama di mana-mana, yaitu $f^{\prime}(x)=g^{\prime}(x)$ untuk semua $x$, maka $g(x)=f(x)+C$ untuk konstanta $C$ tertentu, sehingga grafik $g$ sejajar dengan grafik $f$. Untuk melihat ini, kita hanya mempertimbangkan fungsi $h(x)=g(x)-f(x)$. Kemudian kita memiliki $h^{\prime}(x)=g^{\prime}(x)-f^{\prime}(x)=0$. Jadi, menurut prinsip, $h$ adalah konstan, $h(x)=C$ untuk semua $x$, yang berarti $g(x)-f(x)=C$, atau $g(x)=f(x)+C$.
 
-![](Pasted%20image%2020250622164846.png)
+![](attachment/Pasted%20image%2020250622164846.png)
 
 Jika kita bertekad memberikan bukti untuk prinsip dasar kita, maka ternyata, seperti halnya dengan panjat tebing, tujuan kita harus didekati dari jalur yang agak berputar. Untuk memulai, mari kita pertimbangkan fungsi $f$ yang memenuhi kondisi:
 
-![](Pasted%20image%2020250622164916.png)
+![](attachment/Pasted%20image%2020250622164916.png)
 
 $$
 f(a)=f(b)
@@ -33,11 +33,11 @@ untuk dua angka $a<b$. Kita ingin mengasumsikan bahwa $f$ kontinu di $x$ untuk s
 
 Pertama-tama mari kita pertimbangkan titik $x$ yang merupakan maksimum untuk $f$, pada interval dari $a$ hingga $b$. Teorem sederhana kita dari bab sebelumnya mengatakan bahwa kita memiliki $f^{\prime}(x)=0$, jadi kita telah menemukan tempat di mana turunan $f$ adalah 0.
 
-![](Pasted%20image%2020250622164953.png)
+![](attachment/Pasted%20image%2020250622164953.png)
 
 Sebenarnya, gambar ini mungkin salah—karena grafik $f$ mungkin tidak pernah melampaui nilai $f(a)=f(b)$. Tetapi kita juga dapat mempertimbangkan titik $x$ yang merupakan minimum untuk $f$, dan kemudian kesimpulan yang sama berlaku: $f^{\prime}(x)=0$.
 
-![](Pasted%20image%2020250622165025.png)
+![](attachment/Pasted%20image%2020250622165025.png)
 
 Akhirnya, bisakah kedua gambar ini salah? Artinya, bisakah terjadi bahwa grafik $f$ tidak pernah melampaui nilai $f(a)=f(b)$ dan juga tidak pernah di bawahnya? Tentu saja bisa, tetapi hanya jika $f$ memiliki nilai konstan $f(a)=f(b)$, dan dalam kasus itu kita memiliki $f^{\prime}(x)=0$ untuk setiap $x$ dengan $a<x<b$.
 
@@ -57,7 +57,7 @@ $$
 
 Gambar di bawah ini menunjukkan grafik fungsi $f$, didefinisikan untuk $a \leq x \leq b$, di mana kita tentu saja tidak memiliki $f(a)=f(b)$, sehingga Teorem Rolle tidak berlaku. 
 
-![](Pasted%20image%2020250622165142.png)
+![](attachment/Pasted%20image%2020250622165142.png)
 
 Garis lurus $L$ yang melewati dua ujung $(a, f(a))$ dan $(b, f(b))$ dari kurva kita memiliki kemiringan:
 
@@ -67,11 +67,11 @@ $$
 
 Daripada mencari maksimum atau minimum $f$, kita malah akan mencari titik $P$ di mana grafik $f$ paling jauh dari $L$. Dalam gambar terlihat seolah-olah garis singgung di titik ini sejajar dengan $L$.
 
-![](Pasted%20image%2020250622165259.png)
+![](attachment/Pasted%20image%2020250622165259.png)
 
 Memang, jika kita meletakkan kaca pembesar di atas grafik $f$ di titik $P$, kita tidak bisa mendapatkan gambar seperti:
 
-![](Pasted%20image%2020250622165329.png)
+![](attachment/Pasted%20image%2020250622165329.png)
 
 karena maka titik seperti $Q$ akan lebih jauh dari $L$ daripada $P$.
 
@@ -103,7 +103,7 @@ $$
 
 Kita ingin membandingkan nilai $f(x_0)$ dan $f(x_1)$, dan untuk melakukan ini, kita akan menerapkan Teorem Nilai Rata-rata pada interval dari $x_0$ ke $x_1$.
 
-![](Pasted%20image%2020250622165534.png)
+![](attachment/Pasted%20image%2020250622165534.png)
 
 Ini memberi tahu kita bahwa:
 

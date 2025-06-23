@@ -47,15 +47,15 @@ dapat disederhanakan secara aljabar dengan cara yang membuat hasilnya jelas. Sek
 
 Ingat bahwa grafik fungsi $f(x)=\sin x$ adalah kurva yang cukup menarik, memang cukup berliku. 
 
-![](Pasted%20image%2020250622102121.png)
+![](attachment/Pasted%20image%2020250622102121.png)
 
 Lebih tepatnya, ia memiliki bentuk yang menyenangkan secara estetika ketika kita menggunakan ukuran radian. Ingat ini berarti bahwa untuk sebuah angka $h$, kita memilih titik $B$ pada lingkaran satuan sehingga busur $\widehat{A B}$ dari lingkaran ini memiliki panjang $h$; kemudian $\sin h$ adalah panjang garis tegak lurus $BC$, sementara $\cos h$ adalah panjang garis $OC$.
 
-![](Pasted%20image%2020250622102141.png)
+![](attachment/Pasted%20image%2020250622102141.png)
 
 Ingat juga bahwa alih-alih mengukur panjang $\widehat{AB}$ kita bisa mengukur luas: sudut $AOB$ adalah sudut $h$ radian 
 
-![](Pasted%20image%2020250622102256.png)
+![](attachment/Pasted%20image%2020250622102256.png)
 
 ketika sektor yang diarsir $AOB$ memiliki luas yang diberikan oleh:
 
@@ -114,17 +114,17 @@ $$
 
 **Langkah 2a.** Mari kita tangani $\left(L_1\right)$ terlebih dahulu. Pada titik ini kita tidak memiliki rumus atau manipulasi aljabar yang dapat menyelamatkan kita; kita hanya akan harus mengingat apa arti semuanya! Gambar di bawah ini menunjukkan, sekali lagi, sudut $h$ (busur lingkaran $\widehat{A B}$ memiliki panjang $h$), dan $\sin h$ (panjang garis tegak lurus $BC$). 
 
-![](Pasted%20image%2020250622103304.png)
+![](attachment/Pasted%20image%2020250622103304.png)
 
 Tentu saja, kita benar-benar hanya tertarik pada situasi ketika $h$ sangat kecil, sehingga gambar kita seharusnya benar-benar merupakan bagian yang sangat sangat kecil dari lingkaran, dengan garis $BC$ yang sangat sangat pendek yang sesuai.
 
-![](Pasted%20image%2020250622103324.png)
+![](attachment/Pasted%20image%2020250622103324.png)
 
 Tetapi entah kita menggambarnya besar atau kecil, tentu saja tidak terlihat jelas bagaimana kita bisa mengatakan sesuatu tentang panjang $BC$ dalam hal $h$, dan untuk saat ini akan lebih sederhana untuk menggambar gambar dengan $h$ cukup besar, hanya agar kita bisa melihat apa yang kita bicarakan.
 
 Ingat bahwa alih-alih menentukan titik $B$ dengan kondisi bahwa busur $\widehat{AB}$ memiliki panjang $h$, kita bisa sama baiknya menggunakan kondisi alternatif (A), bahwa sektor $OAB$ 
 
-![](Pasted%20image%2020250622103453.png)
+![](attachment/Pasted%20image%2020250622103453.png)
 
 memiliki luas:
 
@@ -134,7 +134,7 @@ $$
 
 Gambar di bawah ini menunjukkan segitiga yang diarsir $\triangle OAB$ dalam sektor ini. 
 
-![](Pasted%20image%2020250622103616.png)
+![](attachment/Pasted%20image%2020250622103616.png)
 
 Tinggi segitiga ini adalah segmen $BC$, yang sama dengan $\sin h$, sementara alasnya adalah garis $OA$, yang memiliki panjang 1, karena ini adalah lingkaran satuan. Jadi luas segitiga yang diarsir adalah:
 
@@ -162,11 +162,11 @@ $$
 
 Sebenarnya tidak terlalu perlu menggunakan luas untuk mendapatkan ketidaksamaan ini. Lagipula, $\sin h$ adalah panjang $BC$, dan panjang garis tegak lurus ini lebih kecil daripada panjang garis miring $AB$, sementara panjang garis ini $AB$ pada gilirannya lebih kecil daripada panjang busur melengkung $\widehat{AB}$ yang sebesar $h$.
 
-![](Pasted%20image%2020250622104327.png)
+![](attachment/Pasted%20image%2020250622104327.png)
 
 **Langkah 2b.** Tetapi luas akan benar-benar berguna untuk informasi kita berikutnya. Dalam gambar di bawah ini, kita akan melihat segitiga $\triangle OAB'$, yang mengelilingi sektor asli kita. 
 
-![](Pasted%20image%2020250622104358.png)
+![](attachment/Pasted%20image%2020250622104358.png)
 
 Karena $\triangle OAB'$ serupa dengan $\triangle OCB$, kita memiliki:
 
@@ -262,7 +262,7 @@ $$
 
 Ini berarti garis singgung ke grafik $f(x)=\sin x$ di titik $(0,0)$ memiliki kemiringan 1, yang tampak masuk akal dari grafik. 
 
-![](Pasted%20image%2020250622105232.png)
+![](attachment/Pasted%20image%2020250622105232.png)
 
 Di titik $\pi/2$, sebuah "puncak" grafik, kita memiliki:
 
@@ -284,7 +284,7 @@ $$
 
 Ketika grafik sin dan cos disajikan bersama, Anda seharusnya dapat meyakinkan diri sendiri bahwa cos memiliki setidaknya penampilan dasar yang tepat untuk turunan $\sin^{\prime}$: yaitu, cos positif di tempat-tempat di mana $\sin^{\prime}$ seharusnya positif, negatif di tempat-tempat di mana $\sin^{\prime}$ seharusnya negatif, dan nol di tempat yang tepat.
 
-![](Pasted%20image%2020250622105336.png)
+![](attachment/Pasted%20image%2020250622105336.png)
 
 Setelah menemukan turunan fungsi sin, wajar untuk bertanya tentang turunan fungsi cos. Prosedur langsung adalah dengan memulai dengan definisi:
 
@@ -314,6 +314,6 @@ Ingat tanda minus di sini—itu penting.
 
 Sekali lagi, ketika grafik cos dan sin disajikan bersama, Anda seharusnya dapat meyakinkan diri sendiri bahwa fungsi $f(x)=-\sin x$ memiliki setidaknya penampilan dasar yang tepat untuk turunan $\cos^{\prime}$: yaitu, sin negatif di tempat-tempat di mana $\cos^{\prime}$ seharusnya positif, positif di tempat-tempat di mana $\cos^{\prime}$ seharusnya negatif, dan nol di tempat yang tepat.
 
-![](Pasted%20image%2020250622105444.png)
+![](attachment/Pasted%20image%2020250622105444.png)
 
 [Back](./)

@@ -7,11 +7,11 @@
 
 Sekarang kita ingin mulai menghitung kemiringan $m$ dari garis lurus yang kita peroleh ketika kita memperbesar grafik dari $f(x)=x^2$ di dekat titik $P=(1,1)$, salah satu masalah besar kita adalah bahwa grafik yang diperbesar ini sebenarnya sama sekali bukan garis lurus.
 
-![](Pasted%20image%2020250622094512.png)
+![](attachment/Pasted%20image%2020250622094512.png)
 
 Pertama, kita akan membentuk sebuah garis lurus yang nyata, hanya dengan memilih titik lain $Q$ pada grafik, dan menggambar garis lurus antara $P$ dan $Q$. Tentu saja, Anda tidak dapat melihat dua garis yang berbeda dalam gambar kita, karena kurva asli sangat dekat dengan garis lurus baru melalui $P$ dan $Q$, jadi Anda hanya perlu mengingat bahwa mereka sebenarnya berbeda.
 
-![](Pasted%20image%2020250622094557.png)
+![](attachment/Pasted%20image%2020250622094557.png)
 
 Perhatikan bahwa kita mendeskripsikan koordinat $Q$ sebagai $\left(1+h,(1+h)^2\right)$. Kita melakukan ini sebagai pengingat bahwa koordinat $x$ dari titik baru kita dekat dengan koordinat $x$ dari titik pertama: Ingat bahwa gambar kita menunjukkan bagian yang sangat diperbesar dari bagian yang sangat kecil dari grafik $f(x)=x^2$; akibatnya, titik $Q$ sangat dekat dengan $P$, yang berarti bahwa $h$ sangat kecil. (Huruf $h$ tidak dimaksudkan untuk mewakili sesuatu secara khusus, ini hanya huruf yang nyaman yang tidak terlalu sering digunakan untuk hal lain.)
 
@@ -61,7 +61,7 @@ dan kita telah menghitung bahwa limit ini bernilai 2.
 
 Jika kita sebaliknya melihat titik $P=(2,4)$ pada grafik $f(x)=x^2$ dan memilih titik $Q$ yang dekat dengan $P$, dalam bentuk $\left(2+h,(2+h)^2\right)$ untuk $h$ kecil, 
 
-![](Pasted%20image%2020250622094826.png)
+![](attachment/Pasted%20image%2020250622094826.png)
 
 maka kemiringan garis lurus melalui $P$ dan $Q$ adalah:
 
@@ -143,11 +143,11 @@ dan kita telah menghitung bahwa $f^{\prime}(x)=2x$. Poin ini bahkan lebih pentin
 
 Untuk mendapatkan gambaran yang sedikit lebih baik tentang jenis perhitungan apa yang mungkin diperlukan dalam diferensiasi, mari kita alihkan perhatian ke fungsi yang sedikit lebih rumit $f(x)=x^3$. 
 
-![](Pasted%20image%2020250622095142.png)
+![](attachment/Pasted%20image%2020250622095142.png)
 
 Mari kita lagi-lagi mempertimbangkan titik $P=(1,1)$, yang juga kebetulan berada pada grafik fungsi baru $f$. 
 
-![](Pasted%20image%2020250622095302.png)
+![](attachment/Pasted%20image%2020250622095302.png)
 
 Mengambil titik $Q=\left(1+h,(1+h)^3\right)$ di dekat $P$, kita menghitung bahwa kemiringan garis lurus yang melewati titik-titik $P$ dan $Q$ adalah:
 

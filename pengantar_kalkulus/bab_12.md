@@ -19,11 +19,11 @@ Grafik fungsi ini, parabola, juga salah satu bentuk geometris paling sederhana, 
 
 Tetapi sejauh ini kita telah mengabaikan salah satu konsep paling penting yang terkait dengan figur geometris—luasnya. Hanya wajar untuk mencoba menemukan rumus untuk luas wilayah seperti berikut, dibatasi oleh grafik fungsi $f(x)=x^2$, sumbu $x$, dan garis vertikal $x=1$.
 
-![](Pasted%20image%2020250622171451.png)
+![](attachment/Pasted%20image%2020250622171451.png)
 
 Pada titik ini kita harus mengevaluasi kembali dan mengingat jenis alat apa yang kita miliki untuk menentukan luas. Aturan dasar menyatakan bahwa luas persegi panjang adalah panjang kali lebar, sementara luas segitiga adalah setengah dari produk tersebut:
 
-![](Pasted%20image%2020250622171512.png)
+![](attachment/Pasted%20image%2020250622171512.png)
 
 $$
 \text{ luas } = \frac{1}{2} h \cdot b
@@ -33,7 +33,7 @@ Dan, seperti yang diketahui setiap anak sekolah, luas lingkaran dengan jari-jari
 
 Gambar di bawah ini menunjukkan lingkaran yang dikelilingi oleh poligon $P$ yang terdiri dari 10 segitiga kongruen, salah satunya telah diarsir. 
 
-![](Pasted%20image%2020250622171608.png)
+![](attachment/Pasted%20image%2020250622171608.png)
 
 Tinggi segitiga yang diarsir, yaitu panjang garis putus-putus, hanyalah jari-jari $r$ lingkaran, sementara alasnya adalah panjang $AB$. Jadi segitiga memiliki luas:
 
@@ -66,7 +66,7 @@ Jadi angka misterius $\pi$ dalam rumus untuk keliling lingkaran juga muncul dala
 
 Jenis argumen yang digunakan di sini, mendekati luas lingkaran dengan luas figur yang lebih sederhana, menunjukkan prosedur serupa untuk luas lainnya. Misalnya, dalam gambar di bawah, kita telah mengelilingi wilayah yang dibatasi oleh parabola dengan 10 persegi panjang. 
 
-![](Pasted%20image%2020250622171822.png)
+![](attachment/Pasted%20image%2020250622171822.png)
 
 Panjang alas setiap persegi panjang adalah .1, sementara tinggi persegi panjang diberikan oleh:
 	tinggi persegi panjang 1 = $.1^2$
@@ -102,7 +102,7 @@ Anda mungkin atau mungkin tidak melihat pola di sini, tetapi dalam hal apa pun j
 
 Daripada memilih jumlah persegi panjang tertentu, seperti 10, atau 100, atau 1.000, $\cdots$, mari kita pilih $n$ persegi panjang, seperti dalam gambar di bawah ini. 
 
-![](Pasted%20image%2020250622172247.png)
+![](attachment/Pasted%20image%2020250622172247.png)
 
 Sekarang panjang alas setiap persegi panjang adalah $\frac{1}{n}$, sementara tinggi persegi panjang diberikan oleh:
 	tinggi persegi panjang 1 = $\left(\frac{1}{n}\right)^2$
@@ -154,7 +154,7 @@ Dan ini berarti, akhirnya, bahwa luas gambar pertama tadi pasti benar-benar $1/3
 
 Untuk wilayah yang dibatasi oleh parabola dan garis vertikal $x=a$, luasnya ternyata:
 
-![](Pasted%20image%2020250622172729.png)
+![](attachment/Pasted%20image%2020250622172729.png)
 
 $$
 \text{ luas } = \frac{a^3}{3}.
@@ -168,11 +168,11 @@ Pada titik ini kita harus mengingat bahwa ketika matematika menjadi sulit, matem
 
 Kita ingin mempertimbangkan luas yang dibatasi oleh grafik fungsi $f$, sumbu $x$, dan garis vertikal $x=a$ dan $x=b$. Untuk kenyamanan, kita akan selalu mengasumsikan bahwa $f$ kontinu.
 
-![](Pasted%20image%2020250622172835.png)
+![](attachment/Pasted%20image%2020250622172835.png)
 
 Dalam perhitungan sebelumnya kita menggunakan persegi panjang yang alasnya semua memiliki panjang yang sama, tetapi tidak ada alasan khusus untuk membuat pembatasan ini. Mari kita bagi interval dari $a$ ke $b$ menjadi $n$ potong ukuran sewenang-wenang dengan titik-titik:
 
-![](Pasted%20image%2020250622172855.png)
+![](attachment/Pasted%20image%2020250622172855.png)
 
 $$
 a=t_0, t_1, \ldots, t_n=b.
@@ -185,7 +185,7 @@ Kita telah menomori titik-titik dengan cara khusus ini sehingga panjang alas:
 	$\cdots$
 	persegi panjang ke-$i$ akan $t_i - t_{i-1}$
 
-![](Pasted%20image%2020250622173248.png)
+![](attachment/Pasted%20image%2020250622173248.png)
 
 Angka-angka ini sering ditandai dengan:
 
@@ -203,7 +203,7 @@ di mana penggunaan $\Delta$ analog dengan penjelasan tentang *Delta* di bab 5.
 
 Ada beberapa cara kita mungkin memilih tinggi persegi panjang. Misalnya, untuk persegi panjang pertama (yang diarsir) dalam gambar di bawah ini kita memilih nilai maksimum $f$ di atas alas pertama, sehingga persegi panjang menonjol di atas grafik.
 
-![](Pasted%20image%2020250622173516.png)
+![](attachment/Pasted%20image%2020250622173516.png)
 
 Persegi panjang kedua belum digambar, tetapi untuk persegi panjang ketiga (yang bertitik) kita memilih nilai minimum $f$ di atas alas ketiga, sehingga persegi panjang ini sepenuhnya berada di bawah grafik.
 
@@ -233,15 +233,15 @@ $$
 
 Ketika semua $\Delta x_i$ kecil, ini mewakili luas total persegi panjang yang semua terletak dekat dengan grafik $f$. Jadi kita mendapatkan luas yang diinginkan dengan menentukan apa jumlah ini semakin mendekati saat kita membuat semua $\Delta x_i$ semakin kecil (mudah diucapkan daripada dilakukan!).
 
-![](Pasted%20image%2020250622174041.png)
+![](attachment/Pasted%20image%2020250622174041.png)
 
 Perhatikan, bagaimanapun, bahwa di tempat-tempat di mana $f$ memiliki nilai negatif, istilah $f(x_i) \Delta x_i$ adalah negatif. 
 
-![](Pasted%20image%2020250622174140.png)
+![](attachment/Pasted%20image%2020250622174140.png)
 
 Jadi wilayah di bawah sumbu $x$ menyumbang jumlah negatif. Dengan demikian kita sebenarnya mempertimbangkan "area bertanda"—jika $f$ sebagian di atas sumbu $x$ dan sebagian di bawahnya, kita mencoba menghitung selisih antara jumlah luas yang terletak di atas sumbu $x$ dan jumlah luas yang terletak di bawahnya.
 
-![](Pasted%20image%2020250622174204.png)
+![](attachment/Pasted%20image%2020250622174204.png)
 
 Area bertanda ini disebut *integral* fungsi $f$ dari $a$ ke $b$, dan ditandai dengan:
 
@@ -321,7 +321,7 @@ $$
 
 Persamaan ini hanya menyatakan fakta geometris bahwa dalam gambar di bawah luas seluruh wilayah adalah jumlah luas dua wilayah $R_1$ dan $R_2$ (ini benar-benar mengatakan sesuatu yang sedikit lebih rumit dari itu, karena integral mewakili luas bertanda).
 
-![](Pasted%20image%2020250622175158.png)
+![](attachment/Pasted%20image%2020250622175158.png)
 
 Sebagai penggunaan khas properti ini, kita dapat memulai dengan:
 
@@ -337,7 +337,7 @@ $$
 
 Menggunakan rumus untuk $\int_0^b x^2 dx$ sebelumnya, kita kemudian melihat bahwa:
 
-![](Pasted%20image%2020250622175327.png)
+![](attachment/Pasted%20image%2020250622175327.png)
 
 $$
 \int_a^b x^2 dx = \frac{b^3}{3} - \frac{a^3}{3}.

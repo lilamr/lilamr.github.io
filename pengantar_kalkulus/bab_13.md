@@ -13,7 +13,7 @@ $$
 
 untuk "luas bertanda" antara sumbu $x$, grafik fungsi $f$, dan garis vertikal $x=a$ dan $x=b$, dengan wilayah di bawah sumbu $x$ dihitung sebagai negatif. Tetapi saat ini kita hanya menunjukkan bagaimana seseorang mungkin menghitung angka ini dalam kasus khusus, dan perhitungan umum tampaknya hampir tanpa harapan.
 
-![](Pasted%20image%2020250622195949.png)
+![](attachment/Pasted%20image%2020250622195949.png)
 
 Seperti yang kita tekankan di bab sebelumnya, huruf $x$ dalam notasi ini hanyalah "tempat penampung", dan seseorang bisa sama baiknya menggunakan huruf lain, seperti:
 
@@ -35,7 +35,7 @@ $$
 
 Perhatikan bahwa di sini kita telah menggunakan $t$ sebagai penampung nilai, sementara $x$ telah digunakan sebagai pengganti $b$; kita melakukan ini untuk menekankan bahwa kita mempertimbangkan area
 
-![](Pasted%20image%2020250622200623.png)
+![](attachment/Pasted%20image%2020250622200623.png)
 
 $$
 \int_a^x f(t) dt
@@ -114,7 +114,7 @@ $$
 
 Akibatnya,
 
-![](Pasted%20image%2020250622201929.png)
+![](attachment/Pasted%20image%2020250622201929.png)
 
 $$
 A^{\prime}(x) = \lim_{h \rightarrow 0} \frac{\int_x^{x+h} f(t) dt}{h}.
@@ -122,11 +122,11 @@ $$
 
 Tapi sekarang, setelah kita mendapatkan bentuk simbolik yang terlihat cukup sederhana, kita harus menghadapi kenyataan dan mengingat apa maknanya sebenarnya.
 
-![](Pasted%20image%2020250622202138.png)
+![](attachment/Pasted%20image%2020250622202138.png)
 
 Seperti biasa, nilai limit hanya tergantung pada apa yang terjadi ketika $h$ sangat kecil, jadi gambar kita seharusnya seperti ini
 
-![](Pasted%20image%2020250622202217.png)
+![](attachment/Pasted%20image%2020250622202217.png)
 
 di mana kita mengambil luas irisan sangat kecil, dan kemudian membaginya dengan angka kecil $h$.
 
@@ -134,15 +134,15 @@ Seperti di Bab 6, awalnya hampir tidak jelas bagaimana kita bisa membandingkan $
 
 Gambar di bawah ini menunjukkan irisan (agak diperluas), bersama dengan persegi panjang, memiliki tinggi $m$, terletak di bawah grafik, dan persegi panjang lain, dengan tinggi $M$, terletak di atas grafik. 
 
-![](Pasted%20image%2020250622202347.png)
+![](attachment/Pasted%20image%2020250622202347.png)
 
 Luas persegi panjang di bawah grafik hanyalah $h \cdot m$, sementara luas persegi panjang di atas grafik hanyalah $h \cdot M$. Karena luas di bawah kurva jelas terletak di antara kedua luas ini, kita memiliki (`*`)
 
-![](Pasted%20image%2020250622203020.png)
+![](attachment/Pasted%20image%2020250622203020.png)
 
 Ingat bahwa kita hanya tertarik pada apa yang terjadi ketika $h$ sangat kecil. Dalam kasus ini, karena $f$ kontinu di $x$, nilai minimum $m$ dan nilai maksimum $M$ dari $f$ pada interval kecil dari $x$ ke $x+h$ harus keduanya sangat dekat dengan nilai $f(x)$ yang dimiliki $f$ di ujung $x$. Jadi (`*`) menunjukkan bahwa untuk $h$ kecil, area pada gambar di bawah pastilah dekat ke $h.f(x)$.
 
-![](Pasted%20image%2020250622202855.png)
+![](attachment/Pasted%20image%2020250622202855.png)
 
 Dalam istilah yang penuh warna, kita mungkin mengatakan bahwa untuk $h$ kecil irisan kita praktis persegi panjang dengan alas $h$ dan tinggi $f(x)!$ Tetapi untuk lebih tepat, mari kita bagi (`*`) dengan $h$ dan tulis dalam bentuk:
 
@@ -253,7 +253,7 @@ Dengan demikian, kita telah mengetahui luas ini dengan hampir tanpa perhitungan 
 
 Ngomong-ngomong, perhatikan bahwa rumus kita memberi kita luas di bawah grafik $f(x) = x^2$ bahkan untuk $a < 0 < b$: dalam kasus ini, $a^3$ adalah negatif, jadi istilah $-a^3 / 3$ sebenarnya menambahkan jumlah positif lainnya.
 
-![](Pasted%20image%2020250622204253.png)
+![](attachment/Pasted%20image%2020250622204253.png)
 
 Seperti yang mungkin Anda bayangkan, sekarang ada banyak integral lain yang bisa kita berikan rumus spesifik. Misalnya, kita bisa dengan mudah menghitung
 
@@ -295,7 +295,7 @@ $$
 
 Perhatikan bahwa dalam kasus ini kita harus sedikit lebih berhati-hati tentang tanda $a$ dan/atau $b$. Jika $a < 0 < b$, maka istilah $-a^4 / 4$ negatif, dan mewakili jumlah luas di bawah sumbu, yang kita kurangi.
 
-![](Pasted%20image%2020250622204455.png)
+![](attachment/Pasted%20image%2020250622204455.png)
 
 Di sisi lain, jika $a < b < 0$, maka $a^4 > b^4$, jadi:
 
@@ -305,7 +305,7 @@ $$
 
 angka ini adalah area negatif di bawah grafik $f(x) = x^3$ antara $a$ dan $b$.
 
-![](Pasted%20image%2020250622204616.png)
+![](attachment/Pasted%20image%2020250622204616.png)
 
 Metode yang berhasil dalam dua contoh ini bisa digunakan secara umum: Misalkan kita memiliki fungsi $F$ sehingga:
 
@@ -365,7 +365,7 @@ Persamaan ini kadang-kadang disebut **Teorema Dasar Kedua Kalkulus**. Meskipun h
 
 Harus jelas bahwa kita sekarang dalam posisi untuk menulis berbagai macam rumus luas yang cukup spektakuler hanya dengan "membalik" rumus diferensiasi. Sebagai kasus yang sangat menarik, kita bisa bertanya tentang
 
-![](Pasted%20image%2020250622205219.png)
+![](attachment/Pasted%20image%2020250622205219.png)
 
 $$
 \int_a^b \sin t dt.
@@ -389,7 +389,7 @@ $$
 
 Untuk menemukan luas di bawah satu lengkungan kurva sin, 
 
-![](Pasted%20image%2020250622205331.png)
+![](attachment/Pasted%20image%2020250622205331.png)
 
 kita cukup memilih $a = 0$ dan $b = \pi$, untuk mendapatkan hasil mengejutkan:
 
@@ -403,7 +403,7 @@ $$
 
 Jika kita mempertimbangkan luas bertanda dari 0 ke $2\pi$, maka kita akan mengharapkan jawabannya 0, karena lengkungan kedua memiliki luas yang sama dengan yang pertama, kecuali bahwa itu terletak di bawah sumbu $x$, dan dengan demikian dihitung sebagai negatif. 
 
-![](Pasted%20image%2020250622205427.png)
+![](attachment/Pasted%20image%2020250622205427.png)
 
 Dan memang kita menemukan bahwa:
 
@@ -416,7 +416,7 @@ $$
 
 Menemukan luas di bawah satu lengkungan fungsi cos sebenarnya tidak seharusnya memerlukan perhitungan sama sekali, karena grafik cos hanyalah grafik $\sin$ yang digeser ke kiri sebesar $\pi/2$. 
 
-![](Pasted%20image%2020250622205453.png)
+![](attachment/Pasted%20image%2020250622205453.png)
 
 Akibatnya, area ini, yang diberikan oleh integral
 

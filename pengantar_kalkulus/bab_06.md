@@ -94,7 +94,7 @@ P(x)=\left\{\begin{array}{ll}
 \end{array}\right.
 $$
 
-![](Pasted%20image%2020250622095737.png)
+![](attachment/Pasted%20image%2020250622095737.png)
 
 digunakan oleh Kantor Pos untuk menentukan ongkos kirim surat berdasarkan berat dalam ons (setidaknya fungsi itu digunakan ketika buku ini ditulis; siapa tahu apa yang akan digunakan pada saat Anda membacanya). Di sini:
 
@@ -112,11 +112,11 @@ Dengan demikian, fungsi $P$ tidak kontinu di 1.
 
 Fungsi pertama yang ditunjukkan di bawah ini adalah modifikasi dari $P$ yang jelas juga tidak kontinu di 1, dan fungsi-fungsi yang menyertainya juga jelas tidak kontinu di 1 (dalam kasus ketiga $\lim_{x \rightarrow 1} f(x)$ ada, tetapi itu $\neq f(1)$). 
 
-![](Pasted%20image%2020250622100117.png)
+![](attachment/Pasted%20image%2020250622100117.png)
 
 Sebenarnya, ada berbagai cara mengerikan lainnya bagi sebuah fungsi untuk tidak kontinu di $a$, 
 
-![](Pasted%20image%2020250622100140.png)
+![](attachment/Pasted%20image%2020250622100140.png)
 
 tetapi sebagian besar waktu kita akan mengabaikan semua masalah tersebut. Kita biasanya hanya akan mempertimbangkan fungsi-fungsi $f$ yang memenuhi kondisi:
 
@@ -130,7 +130,7 @@ Ada banyak situasi di mana fungsi-fungsi tidak kontinu dapat dipertimbangkan dal
 
 Misalnya, fungsi $f(x)=\lvert x \rvert$ adalah kontinu, tetapi jika kita menempatkan kaca pembesar kita di atas titik $(0,0)$ pada grafik, 
 
-![](Pasted%20image%2020250622100228.png)
+![](attachment/Pasted%20image%2020250622100228.png)
 
 gambar yang diperbesar terlihat persis sama dengan aslinya—jadi dalam kasus ini itu tidak pernah terlihat seperti garis lurus! Memang, jika kita mencoba menghitung:
 

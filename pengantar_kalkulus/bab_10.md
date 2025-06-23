@@ -7,17 +7,17 @@
 
 Sejauh ini, perjalanan kita mungkin terasa seperti pendakian terus-menerus ke atas. Akan menyenangkan mengetahui bahwa kita telah mencapai puncak, dan mulai sekarang kita bisa dengan gembira mengantisipasi bahwa semuanya akan menurun.
 
-![](Pasted%20image%2020250622161241.png)
+![](attachment/Pasted%20image%2020250622161241.png)
 
 Atau, bahkan jika itu tidak ada dalam rencana, mungkin kita setidaknya bisa mengantisipasi bahwa akan menurun untuk sementara waktu!
 
-![](Pasted%20image%2020250622161256.png)
+![](attachment/Pasted%20image%2020250622161256.png)
 
 Jika kita membayangkan rute perjalanan ini sebagai grafik fungsi $f$, puncak $P$ disebut titik maksimum dari $f$ dalam kasus pertama; dalam kasus kedua, di mana $P$ hanya titik maksimum di dekatnya, kita berbicara tentang titik maksimum lokal.
 
 Sebenarnya, kita biasanya hanya fokus pada koordinat pertama $x_0$ dari titik $P$: 
 
-![](Pasted%20image%2020250622161346.png)
+![](attachment/Pasted%20image%2020250622161346.png)
 
 kita mengatakan bahwa $f$ memiliki maksimum di $x_0$, atau bahwa $x_0$ adalah titik maksimum dari $f$ jika:
 
@@ -27,7 +27,7 @@ $$
 
 Dalam kasus kedua, di mana kita setidaknya dapat memilih angka $a < x_0 < b$ 
 
-![](Pasted%20image%2020250622161441.png)
+![](attachment/Pasted%20image%2020250622161441.png)
 
 sehingga kita memiliki:
 
@@ -39,27 +39,27 @@ kita mengatakan bahwa $f$ memiliki maksimum lokal di $x_0$, atau bahwa $x_0$ ada
 
 Demikian pula, kita dapat mendefinisikan minimum atau minimum lokal dari $f$ (dan nilai minimum atau nilai minimum lokal).
 
-![](Pasted%20image%2020250622161516.png)
+![](attachment/Pasted%20image%2020250622161516.png)
 
 Buku-buku kalkulus penuh dengan gambar seperti ini karena kalkulus memiliki sesuatu yang sederhana dan menarik untuk dikatakan tentang titik-titik (lokal) maksimum dan minimum: di titik tersebut, garis singgung ke grafik adalah horizontal; dengan kata lain, $f^{\prime}(x_0)=0$.
 
-![](Pasted%20image%2020250622161541.png)
+![](attachment/Pasted%20image%2020250622161541.png)
 
 Pertama kali saya membaca pernyataan ini di buku kalkulus, saya agak terganggu, tetapi bukan karena saya tidak mempercayainya. Bahkan, saya menemukan pernyataan ini sangat mudah dipercaya—tentu saja terlihat benar dalam gambar. Tetapi matematikawan begitu sangat detail, selalu mengangkat poin halus yang terlewatkan, dan selalu menuntut bukti untuk pernyataan yang tampaknya jelas, sehingga saya tidak merasa sangat aman mendasarkan penerimaan saya pada beberapa gambar. Dan ada tak terbatas banyak gambar berbeda yang bisa digambar untuk mengilustrasikan poin yang sama. Bagaimana mungkin benar-benar jelas bahwa garis singgung akan horizontal di semua kasus?
 
-![](Pasted%20image%2020250622161625.png)
+![](attachment/Pasted%20image%2020250622161625.png)
 
 Sebenarnya, ide bahwa kita harus memiliki garis singgung horizontal di titik maksimum atau minimum sudah muncul, tersamar, sebagai masalah di akhir Bab 4, di mana kita mempertimbangkan garis singgung grafik $f(x)=x^2$ melalui $(0,0)$, yang kebetulan titik minimumnya. Pada saat itu kita belum melakukan perhitungan sama sekali, jadi Anda harus membayangkan melihat grafik melalui kaca pembesar bertenaga tinggi, dan menyadari bahwa garis singgung akan menjadi sumbu $x$.
 
-![](Pasted%20image%2020250622161658.png)
+![](attachment/Pasted%20image%2020250622161658.png)
 
 Ini mungkin secara visual jelas (terutama karena grafik simetris tentang sumbu $y$, sehingga gambar yang diperbesar juga harus simetris). Lebih penting lagi, kesimpulan ini mudah diikuti dari fakta bahwa $(0,0)$ adalah titik minimum. Lagipula, jika grafik yang diperbesar malah terlihat seperti:
 
-![](Pasted%20image%2020250622161728.png)
+![](attachment/Pasted%20image%2020250622161728.png)
 
 maka titik $(0,0)$ tidak akan menjadi titik minimum, karena di titik seperti $Q$ fungsi akan memiliki nilai yang lebih kecil. Dan dengan alasan yang sama, grafik yang diperbesar tidak bisa terlihat seperti:
 
-![](Pasted%20image%2020250622161809.png)
+![](attachment/Pasted%20image%2020250622161809.png)
 
 karena kemudian fungsi akan memiliki nilai yang lebih kecil di titik seperti $R$. (Karena grafik yang diperbesar tidak persis garis lurus, akan lebih tepat untuk mengatakan bahwa akan ada titik pada grafik sangat dekat dengan $Q$ atau $R$ di mana fungsi akan memiliki nilai yang lebih kecil.)
 
@@ -112,7 +112,7 @@ Tetapi ada alasan lain untuk menekankan pengamatan singkat dan elegan ini: ini a
 
 Sebagai contoh masalah semacam itu, misalkan kita ingin membuat kaleng timah dengan volume tetap $V$. Misalnya, kita mungkin ingin $V$ tepat 14 ons cair atau $13\frac{1}{4}$ ons atau $14\frac{3}{4}$ ons (hanya untuk memilih beberapa contoh yang saya temukan di rak toko kelontong). Jika ujung-ujung kaleng memiliki jari-jari $r$, dan dengan demikian luas $\pi r^2$, dan kaleng memiliki tinggi $h$, maka volume diberikan oleh rumus:
 
-![](Pasted%20image%2020250622162205.png)
+![](attachment/Pasted%20image%2020250622162205.png)
 
 $$
 \text{ volume } = \pi r^2 h.
@@ -132,7 +132,7 @@ $$
 
 Sekarang misalkan kita ingin luas permukaan silinder ini sekecil mungkin, sehingga kita akan menggunakan sedikit timah mungkin. Luas permukaan terdiri dari tiga bagian: bagian atas dan bawah yang berbentuk lingkaran, masing-masing memiliki luas $\pi r^2$, dan sisi silinder. Tinggi sisi silinder ini adalah $h$, sementara kelilingnya adalah keliling, $2\pi r$, dari bagian lingkaran. Jadi luas total $A(r)$ adalah:
 
-![](Pasted%20image%2020250622162418.png)
+![](attachment/Pasted%20image%2020250622162418.png)
 
 $$
 2\pi r^2 + 2\pi r \cdot h,
@@ -188,7 +188,7 @@ Ini mengilustrasikan ide dasar di balik aplikasi Teorem, meskipun dalam praktikn
 
 Lebih lanjut, seperti yang sudah disinggung, mungkin ada beberapa komplikasi yang mengintai di belakang layar. Bahkan, kita hanya perlu melihat fungsi $f(x)=x^3$, dengan $f^{\prime}(0)=0$, untuk menyadari bahwa kebalikan dari teorem tidak benar: jika $f$ memiliki (lokal) maksimum atau minimum di $x$, maka $f^{\prime}(x)$ harus 0, tetapi hanya karena $f^{\prime}(x)=0$, kita tidak bisa menyimpulkan bahwa $x$ adalah titik maksimum lokal atau minimum.
 
-![](Pasted%20image%2020250622162551.png)
+![](attachment/Pasted%20image%2020250622162551.png)
 
 Untungnya, komplikasi ini tidak mengurangi nilai Teorem dalam menyelesaikan masalah "max-min"—tetap benar bahwa kita dapat menemukan semua kemungkinan untuk maksimum atau minimum dengan menemukan semua $x$ untuk mana $f^{\prime}(x)=0$; masalahnya hanyalah semua $x$ tersebut adalah kandidat, yang kemudian harus diperiksa lebih cermat untuk menentukan kesesuaiannya.
 
@@ -196,13 +196,13 @@ Sebagai fakta, alih-alih hanya menentukan titik-titik maksimum dan minimum relat
 
 Untuk melakukan ini, kita mengandalkan dua prinsip sederhana:
 
-![](Pasted%20image%2020250622163022.png)
+![](attachment/Pasted%20image%2020250622163022.png)
 
 $$
 \text{ Jika } f^{\prime}(x) > 0 \text{ untuk } a < x < b, \text{ maka } f \text{ meningkat } \text{ untuk } a < x < b.
 $$
 
-![](Pasted%20image%2020250622163047.png)
+![](attachment/Pasted%20image%2020250622163047.png)
 
 $$
 \text{ Jika } f^{\prime}(x) < 0 \text{ untuk } a < x < b, \text{ maka } f \text{ menurun } \text{ untuk } a < x < b.
@@ -210,7 +210,7 @@ $$
 
 Sebaliknya, kita juga memiliki prinsip sederhana:
 
-![](Pasted%20image%2020250622163418.png)
+![](attachment/Pasted%20image%2020250622163418.png)
 
 $$
 \text{ Jika } f^{\prime}(x) = 0 \text{ untuk } a < x < b, \text{ maka } f \text{ konstan } \text{ untuk } a < x < b.
@@ -239,11 +239,11 @@ $$
 
 Jika kita sementara hanya mempertimbangkan $x > 0$ (satu-satunya nilai yang menarik untuk masalah asli kita), ini setara dengan $x > \sqrt[3]{V / 2\pi}$. Jadi $A$ meningkat untuk $x > \sqrt[3]{V / 2\pi}$, tetapi menurun dari 0 ke $\sqrt[3]{V / 2\pi}$. Dalam gambar di bawah ini kita telah menggambarkan grafik. Grafik $f(x) = 2\pi x^2$ digambar sebagai panduan putus-putus, karena untuk $x$ besar nilai $A(x)$ hanya sedikit lebih dari $2\pi x^2$; untuk $x$ kecil, di sisi lain, bagian $2V/x$ yang paling penting.
 
-![](Pasted%20image%2020250622163529.png)
+![](attachment/Pasted%20image%2020250622163529.png)
 
 Untuk $x < 0$ kita memiliki $x^3 < 0$, jadi tentu $A^{\prime}(x) < 0$. Dengan demikian, fungsi $A$ harus menurun untuk $x < 0$; sedikit pemikiran menunjukkan bahwa seluruh grafik harus terlihat seperti berikut.
 
-![](Pasted%20image%2020250622163555.png)
+![](attachment/Pasted%20image%2020250622163555.png)
 
 Jika gambar ini terlihat akrab, itu karena kita menggambarkan fungsi $f(x) = x^2 + 1/x$ di Bab 3. Grafik itu dibuat oleh program komputer yang memplot banyak titik, jadi semua nilainya sangat tepat. Seperti yang Anda lihat, bagaimanapun, pengetahuan tentang turunan memungkinkan kita untuk menggambarkan bentuk umum grafik dengan hampir tanpa perhitungan titik spesifik.
 

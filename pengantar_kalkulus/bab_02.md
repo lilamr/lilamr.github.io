@@ -9,15 +9,15 @@ Ada berbagai macam prasyarat matematika untuk kalkulus—pada suatu waktu, sebag
 
 Dalam geometri analitik, kita memperkenalkan sistem koordinat dengan menggambar dua garis yang saling tegak lurus, yaitu dua sumbu, di mana kita mengukur jarak; secara konvensional, bilangan positif mewakili jarak ke kanan pada sumbu horizontal, dan jarak ke atas pada sumbu vertikal.
 
-![](Pasted%20image%2020250621210901.png)
+![](attachment/Pasted%20image%2020250621210901.png)
 
 Kemudian, kita mengaitkan sepasang bilangan $(a, b)$ ke setiap titik di bidang sesuai dengan skema di bawah ini, dengan $a$ menunjukkan jarak horizontal dan $b$ menunjukkan jarak vertikal. Titik yang sesuai dengan $(0,0)$ adalah titik asal $O$, yaitu perpotongan kedua sumbu kita.
 
-![](Pasted%20image%2020250621210924.png)
+![](attachment/Pasted%20image%2020250621210924.png)
 
 Setelah kita memiliki metode untuk mengaitkan titik-titik dengan pasangan bilangan, dan sebaliknya, kita dapat melihat kurva-kurva yang sesuai dengan persamaan. Misalnya, anggap saja kita mengambil kurva paling sederhana, yaitu garis lurus $L$ yang melalui titik asal. 
 
-![](Pasted%20image%2020250621211005.png)
+![](attachment/Pasted%20image%2020250621211005.png)
 
 Jika $P = (x, y)$ adalah titik apa pun pada garis ini, maka segmen garis $OA$ memiliki panjang $x$, sedangkan segmen $AP$ memiliki panjang $y$. Akibatnya, rasio
 
@@ -55,7 +55,7 @@ yang tidak mengandung $x$ sama sekali. Tetapi tetap benar bahwa "persamaan" ini 
 
 Bagaimana dengan garis lurus $L$ yang tidak melalui titik asal? Salah satu cara sederhana untuk menemukan persamaan $L$ adalah dengan menggambar garis $L'$ yang sejajar dengan $L$ tetapi melewati titik asal.
 
-![](Pasted%20image%2020250621211310.png)
+![](attachment/Pasted%20image%2020250621211310.png)
 
 Kemudian, setiap titik pada $L$ terletak tepat di atas titik pada $L'$, dan jarak antara kedua titik ini selalu sama dengan bilangan $b$. Akibatnya, untuk setiap titik $(x, mx)$ pada $L'$, kita memiliki titik $(x, y)$ pada $L$ dengan
 
@@ -73,7 +73,7 @@ $$
 
 yang hanya mewakili garis yang sejajar dengan sumbu-x.
 
-![](Pasted%20image%2020250621211420.png)
+![](attachment/Pasted%20image%2020250621211420.png)
 
 Tampaknya persamaan (2) adalah persamaan paling umum yang kita butuhkan untuk menggambarkan garis lurus, tetapi sebenarnya kita telah melewatkan satu kelompok, yaitu garis-garis lurus yang vertikal. Namun, mudah dilihat bahwa garis-garis tersebut hanya memiliki "persamaan" berbentuk
 
@@ -83,13 +83,13 @@ $$
 
 yaitu "persamaan" dari garis lurus vertikal yang memotong sumbu-x di $(a, 0)$.
 
-![](Pasted%20image%2020250621211445.png)
+![](attachment/Pasted%20image%2020250621211445.png)
 
 Kritik yang lebih signifikan terhadap persamaan intersep-kemiringan adalah bahwa persamaan ini hanya berguna ketika kita kebetulan menggambarkan garis berdasarkan kemiringan dan intersep-y-nya, yang mungkin bukan data yang menarik bagi kita. Misalnya, pertanyaan pertama yang mungkin muncul di pikiran adalah bagaimana menemukan persamaan garis lurus yang melewati dua titik yang diberikan, $P$ dan $Q$, di mana kita tidak diberikan kemiringan maupun intersep-y.
 
 Daripada menjawab pertanyaan ini secara langsung, kita akan terlebih dahulu mempertimbangkan pertanyaan lain, yang nantinya akan sangat berguna: Bagaimana kita menemukan persamaan garis lurus yang melewati titik tertentu $P = (x_0, y_0)$ dan memiliki kemiringan $m$ yang diberikan?
 
-![](Pasted%20image%2020250621211520.png)
+![](attachment/Pasted%20image%2020250621211520.png)
 
 Ada cara yang sangat lugas dan tidak imajinatif untuk menyelesaikan masalah ini: Karena kemiringannya adalah $m$, kita tahu bahwa garis lurus tersebut memiliki persamaan berbentuk
 
@@ -117,7 +117,7 @@ $$
 
 Ini benar-benar benar, tetapi tidak terlalu menarik, juga tidak mudah diingat. Penalaran geometris yang lebih banyak dengan mudah memperbaiki kedua kekurangan ini: Dalam gambar di bawah, segmen vertikal memiliki panjang $y - y_0$ dan segmen horizontal memiliki panjang $x - x_0$. 
 
-![](Pasted%20image%2020250621211915.png)
+![](attachment/Pasted%20image%2020250621211915.png)
 
 Karena garis memiliki kemiringan $m$, ini berarti bahwa
 

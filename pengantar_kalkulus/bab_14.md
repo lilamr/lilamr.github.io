@@ -19,7 +19,7 @@ Tetapi penjumlahan ini juga memainkan peran sangat penting lainnya. Karena terny
 
 Misalnya, misalkan kita memiliki pelat logam tipis dengan lebar $W$, tinggi $H$, dan kedalaman $D$, seperti yang ditunjukkan pada gambar di sebelah kiri. 
 
-![](Pasted%20image%2020250622210712.png)
+![](attachment/Pasted%20image%2020250622210712.png)
 
 Mari kita asumsikan, lebih lanjut, bahwa kepadatan logam di pelat ini bervariasi, tetapi hanya dengan cara yang bergantung pada $x$. Dengan kata lain, untuk setiap $x$, ada angka $\rho(x)$ yang merupakan kepadatan di seluruh bagian pada jarak $x$ dari asal, seperti yang diilustrasikan pada gambar di sebelah kanan.
 
@@ -39,7 +39,7 @@ $$
 
 bersama dengan titik $x_i$ antara $t_{i-1}$ dan $t_i$. Pada bagian yang diarsir, antara bagian pada $t_{i-1}$ dan $t_i$, kepadatan sangat dekat dengan $\rho(x_i)$. 
 
-![](Pasted%20image%2020250622210843.png)
+![](attachment/Pasted%20image%2020250622210843.png)
 
 
 Jadi berat bagian pelat logam ini dekat dengan:
@@ -68,7 +68,7 @@ $$
 
 Tidak perlu membatasi perhatian kita pada pelat persegi panjang. Kita bisa mengasumsikan bahwa "profil" pelat kita adalah grafik fungsi apa pun $f$ dari $a$ ke $b$, seperti yang ditunjukkan di sebelah kiri gambar di bawah ini. 
 
-![](Pasted%20image%2020250622211054.png)
+![](attachment/Pasted%20image%2020250622211054.png)
 
 Dalam kasus ini, kepadatan di seluruh bagian yang diarsir di sebelah kanan sangat dekat dengan $\rho(x_i)$, sementara tinggi bagian ini dekat dengan $f(x_i)$. Jadi berat bagian yang diarsir dekat dengan:
 
@@ -94,7 +94,7 @@ Ada juga sejumlah konsep murni matematis yang nilai-nilainya dapat diekspresikan
 
 1. **Volume benda putar.** Pada gambar di bawah ini, kita telah mengambil grafik fungsi $f$, antara $a$ dan $b$, dan memutarnya mengelilingi sumbu $x$, untuk mendapatkan benda putar. 
 
-![](Pasted%20image%2020250622211323.png)
+![](attachment/Pasted%20image%2020250622211323.png)
 
 Meskipun integral awalnya digunakan untuk menghitung luas, kita akan bisa menggunakannya untuk menentukan volume benda ini.
 
@@ -106,7 +106,7 @@ $$
 
 bersama dengan titik $x_i$ antara $t_{i-1}$ dan $t_i$, untuk setiap $i$. Gambar di sebelah kiri menunjukkan bagian benda kita antara bidang $x = t_{i-1}$ dan $x = t_i$. Dalam gambar di sebelah kanan kita telah mendekati bagian ini dengan silinder antara kedua bidang yang sama, dengan jari-jari silinder hanya $f(x_i)$. 
 
-![](Pasted%20image%2020250622211406.png)
+![](attachment/Pasted%20image%2020250622211406.png)
 
 Volume silinder ini adalah:
 
@@ -130,17 +130,17 @@ Dalam contoh ini kita mendapatkan jumlah dalam bentuk (`*`) di atas dengan sedik
 
 2. **Permainan kulit (The shell game).** Pada gambar berikut, area di bawah grafik fungsi $f$ dari $a$ ke $b$ telah diarsir. Jika area yang diarsir ini diputar mengelilingi sumbu $y$, bukan sumbu $x$, kita mendapatkan benda yang lebih rumit: benda ini diperoleh dengan memulai dengan silinder berjari-jari $b$ dan kemudian menghapus (mengeluarkan) bagian padat yang bertitik (yang berarsir titik-titik).
 
-![](Pasted%20image%2020250622211544.png)
+![](attachment/Pasted%20image%2020250622211544.png)
 
 Mungkin tampak bahwa seharusnya mudah menghitung volume benda erarsir titik-titik itu. Lagipula, jika kita menukar nama sumbu $x$ dan $y$, maka benda ini hanyalah salah satu jenis yang dipertimbangkan sebelumnya, kecuali bahwa alih-alih fungsi $f$ kita harus mempertimbangkan fungsi $g$ yang grafiknya adalah grafik $f$ diputar 90°. Tetapi kita mungkin tidak bisa mengetahui rumus untuk fungsi $g$ ini, dan bahkan jika bisa, integral yang dihasilkan mungkin jauh lebih sulit dihitung. Selain itu, kita mungkin memiliki situasi seperti yang ditunjukkan di bawah ini (hanya setengah belakang benda rotasi penuh yang ditunjukkan).
 
-![](Pasted%20image%2020250622211616.png)
+![](attachment/Pasted%20image%2020250622211616.png)
 
 Jika kita mencoba hanya menukar sumbu $x$ dan $y$ di sini, kita harus berhadapan dengan kurva yang bukan grafik fungsi, sehingga kita harus membagi wilayah menjadi dua atau lebih potongan. Metode "cangkang" dirancang untuk mengatasi masalah ini.
 
 Gambar di sebelah kiri menunjukkan (setengah belakang) bagian benda kita, cincin atau "kulit/cangkang" yang kita dapatkan ketika kita memutar bagian grafik dari $t_{i-1}$ ke $t_i$. Dalam gambar di sebelah kanan kita telah mendekati cangkang ini dengan cangkang silinder yang tingginya hanya $f(x_i)$. 
 
-![](Pasted%20image%2020250622211645.png)
+![](attachment/Pasted%20image%2020250622211645.png)
 
 Volume cangkang silinder ini adalah:
 
@@ -187,7 +187,7 @@ $$
 
 Panjang grafik $f$ dari $(a, f(a))$ ke $(b, f(b))$ harus angka yang panjang garis poligonal seperti itu mendekati ketika kita membuat semua $\Delta x_i$ kecil.
 
-![](Pasted%20image%2020250622211824.png)
+![](attachment/Pasted%20image%2020250622211824.png)
 
 Anda mungkin berpikir panjang seharusnya lebih mudah dihitung daripada luas, tetapi sebenarnya melibatkan rumus yang jauh lebih rumit, karena bahkan rumus untuk panjang segmen $L_i$ lebih rumit:
 
@@ -223,7 +223,7 @@ $$
 
 Gambar di sebelah kiri menunjukkan permukaan piramida yang terdiri dari (sepuluh) segitiga sama kaki kongruen; daerah yang diarsir, yang berada di antara dua bidang sejajar, terdiri dari jajaran perangkap (trapesium) kongruen, salah satunya ditunjukkan dalam gambar di sebelah kanan. 
 
-![](Pasted%20image%2020250622212038.png)
+![](attachment/Pasted%20image%2020250622212038.png)
 
 Jika trapesium ini memiliki tinggi $h$ dan alas $l_1$ dan $l_2$, maka luasnya adalah $h (l_1 + l_2) / 2$. Jadi luas wilayah yang diarsir bisa ditulis sebagai:
 
@@ -235,7 +235,7 @@ di mana $p_1$ adalah keliling bagian atas wilayah dan $p_2$ adalah keliling bagi
 
 Piramida jenis ini dengan sangat banyak sisi akan mendekati kerucut, dengan luas yang diarsir mendekati yang ditunjukkan di bawah ini. 
 
-![](Pasted%20image%2020250622212143.png)
+![](attachment/Pasted%20image%2020250622212143.png)
 
 Jika lingkaran atas wilayah ini memiliki jari-jari $r_1$ dan lingkaran bawah memiliki jari-jari $r_2$, sementara $s$ adalah "tinggi miring" wilayah ini, maka (*) menunjukkan bahwa luas harus diberikan oleh:
 
@@ -245,7 +245,7 @@ $$
 
 Permukaan volume sekarang bisa didekati oleh potongan kerucut seperti ini. 
 
-![](Pasted%20image%2020250622212214.png)
+![](attachment/Pasted%20image%2020250622212214.png)
 
 Untuk potongan dari $t_{i-1}$ ke $t_i$, jari-jarinya adalah $f(t_{i-1})$ dan $f(t_i)$ dan luasnya adalah:
 

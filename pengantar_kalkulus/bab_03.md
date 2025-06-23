@@ -23,11 +23,11 @@ $$
 
 Jika kita memplot banyak titik $(x, y)$ yang memenuhi persamaan ini, yaitu banyak titik berbentuk $(x, x^2)$, kita mendapatkan gambar seperti
 
-![](Pasted%20image%2020250621212527.png)
+![](attachment/Pasted%20image%2020250621212527.png)
 
 yang dapat diisi untuk memberikan kurva yang disebut parabola.
 
-![](Pasted%20image%2020250621212546.png)
+![](attachment/Pasted%20image%2020250621212546.png)
 
 Kurva ini simetris terhadap sumbu-y, karena $(-x)^2 = x^2$. Selain itu, kurva ini tidak pernah berada di bawah sumbu-x, karena kita selalu memiliki $x^2 \geq 0$. Sebaliknya, persamaan
 
@@ -37,17 +37,17 @@ $$
 
 akan menggambarkan kurva yang tidak pernah berada di atas sumbu-x.
 
-![](Pasted%20image%2020250621212611.png)
+![](attachment/Pasted%20image%2020250621212611.png)
 
 Di sisi lain, persamaan $y = 2x^2$ menggambarkan kurva yang dua kali lebih "curam" daripada parabola pertama kita, sedangkan $y = \frac{1}{2}x^2$ menggambarkan kurva yang setengah kali lebih curam.
 
-![](Pasted%20image%2020250621212636.png)
+![](attachment/Pasted%20image%2020250621212636.png)
 
 Secara umum, $y = cx^2$ akan menggambarkan kurva yang mirip dengan parabola pertama kita untuk $c > 0$, tetapi mirip dengan yang kedua untuk $c < 0$.
 
 Hal-hal terlihat sangat berbeda untuk persamaan $y = x^3$. Ini adalah persamaan dari kurva yang terus meningkat melalui nilai-nilai negatif dan positif. 
 
-![](Pasted%20image%2020250621212733.png)
+![](attachment/Pasted%20image%2020250621212733.png)
 
 Untuk setiap titik $P = (x, x^3)$ pada kurva ini, titik $Q = (-x, (-x)^3)$ juga berada pada kurva, dan titik ini
 
@@ -62,7 +62,7 @@ berada di sisi berlawanan dari garis dari $O$ ke $P$. Dengan demikian, kurva ini
 
 Ini secara alami membawa kita untuk mempertimbangkan $y = x^4, y = x^5, \ldots$, dan masing-masing menghasilkan kurva yang khas. Namun, secara umum, kurva yang dijelaskan oleh $y = x^n$ untuk $n$ genap semuanya menyerupai parabola, sedangkan kurva yang dijelaskan oleh $y = x^n$ untuk $n$ ganjil semuanya tampak seperti yang untuk $n = 3$.
 
-![](Pasted%20image%2020250621212814.png)
+![](attachment/Pasted%20image%2020250621212814.png)
 
 Daripada mempertimbangkan kurva yang ditentukan oleh persamaan, kita sering kali merujuk pada grafik yang ditentukan oleh fungsi. Fungsi $f$ hanyalah aturan untuk menetapkan bilangan lain ke setiap bilangan $x$, yang dilambangkan dengan $f(x)$; bilangan ini disebut "nilai" dari $f$ pada $x$, dan $f(x)$ hanya diucapkan sebagai "f dari x". Dengan grafik dari fungsi $f$, kita maksudkan kumpulan semua titik $(x, f(x))$. Misalnya, jika $f$ adalah fungsi yang ditentukan oleh aturan $f(x) = 3x^2 + 4$, maka grafiknya terdiri dari semua titik $(x, 3x^2 + 4)$.
 
@@ -79,7 +79,7 @@ $$
 
 dengan grafik yang ditunjukkan di bawah; perhatikan bahwa kita selalu memiliki $f(x) \geq 0$, berdasarkan definisinya, sehingga grafik tidak pernah berada di bawah sumbu-x. Grafik ini juga simetris terhadap sumbu-y, karena $f(-x) = f(x)$.
 
-![](Pasted%20image%2020250621212903.png)
+![](attachment/Pasted%20image%2020250621212903.png)
 
 Simbol $\lvert x \rvert$ (nilai absolut dari $x$) didefinisikan sebagai
 
@@ -92,7 +92,7 @@ $$
 
 Tentu saja, ini berarti bahwa grafik kita sebenarnya adalah grafik dari sebuah persamaan, yaitu persamaan $y = \lvert x \rvert$! Tetapi jelas bahwa ini hanya karena kita memutuskan untuk memperkenalkan simbol baru untuk menulis persamaan. Ada banyak fungsi $f$ yang grafiknya akan sangat sulit untuk dijelaskan sebagai grafik dari sebuah persamaan secara alami. Misalnya, gambar di bawah menunjukkan grafik dari sebuah fungsi $f$ di mana aturan untuk $f(x)$ adalah campuran rumit dari berbagai formula.
 
-![](Pasted%20image%2020250621213017.png)
+![](attachment/Pasted%20image%2020250621213017.png)
 
 Meskipun grafik dari fungsi memungkinkan banyak bentuk yang sulit dijelaskan sebagai grafik dari persamaan, kadang-kadang hal-hal berjalan sebaliknya. Misalnya, grafik dari persamaan
 
@@ -102,21 +102,21 @@ $$
 
 hanyalah lingkaran dengan jari-jari 1 di sekitar titik asal $O$, karena $\sqrt{x^2 + y^2}$ hanyalah jarak dari $O = (0,0)$ ke $(x, y)$. 
 
-![](Pasted%20image%2020250621213057.png)
+![](attachment/Pasted%20image%2020250621213057.png)
 
 Grafik ini tidak bisa menjadi grafik dari sebuah fungsi, karena grafik dari sebuah fungsi terdiri dari titik-titik berbentuk $(x, f(x))$, di mana $f(x)$ hanya bisa satu bilangan—grafik dari sebuah fungsi tidak bisa memiliki dua titik berbeda pada garis vertikal yang sama.
 
-![](Pasted%20image%2020250621213125.png)
+![](attachment/Pasted%20image%2020250621213125.png)
 
 Di sisi lain, kita dapat mendefinisikan dua fungsi berbeda yang grafiknya bersama-sama memberikan lingkaran. 
 
-![](Pasted%20image%2020250621213210.png)
+![](attachment/Pasted%20image%2020250621213210.png)
 
 Bahkan, kita biasanya harus menggunakan trik seperti ini setiap kali kita ingin menggunakan kalkulus untuk menyelidiki kurva seperti lingkaran, karena kalkulus hampir sepenuhnya berfokus pada analisis fungsi dan grafiknya.
 
 Garis vertikal gagal menjadi grafik dari sebuah fungsi dengan cara yang paling buruk, tetapi garis horizontal hanyalah grafik dari sebuah fungsi yang didefinisikan oleh aturan $f(x) = C$ untuk semua $x$. Fungsi seperti ini disebut fungsi konstan.
 
-![](Pasted%20image%2020250621213257.png)
+![](attachment/Pasted%20image%2020250621213257.png)
 
 Meskipun tidak semua fungsi dapat dijelaskan dengan persamaan, tetap benar bahwa berbagai macam fungsi dapat dijelaskan hanya dengan memberikan formula untuk $f(x)$, seperti $f(x) = x^2$ atau $f(x) = x^3$. Fungsi biasanya dijelaskan secara singkat dengan cara ini, daripada mengatakan hal-hal yang rumit seperti "fungsi yang ditentukan oleh aturan $f(x) = x^2$," dll. Bahkan, kadang-kadang kita hanya mengatakan "fungsi $x^2$," dll. Hal penting yang perlu diperhatikan tentang semua notasi ini adalah bahwa huruf $x$ tidak mewakili bilangan tertentu. Kita bisa saja mengatakan $f(a) = a^2$, untuk semua bilangan $a$; atau $f(t) = t^2$, untuk semua bilangan $t$. Huruf $x$ atau $a$ atau $t$ hanya berfungsi sebagai "penampung nilai" (*place-holder*), memberikan cara yang masuk akal untuk mengatakan
 
@@ -128,17 +128,17 @@ Kita bahkan bisa mengatakan $f(y) = y^2$, meskipun biasanya kita merasa nyaman u
 
 Sejauh ini, kita hanya mempertimbangkan beberapa fungsi seperti $f(x) = cx^2, f(x) = x^3$, dll., dan sudah menemukan bahwa ada variasi yang cukup besar. Hal-hal benar-benar mulai menjadi menarik ketika kita mempertimbangkan jumlah sembarang, seperti
 
-![](Pasted%20image%2020250621213353.png)
+![](attachment/Pasted%20image%2020250621213353.png)
 
 Dan itu baru permulaan. Segala macam komplikasi baru muncul jika kita mulai membagi. Kita mendapatkan grafik yang terlihat sangat berbeda dari yang sebelumnya ketika kita mempertimbangkan hasil bagi sederhana:
 
-![](Pasted%20image%2020250621213422.png)
+![](attachment/Pasted%20image%2020250621213422.png)
 
 Dalam contoh ini, kita tidak perlu khawatir tentang pembagian dengan 0, karena kita selalu memiliki $1 + x^2 > 0$. 
 
 Contoh sederhana $f(x) = 1/x$, yang hanya didefinisikan untuk $x \neq 0$, menunjukkan apa yang bisa terjadi ketika penyebut kita bisa memiliki nilai 0.
 
-![](Pasted%20image%2020250621213452.png)
+![](attachment/Pasted%20image%2020250621213452.png)
 
 Demikian pula, grafik dari
 
@@ -148,13 +148,13 @@ $$
 
 tampak seperti ini (di mana grafik dari $x^2$ muncul sebagai garis putus-putus):
 
-![](Pasted%20image%2020250621213516.png)
+![](attachment/Pasted%20image%2020250621213516.png)
 
 Meskipun fungsi-fungsi yang telah kita temui sudah menunjukkan begitu banyak fitur baru, mereka hampir belum mewakili keragaman fungsi begitu kita mengizinkan hal-hal yang lebih menarik, seperti fungsi yang berasal dari trigonometri.
 
 Ingat bahwa untuk segitiga siku-siku $\triangle OCB$ dengan $\theta = \angle BOC$, 
 
-![](Pasted%20image%2020250621213635.png)
+![](attachment/Pasted%20image%2020250621213635.png)
 
 sinus dan kosinus dari sudut $\theta$ didefinisikan oleh
 
@@ -164,7 +164,7 @@ $$
 
 Definisi ini tidak bergantung pada segitiga yang kita pilih, karena jika segitiga $\triangle OC'B'$ juga memiliki sudut $\theta$ di $O$, maka itu serupa dengan $\triangle OCB$, 
 
-![](Pasted%20image%2020250621213717.png)
+![](attachment/Pasted%20image%2020250621213717.png)
 
 dan akibatnya
 
@@ -174,7 +174,7 @@ $$
 
 Lebih nyaman untuk memilih segitiga kita sehingga titik sudut $O$ berimpit dengan titik asal $O$ dari sistem koordinat kita, dengan $OC$ terletak di sepanjang sumbu-x. Selain itu, karena ukuran segitiga tidak relevan, kita juga dapat menentukan $B$ dengan mengharuskan itu terletak pada lingkaran satuan, sehingga jarak $BO = 1$, dan kemudian kita hanya memiliki $\sin \theta = BC$ dan $\cos \theta = OC$. 
 
-![](Pasted%20image%2020250621214000.png)
+![](attachment/Pasted%20image%2020250621214000.png)
 
 Lebih ringkas lagi, jika $B = (x, y)$, maka
 
@@ -184,17 +184,17 @@ $$
 
 Jika kita mengukur sudut dalam derajat, maka sudut $\theta$ dalam gambar di atas memenuhi $0 < \theta < 90^\circ$, tetapi kita dapat mendefinisikan $\sin \theta$ untuk semua nilai $\theta$ lainnya, baik positif maupun negatif, dengan skema yang seharusnya sudah Anda kenal.
 
-![](Pasted%20image%2020250621214032.png)
+![](attachment/Pasted%20image%2020250621214032.png)
 
 Jadi, kita sekarang memiliki fungsi $\sin$ ("fungsi sinus"), yang nilai pada $\theta$ adalah $\sin \theta$, serta fungsi $\cos$ ("fungsi kosinus"). Grafik dari fungsi sinus terlihat seperti
 
-![](Pasted%20image%2020250621214054.png)
+![](attachment/Pasted%20image%2020250621214054.png)
 
 Perhatikan bahwa dalam gambar ini kita menggunakan skala yang berbeda pada kedua sumbu; tanpa distorsi ini, tidak banyak yang bisa dilihat dalam grafik kita kecuali kita membuatnya sangat lebar.
 
 Selain dari kekurangan estetis ini, mengukur sudut dalam derajat tampaknya agak sewenang-wenang—lagipula, apa yang begitu spesial tentang 90 atau 360? Cara yang jauh lebih alami secara konseptual untuk mengukur sudut adalah dengan menggunakan panjang busur lingkaran satuan dari titik $A = (1,0)$ ke $B$.
 
-![](Pasted%20image%2020250621214123.png)
+![](attachment/Pasted%20image%2020250621214123.png)
 
 Jika busur ini memiliki panjang $\theta$, maka $\angle AOB$ adalah sudut sebesar $\theta$ radian, atau memiliki "ukuran radian" sebesar $\theta$.
 
@@ -212,7 +212,7 @@ $$
 
 Meskipun kita mendefinisikan ukuran radian berdasarkan panjang busur lingkaran satuan dari $A = (1,0)$ ke $B$, kita bisa dengan mudah menentukannya berdasarkan luas sektor $OAB$: 
 
-![](Pasted%20image%2020250621214359.png)
+![](attachment/Pasted%20image%2020250621214359.png)
 
 Karena sudut sebesar $\theta$ radian adalah
 
@@ -233,11 +233,11 @@ Jadi, $\angle AOB$ adalah sudut sebesar $\theta$ radian ketika sektor $OAB$ memi
 
 Jika kita sekarang membiarkan $\sin \theta$ menjadi sinus dari sudut sebesar $\theta$ radian, maka grafik dari $\sin$ terlihat seperti
 
-![](Pasted%20image%2020250621214454.png)
+![](attachment/Pasted%20image%2020250621214454.png)
 
 sedangkan grafik dari $\cos$ terlihat seperti
 
-![](Pasted%20image%2020250621214511.png)
+![](attachment/Pasted%20image%2020250621214511.png)
 
 Mulai sekarang, kita pada dasarnya bisa melupakan pengukuran derajat, setidaknya sejauh menyangkut fungsi dan grafiknya. Ketika matematikawan merujuk pada fungsi $\sin$, mereka selalu bermaksud fungsi yang Anda dapatkan dengan menggunakan ukuran radian.
 
@@ -249,7 +249,7 @@ $$
 
 Sebenarnya, kita bahkan bisa mengungkapkan $\cos$ dalam bentuk $\sin$. Karena kita memiliki
 
-![](Pasted%20image%2020250621214604.png)
+![](attachment/Pasted%20image%2020250621214604.png)
 
 $$
 (OC)^2 + (CB)^2 = 1,
@@ -275,29 +275,29 @@ $$
 
 Pilihan tanda $+$ atau $-$ yang tepat tergantung pada nilai $\theta$. 
 
-![](Pasted%20image%2020250621214653.png)
+![](attachment/Pasted%20image%2020250621214653.png)
 
 Misalnya, untuk $0 < \theta < \pi/2$ (antara 0 dan sudut siku-siku), kita harus memilih tanda $+$; untuk $\pi/2 < \theta < \pi$ (antara sudut siku-siku dan sudut lurus), kita harus memilih tanda $-$, karena $\cos$ negatif, sedangkan $\sin$ masih positif; dll. Karena komplikasi tambahan yang melibatkan penentuan tanda ini, biasanya lebih nyaman untuk menganggap $\cos$ dan $\sin$ sebagai sama-sama fundamental.
 
 Setelah kita menambahkan $\sin$ dan $\cos$ ke dalam repertoar kita, berbagai macam fungsi baru menjadi tersedia.
 
-![](Pasted%20image%2020250621214755.png)
+![](attachment/Pasted%20image%2020250621214755.png)
 
 Dan masih ada cara lain untuk membuat fungsi. Misalnya, kita bisa mempertimbangkan grafik dari fungsi seperti
 
-![](Pasted%20image%2020250621214826.png)
+![](attachment/Pasted%20image%2020250621214826.png)
 
 dan
 
-![](Pasted%20image%2020250621214844.png)
+![](attachment/Pasted%20image%2020250621214844.png)
 
 dan kemudian segala macam kombinasi baru seperti
 
-![](Pasted%20image%2020250621214905.png)
+![](attachment/Pasted%20image%2020250621214905.png)
 
 dan
 
-![](Pasted%20image%2020250621214922.png)
+![](attachment/Pasted%20image%2020250621214922.png)
 
 Tetapi kita sudah melihat cukup banyak untuk menegaskan poin utama—ada sangat banyak fungsi.
 

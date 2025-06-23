@@ -7,11 +7,11 @@
 
 Parabola, yang sering kita gunakan sebagai contoh, muncul secara alami di Bab 3, sebagai grafik dari fungsi non-linear paling sederhana. Tetapi kita juga melihatnya sepanjang waktu dalam kehidupan sehari-hari—setidaknya jika kehidupan sehari-hari mencakup olahraga (baik melalui partisipasi aktif, atau sebagai kentang sofa). Bola bisbol, bola basket, bola sepak, bola voli, bola golf, dan hampir segala sesuatu yang dilempar atau dipukul, bergerak dalam lintasan parabola, meskipun parabola ini "terbalik".
 
-![](Pasted%20image%2020250622101645.png)
+![](attachment/Pasted%20image%2020250622101645.png)
 
 Lintasan parabola dari proyektil ini berkaitan langsung dengan hukum fisika yang menentukan laju sesuatu jatuh di bawah gaya gravitasi. Misalnya, jika sebuah bola dilempar secara horizontal dari menara, maka (mengabaikan hambatan udara) bola tersebut mempertahankan gerakan horizontal konstan, 
 
-![](Pasted%20image%2020250622101709.png)
+![](attachment/Pasted%20image%2020250622101709.png)
 
 sementara jarak vertikal ke bawah $s(t)$ pada waktu $t$ meningkat sesuai aturan:
 
@@ -23,7 +23,7 @@ di mana $s(t)$ diukur dalam kaki dan $t$ dalam detik. Lintasan yang dihasilkan a
 
 Kita biasanya melempar bola pada sudut, sehingga bola tidak hanya memiliki kecepatan horizontal, tetapi juga kecepatan ke atas awal. Dalam kasus ini kita lagi-lagi mendapatkan lintasan parabola, tetapi dengan ketinggian maksimum yang lebih besar; bagian lintasan sebelum ketinggian maksimum ini hanyalah kebalikan dari lintasan yang akan diikuti jika bola dilepaskan dari puncak ke arah lain.
 
-![](Pasted%20image%2020250622101732.png)
+![](attachment/Pasted%20image%2020250622101732.png)
 
 Untuk berkonsentrasi pada satu fungsi, kita akan hanya mempertimbangkan jarak vertikal ke bawah $s(t)=16 t^2$ dan mengabaikan gerakan horizontal. Jadi kita pada dasarnya mempertimbangkan bola yang dijatuhkan dari ketinggian tertentu, bukan dilempar (atau mungkin bola yang dilempar langsung ke atas).
 
@@ -136,11 +136,11 @@ Perhatikan juga bahwa definisi kita tentang kecepatan kini hanya dibuat untuk ob
 
 Pertanyaan umum tentang kecepatan untuk objek yang bergerak di bidang, atau di ruang, adalah subjek yang tepat dari kalkulus lanjutan (atau setidaknya sedikit lebih maju dari kalkulus yang kita pertimbangkan), tetapi kita setidaknya dapat menyebutkan jawabannya dalam kasus objek yang dilempar, sehingga kecepatan horizontalnya konstan $c$, sementara jarak vertikal ke bawahnya adalah $s(t)$, sehingga pada waktu $t$ objek berada di titik $(c \cdot t, s(t))$.
 
-![](Pasted%20image%2020250622101840.png)
+![](attachment/Pasted%20image%2020250622101840.png)
 
 Dalam kasus ini, kita memiliki "kecepatan horizontal," yang diwakili oleh panah horizontal sepanjang $c$, dan "kecepatan vertikal," yang diwakili oleh panah vertikal sepanjang $s^{\prime}(t)$. Dua panah ini adalah sisi persegi panjang, dan diagonal dari persegi panjang ini memberikan panah baru. Sekarang panah ini adalah yang kita sebut kecepatan dalam kasus ini. 
 
-![](Pasted%20image%2020250622101912.png)
+![](attachment/Pasted%20image%2020250622101912.png)
 
 Jadi kecepatan, secara ketat, adalah panah, bukan hanya angka. Namun, kita kemudian dapat mendefinisikan kecepatan sebagai panjang panah ini, yang dalam kasus ini akan menjadi:
 
