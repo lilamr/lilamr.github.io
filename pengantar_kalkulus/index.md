@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Vim Easy
+title: Pengantar Kalkulus
 ---
 
 [Home](../)

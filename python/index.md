@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Python
+title: Python dan Matematika Diskrit
 ---
 
 [Home](../)
