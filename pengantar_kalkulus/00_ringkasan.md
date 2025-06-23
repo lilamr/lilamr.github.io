@@ -21,7 +21,7 @@ Buku ini dirancang sebagai pendamping kursus kalkulus, fokus pada pemahaman kons
 3. **Fungsi Non-Linear (Bab 3)**:
    - Memperkenalkan fungsi non-linear seperti $y = x²$ (parabola), $y = x³$, dan fungsi trigonometri $(sin, cos)$.
    - Menjelaskan konsep fungsi sebagai aturan yang memetakan $x$ ke $f(x)$, dan grafik fungsi sebagai kumpulan titik $(x, f(x))$.
-   - Membahas simetri grafik, fungsi absolut $\lvert x \rvert$, dan pengukuran sudut dalam radian, yang lebih alami untuk kalkulus.
+   - Membahas simetri grafik, fungsi absolut $(\lvert x \rvert)$, dan pengukuran sudut dalam radian, yang lebih alami untuk kalkulus.
 
 4. **Konsep Turunan (Bab 4)**:
    - Menggunakan analogi kaca pembesar untuk memeriksa kurva $f(x) = x²$ di titik tertentu, yang tampak seperti garis lurus saat diperbesar.
