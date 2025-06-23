@@ -1,4 +1,3 @@
-[Home](../)\n[Back](./)\n
 ---
 layout: default
 title: Vim Easy
@@ -10,7 +9,7 @@ title: Vim Easy
 
 Ini adalah terjemahan dari buku *The Hitchhiker's Guide to Calculus* karya Michael Spivak.
 
-- [Ringkasan](./00_ringkasan)
+- [0. Ringkasan](./00_ringkasan)
 - [1. Ke mana kita akan pergi?](./bab_01)
 - [2. Mengemas hal-hal penting](./bab_02)
 - [3. Menghadapi sesuatu yang baru](./bab_03)
@@ -27,4 +26,3 @@ Ini adalah terjemahan dari buku *The Hitchhiker's Guide to Calculus* karya Micha
 - [14. Mendekati akhir perjalanan kita](./bab_14)
 
 [Home](../)
-[Back](./)

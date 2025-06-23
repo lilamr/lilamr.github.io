@@ -1,4 +1,8 @@
-[Home](../)\n[Back](./)\n
+[Home](../)
+
+[Back](./)
+
+
 ## Bab 2. Mengemas hal-hal penting
 
 Ada berbagai macam prasyarat matematika untuk kalkulus—pada suatu waktu, sebagian besar teknik aljabar, trigonometri, dan geometri analitik akan digunakan. Namun, hal utama yang kita perlukan dalam perjalanan kita adalah beberapa ide paling sederhana dari geometri analitik.
@@ -185,4 +189,5 @@ yang setelah dikembangkan ternyata setara.
 **Soal 2(a).** Letakkan panci air di atas kompor.
 
 **2(b).** Letakkan panci air di atas meja. (Karena sekarang Anda telah mereduksi masalah menjadi masalah yang sudah Anda tahu cara menyelesaikannya, dengan cara yang sama seperti Latihan 1 mereduksi masalah menemukan persamaan garis melalui dua titik menjadi bentuk titik-kemiringan, yang merupakan jawaban untuk masalah yang berbeda.)
+
 [Back](./)

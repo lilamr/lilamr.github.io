@@ -1,4 +1,8 @@
-[Home](../)\n[Back](./)\n
+[Home](../)
+
+[Back](./)
+
+
 ## Bab 3. Menghadapi sesuatu yang baru
 
 Di bab sebelumnya, kita hampir secara eksklusif bekerja dengan persamaan berbentuk
@@ -298,4 +302,5 @@ dan
 Tetapi kita sudah melihat cukup banyak untuk menegaskan poin utama—ada sangat banyak fungsi.
 
 Kita telah tiba di dunia baru, penuh dengan hal-hal menakjubkan, tetapi pada saat yang sama mungkin sedikit menakutkan. Sementara geometri analitik mungkin puas dengan menganalisis garis lurus dan lingkaran, dan mungkin beberapa kurva khusus lainnya, kalkulus berupaya untuk menyelidiki fungsi secara umum. Tetapi ini mungkin tampak hampir sia-sia. Jika fungsi begitu beragam, dan menunjukkan fitur yang begitu berbeda, bagaimana kita bisa berharap untuk mengatakan sesuatu yang menarik tentang semuanya?
+
 [Back](./)

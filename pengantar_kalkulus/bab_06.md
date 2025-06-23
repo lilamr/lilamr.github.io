@@ -1,4 +1,8 @@
-[Home](../)\n[Back](./)\n
+[Home](../)
+
+[Back](./)
+
+
 ## Bab 6. Kontinuitas
 
 Pada bab sebelumnya, kita menemukan konsep limit, bersamaan dengan notasi:
@@ -145,4 +149,5 @@ f^{\prime}(0)=\lim_{h \rightarrow 0} \frac{f(h)-f(0)}{h} & =\lim_{h \rightarrow 
 $$
 
 kita segera melihat bahwa limit ini tidak ada. Secara umum, kita mengatakan bahwa $f$ dapat diturunkan di $a$ jika $f^{\prime}(a)$ ada (yaitu, jika limit yang digunakan untuk mendefinisikan $f^{\prime}(a)$ ada); jika $f$ tidak dapat diturunkan di $a$, maka simbol $f^{\prime}(a)$ bahkan tidak masuk akal.
+
 [Back](./)

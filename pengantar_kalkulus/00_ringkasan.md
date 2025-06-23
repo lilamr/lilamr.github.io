@@ -1,4 +1,8 @@
-[Home](../)\n[Back](./)\n
+[Home](../)
+
+[Back](./)
+
+
 *The Hitchhiker's Guide to Calculus* oleh Michael Spivak adalah panduan ringkas dan mudah dipahami yang menjelaskan konsep-konsep dasar kalkulus dengan gaya yang menarik dan naratif, menggunakan analogi perjalanan untuk memperkenalkan ide-ide matematika. Berikut adalah ringkasan dan poin-poin utama dari dokumen tersebut:
 
 ### Ringkasan Isi Dokumen
@@ -60,4 +64,5 @@ Buku ini dirancang sebagai pendamping kursus kalkulus, fokus pada pemahaman kons
 - Untuk memperdalam pemahaman, cobalah mengerjakan latihan yang diberikan, seperti menemukan persamaan garis atau menghitung limit untuk turunan.
 - Fokus pada visualisasi grafik fungsi dan bagaimana turunan menggambarkan kemiringan, serta integral menggambarkan akumulasi (luas).
 - Pelajari Teorema Dasar Kalkulus dengan cermat, karena ini adalah inti dari hubungan antara diferensiasi dan integrasi.
+
 [Back](./)

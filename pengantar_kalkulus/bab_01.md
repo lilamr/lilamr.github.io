@@ -1,4 +1,8 @@
-[Home](../)\n[Back](./)\n
+[Home](../)
+
+[Back](./)
+
+
 ## Bab 1. Ke mana kita akan pergi?
 
 Pengetahuan yang sedikit esoteris kadang-kadang bisa sangat berguna. Pada musim panas ketika saya menumpang keliling Eropa, akhirnya saya tiba di Italia. Di sana, saya naik bus menuju pantai Adriatik untuk berjemur di salah satu pantai kecil yang terselip di antara tebing-tebing, sebelum naik kereta menuju Roma untuk penerbangan pulang. Perjalanan kereta itu panjang, tertunda, dan panas. Saat mendekati stasiun, saya merasakan nyeri tajam di sisi kiri tubuh saya. Mengingat sedikit pengetahuan biologi dasar, saya tahu itu bukan usus buntu, jadi saya menduga mungkin hanya kram akibat dehidrasi.
@@ -16,4 +20,5 @@ Setiap metode perhitungan baru melibatkan beberapa ide baru. Untuk mempelajari a
 Tidak ada cara untuk menghindari ini. Satu-satunya cara untuk memahami ide-ide baru ini adalah dengan melakukan perhitungan menggunakan ide-ide tersebut hingga perhitungan dapat dilakukan dengan mudah dan hampir tanpa berpikir. Masalahnya, dengan semua waktu yang dihabiskan untuk perhitungan ini, mudah sekali kehilangan pandangan terhadap ide-ide dasar di baliknya. Setelah beberapa waktu, seseorang tidak bisa melihat hutan karena terlalu fokus pada pohon-pohonnya, atau—mungkin lebih tepat untuk mengatakan—pantai karena terlalu fokus pada kerikil-kerikilnya.
 
 Jadi, tujuan dari panduan ini adalah menyediakan perjalanan santai yang menjelajahi ide-ide baru Kalkulus. Sesekali kita mungkin melakukan satu atau dua perhitungan, hanya untuk memastikan bahwa kita benar-benar memahami apa yang telah kita lihat, tetapi penekanan kita akan ada pada sorotan utama—akan ada cukup waktu dalam kursus Anda untuk pekerjaan kotor. Kita akan bepergian dengan ringan, mengunjungi semua atraksi utama, tanpa terhambat oleh kekhawatiran sehari-hari yang mengganggu para pelancong yang terbebani oleh bagasi berlebih.
+
 [Back](./)

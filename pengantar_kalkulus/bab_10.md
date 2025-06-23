@@ -1,4 +1,8 @@
-[Home](../)\n[Back](./)\n
+[Home](../)
+
+[Back](./)
+
+
 ## Bab 10. Pemandangan dari ketinggian
 
 Sejauh ini, perjalanan kita mungkin terasa seperti pendakian terus-menerus ke atas. Akan menyenangkan mengetahui bahwa kita telah mencapai puncak, dan mulai sekarang kita bisa dengan gembira mengantisipasi bahwa semuanya akan menurun.
@@ -246,4 +250,5 @@ Jika gambar ini terlihat akrab, itu karena kita menggambarkan fungsi $f(x) = x^2
 Contoh kita juga menunjukkan bahwa bahkan fungsi yang relatif sederhana dapat memiliki beberapa fitur menarik dalam grafiknya. Itulah mengapa "menggambar grafik" ternyata menjadi fitur yang cukup menonjol di semua kursus kalkulus, di mana waktu yang cukup banyak dikhususkan. Dengan sikap santai khas kita, kita akan meninggalkan semua detail menjijikkan untuk kursus Anda, dan merasa puas dengan pemahaman ide-ide utama.
 
 Masih tetap untuk membenarkan prinsip yang kita nyatakan di atas, tetapi mungkin itu tidak tampak seperti tugas yang sangat mendesak. Tentu prinsip-prinsip ini jelas, bukan? Dan jika tidak, apakah ini sesuatu yang benar-benar ingin kita khawatirkan?
+
 [Back](./)

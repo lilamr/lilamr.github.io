@@ -1,4 +1,8 @@
-[Home](../)\n[Back](./)\n
+[Home](../)
+
+[Back](./)
+
+
 ## Bab 14. Mendekati akhir perjalanan kita
 
 Upaya kita untuk menemukan luas di bawah grafik fungsi dimulai dengan beberapa persegi panjang spesifik untuk fungsi $f(x)=x^2$, dan kemudian berkembang menjadi jumlah umum untuk fungsi apa pun $f$,
@@ -260,4 +264,5 @@ dan kemudian akhirnya kita menggunakan argumen tambahan dari 2. untuk menyimpulk
 $$
 \text{ Luas permukaan } = 2\pi \int_a^b f(x) \sqrt{1 + [f^{\prime}(x)]^2} dx.
 $$
+
 [Back](./)

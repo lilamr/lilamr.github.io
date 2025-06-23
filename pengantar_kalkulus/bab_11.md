@@ -1,4 +1,8 @@
-[Home](../)\n[Back](./)\n
+[Home](../)
+
+[Back](./)
+
+
 ## Bab 11. Mengamati para ahli bermain
 
 Rencana perjalanan saya melalui kota-kota Belgia seperti Bruges, Ghent, Brussels, dan Namur akhirnya membawa saya ke wilayah pegunungan Ardennes. Berkemah di sini selama beberapa hari, saya berhasil melakukan panjat tebing, penyimpangan menarik, dan tentu saja hal yang memuaskan secara maskulin untuk dilakukan.
@@ -188,4 +192,5 @@ f^{\prime}(x) - m = 0,
 $$
 
 yang persis apa yang ingin kita buktikan. **Q.E.D.**
+
 [Back](./)

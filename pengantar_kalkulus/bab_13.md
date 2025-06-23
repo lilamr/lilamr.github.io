@@ -1,4 +1,8 @@
-[Home](../)\n[Back](./)\n
+[Home](../)
+
+[Back](./)
+
+
 ## Bab 13. Menjembatani kesenjangan
 
 Berbeda dengan perjalanan kita yang relatif mulus menuju turunan, pengalaman kita dengan integral telah menjadi pendakian yang cukup melelahkan di medan yang curam dan berbatu. Kita dipandu untuk memperkenalkan notasi:
@@ -460,4 +464,5 @@ Tetapi bagaimana kita akan dipandu untuk memperhatikan ini!? Berbeda dengan kasu
 Seberapa banyak waktu yang dikhususkan kursus kalkulus untuk seni ini tergantung, sampai batas tertentu, pada tujuan kursus. Ada beberapa aturan penting, dan beberapa aplikasi standar dari aturan ini, yang hampir setiap kursus akan bahas. Setelah aturan standar ini dikuasai, mungkin cukup untuk berkonsultasi dengan "tabel integral" khusus yang memberikan banyak rumus seperti itu, atau seseorang dapat menggunakan program komputer khusus yang mengevaluasi integral, atau seseorang dapat memperluas repertoar aturan dan trik sehingga semakin banyak integral bisa dievaluasi "dengan tangan."
 
 Dalam perjalanan Anda melalui kalkulus, seni integrasi mungkin ternyata menjadi kunjungan singkat di penginapan pedesaan yang menyenangkan, kerja keras yang melelahkan di kebun anggur, atau tur kilat melalui museum teknologi tinggi. Sayangnya, *The Hitchhiker's Guide* tidak bisa membantu Anda pada titik ini! Kita hanya harus menunggu sampai episode ini selesai, dan kemudian mengacungkan jempol kita sekali lagi untuk melanjutkan perjalanan.
+
 [Back](./)

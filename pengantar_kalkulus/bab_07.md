@@ -1,4 +1,8 @@
-[Home](../)\n[Back](./)\n
+[Home](../)
+
+[Back](./)
+
+
 ## Bab 7. Keluar dari jalur
 
 Berbeda dengan mayoritas teman sekelas saya di sekolah menengah, saya menikmati sebagian besar kelas matematika saya, dan saya sangat menyukai geometri (baiklah, matematikawan memang orang-orang yang lucu, Anda sudah tahu itu). Saya sangat terkesan ketika sebuah ide intuitif bisa diberikan definisi yang tepat. Misalnya, saya cukup terkejut dengan senang hati ketika sudut siku-siku $\angle ABC$ hanya didefinisikan sebagai sudut yang sama dengan sudut pelengkapnya $\angle DBC$—definisi singkat ini jelas mengekspresikan dengan tepat ide bahwa garis tegak lurus tidak condong lebih ke satu sisi daripada sisi lainnya.
@@ -163,4 +167,5 @@ x^3-3a^2x+2a^3 & =(x-a)(x^2+ax-2a^2) \\
 $$
 
 (d) Di titik apa lagi garis singgung ini memotong grafik $f(x)=x^3$? Pastikan jawaban Anda terlihat masuk akal dalam gambar.
+
 [Back](./)

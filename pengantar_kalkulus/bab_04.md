@@ -1,4 +1,8 @@
-[Home](../)\n[Back](./)\n
+[Home](../)
+
+[Back](./)
+
+
 ## Bab 4. Menjelajahi lebih dekat
 
 Sebagai upaya pertama untuk menemukan tema yang menyatukan dalam luasnya wilayah asing yang kita temui, kita akan memilih salah satu fungsi non-linear yang paling sederhana, yaitu $f(x) = x^2$. 

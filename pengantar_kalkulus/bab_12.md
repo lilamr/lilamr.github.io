@@ -1,4 +1,8 @@
-[Home](../)\n[Back](./)\n
+[Home](../)
+
+[Back](./)
+
+
 ## Bab 12. Integral
 
 Kejadian paling memalukan dari musim panas saya sebagai orang asing yang polos terjadi tak lama setelah saya memasuki Jerman. Saya telah mendapatkan peta jalan negara itu di perbatasan, dan tumpangan dari sopir yang ramah dari truk 18 roda. Karena dia hanya berbicara Jerman, dan saya tidak, saya memutuskan bahwa saya akan turun di beberapa kota yang terdengar menarik, dan melanjutkan dari sana.
@@ -346,4 +350,5 @@ $$
 $$
 
 adalah notasi misterius utama dari kalkulus—tetapi itu saja. Ausfart kita memang telah membawa kita pada masalah baru yang menarik, tetapi tidak jelas apakah masalah ini akan membuka pandangan baru atau ternyata menjadi jalan buntu.
+
 [Back](./)

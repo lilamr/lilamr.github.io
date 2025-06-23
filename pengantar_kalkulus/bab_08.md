@@ -1,4 +1,8 @@
-[Home](../)\n[Back](./)\n
+[Home](../)
+
+[Back](./)
+
+
 ## Bab 8. Kecepatan
 
 Parabola, yang sering kita gunakan sebagai contoh, muncul secara alami di Bab 3, sebagai grafik dari fungsi non-linear paling sederhana. Tetapi kita juga melihatnya sepanjang waktu dalam kehidupan sehari-hari—setidaknya jika kehidupan sehari-hari mencakup olahraga (baik melalui partisipasi aktif, atau sebagai kentang sofa). Bola bisbol, bola basket, bola sepak, bola voli, bola golf, dan hampir segala sesuatu yang dilempar atau dipukul, bergerak dalam lintasan parabola, meskipun parabola ini "terbalik".
@@ -147,4 +151,5 @@ $$
 ### Sesuatu untuk Dikhawatirkan
 
 1. Berapa detik yang Anda miliki untuk menghindar dari koin sen yang jatuh dari gedung setinggi 400 kaki? Jika Anda tidak berhasil, seberapa cepat koin itu akan mengenai Anda? (Semua perhitungan kita telah mengabaikan hambatan udara. Dalam beberapa kasus ini dapat membatasi kecepatan akhir secara signifikan (tidak ada yang khawatir tentang ketinggian dari mana tetesan hujan jatuh), dan bahkan koin sen pada akhirnya akan terbatas pada kecepatan terminal. Koin sen yang dijatuhkan bisa mematikan, begitu pula dengan peluru kosong yang ditembakkan ke udara dan jatuh kembali ke bawah.)
+
 [Back](./)

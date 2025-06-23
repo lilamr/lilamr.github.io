@@ -1,4 +1,8 @@
-[Home](../)\n[Back](./)\n
+[Home](../)
+
+[Back](./)
+
+
 ## Bab 5. Beralih ke perhitungan
 
 Sekarang kita ingin mulai menghitung kemiringan $m$ dari garis lurus yang kita peroleh ketika kita memperbesar grafik dari $f(x)=x^2$ di dekat titik $P=(1,1)$, salah satu masalah besar kita adalah bahwa grafik yang diperbesar ini sebenarnya sama sekali bukan garis lurus.
@@ -318,4 +322,5 @@ $$
 $$
 
 Tetapi detail perhitungan tersebut akan diserahkan kepada kursus kalkulus Anda, di mana Anda juga akan mempelajari aturan-aturan diferensiasi penting untuk fungsi-fungsi yang dibangun dari fungsi-fungsi lain.
+
 [Back](./)

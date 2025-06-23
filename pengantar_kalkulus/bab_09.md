@@ -1,4 +1,8 @@
-[Home](../)\n[Back](./)\n
+[Home](../)
+
+[Back](./)
+
+
 ## Bab 9. Permasalahan sinus
 
 Sampai saat ini kita telah menemukan banyak konsep baru, tetapi, seperti biasa dalam proses penemuan semacam itu, ide-ide tersebut tidak selalu muncul dalam urutan yang paling logis. Jadi mungkin ide yang baik untuk merangkum perjalanan kita sejauh ini dengan cepat.
@@ -311,4 +315,5 @@ Ingat tanda minus di sini—itu penting.
 Sekali lagi, ketika grafik cos dan sin disajikan bersama, Anda seharusnya dapat meyakinkan diri sendiri bahwa fungsi $f(x)=-\sin x$ memiliki setidaknya penampilan dasar yang tepat untuk turunan $\cos^{\prime}$: yaitu, sin negatif di tempat-tempat di mana $\cos^{\prime}$ seharusnya positif, positif di tempat-tempat di mana $\cos^{\prime}$ seharusnya negatif, dan nol di tempat yang tepat.
 
 ![](Pasted%20image%2020250622105444.png)
+
 [Back](./)
