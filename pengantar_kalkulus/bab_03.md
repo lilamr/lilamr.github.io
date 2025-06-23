@@ -81,7 +81,7 @@ dengan grafik yang ditunjukkan di bawah; perhatikan bahwa kita selalu memiliki $
 
 ![](Pasted%20image%2020250621212903.png)
 
-Simbol $|x|$ (nilai absolut dari $x$) didefinisikan sebagai
+Simbol $\lvert x \rvert$ (nilai absolut dari $x$) didefinisikan sebagai
 
 $$
 |x| = \begin{cases} 
@@ -90,7 +90,7 @@ x & \text{jika } x \geq 0 \\
 \end{cases}
 $$
 
-Tentu saja, ini berarti bahwa grafik kita sebenarnya adalah grafik dari sebuah persamaan, yaitu persamaan $y = |x|$! Tetapi jelas bahwa ini hanya karena kita memutuskan untuk memperkenalkan simbol baru untuk menulis persamaan. Ada banyak fungsi $f$ yang grafiknya akan sangat sulit untuk dijelaskan sebagai grafik dari sebuah persamaan secara alami. Misalnya, gambar di bawah menunjukkan grafik dari sebuah fungsi $f$ di mana aturan untuk $f(x)$ adalah campuran rumit dari berbagai formula.
+Tentu saja, ini berarti bahwa grafik kita sebenarnya adalah grafik dari sebuah persamaan, yaitu persamaan $y = \lvert x \rvert$! Tetapi jelas bahwa ini hanya karena kita memutuskan untuk memperkenalkan simbol baru untuk menulis persamaan. Ada banyak fungsi $f$ yang grafiknya akan sangat sulit untuk dijelaskan sebagai grafik dari sebuah persamaan secara alami. Misalnya, gambar di bawah menunjukkan grafik dari sebuah fungsi $f$ di mana aturan untuk $f(x)$ adalah campuran rumit dari berbagai formula.
 
 ![](Pasted%20image%2020250621213017.png)
 
