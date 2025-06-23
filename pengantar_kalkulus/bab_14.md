@@ -265,6 +265,6 @@ $$
 \text{ Luas permukaan } = 2\pi \int_a^b f(x) \sqrt{1 + [f^{\prime}(x)]^2} dx.
 $$
 
-<center>**Q.E.D.**</center>
+**<center>Q.E.D.</center>**
 
 [Back](./)
