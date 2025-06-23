@@ -128,7 +128,7 @@ untuk singkatnya, fungsi-fungsi seperti itu hanya disebut kontinu.
 
 Ada banyak situasi di mana fungsi-fungsi tidak kontinu dapat dipertimbangkan dalam kalkulus, tetapi aspek-aspek terpenting dari kalkulus semuanya dapat diilustrasikan dan dipahami hanya dalam hal fungsi-fungsi kontinu. Bahkan, dari sudut pandang kalkulus, bahkan fungsi-fungsi kontinu bisa jadi tidak masuk akal.
 
-Misalnya, fungsi $f(x)=|x|$ (halaman 13) adalah kontinu, tetapi jika kita menempatkan kaca pembesar kita di atas titik $(0,0)$ pada grafik, 
+Misalnya, fungsi $f(x)=\lvert x \rvert$ adalah kontinu, tetapi jika kita menempatkan kaca pembesar kita di atas titik $(0,0)$ pada grafik, 
 
 ![](Pasted%20image%2020250622100228.png)
 
